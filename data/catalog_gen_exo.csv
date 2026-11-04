@@ -1,0 +1,66 @@
+issue,series,title,reference,verses,words,est_story_pages,format,main_characters,supporting_characters,locations,popularity,rating_or_decision_note
+1,Beginnings,In the Beginning,Genesis 1:1–2:3,34,796,11,standalone,God (non-figural),,The deep; the heavens and the earth,well-known,
+2,Beginnings,The Garden,Genesis 2:4–2:25,22,544,8,standalone,Adam; Eve,God (non-figural),Eden; the four rivers,well-known,Gen 2:25 nakedness: framing rule needed
+3,Beginnings,The Serpent,Genesis 3:1–3:24,24,656,9,standalone,Adam; Eve; the serpent,God (non-figural); cherubim,Eden,well-known,Gen 2:25 framing until 3:21
+4,Beginnings,Cain and Abel,Genesis 4:1–4:26,26,575,8,standalone,Cain; Abel,Adam; Eve; Lamech; Adah; Zillah; Seth; Enosh,Field; land of Nod; city of Enoch,well-known,Murder (4:8): restrained framing
+5,Beginnings,From Adam to Noah,Genesis 5:1–5:32,32,530,8,standalone,Adam; Seth; Enoch; Methuselah; Lamech; Noah,Genealogy line,,lesser-known,Genealogy: format decision
+6,Noah,Noah 1: The Ark,Genesis 6:1–7:24,46,1025,14,series issue,Noah,Noah's wife; Shem; Ham; Japheth; sons' wives; Nephilim,Pre-flood earth; the ark,well-known,Mass death in flood: restrained
+7,Noah,Noah 2: The Covenant of the Rainbow,Genesis 8:1–9:17,39,938,13,series issue,Noah,Family; raven; dove,Mountains of Ararat,well-known,
+8,Noah,Noah 3: Noah's Sons,Genesis 9:18–9:29,12,195,6,series issue,Noah; Ham; Shem; Japheth,Canaan,Vineyard; tent,lesser-known,Drunkenness/nakedness 9:21-23: restrained
+9,Beginnings,The Nations and Babel,Genesis 10:1–11:9,41,643,9,standalone,Nimrod; builders of Babel,Table of nations,Shinar; Babel,well-known,Genealogy 10:1-32
+10,Beginnings,From Shem to Abram,Genesis 11:10–11:32,23,422,6,standalone,Terah; Abram; Sarai; Lot,Shem line; Nahor; Haran; Milcah,Ur of the Chaldees; Haran,lesser-known,Genealogy
+11,Abraham,Abraham 1: The Call,Genesis 12:1–13:18,38,899,12,series issue,Abram; Sarai; Lot,Pharaoh; herdsmen,Haran; Shechem; Bethel; Egypt; Negev; Mamre,well-known,
+12,Abraham,Abraham 2: The War of the Kings,Genesis 14:1–14:24,24,570,8,series issue,Abram; Lot; Melchizedek,Chedorlaomer; king of Sodom; Aner; Eshcol; Mamre,Valley of Siddim; Dan; Salem,lesser-known,Battle: restrained
+13,Abraham,Abraham 3: Count the Stars,Genesis 15:1–15:21,21,428,6,series issue,Abram,God (non-figural); Eliezer,Abram's tent at night,lesser-known,
+14,Abraham,Abraham 4: Hagar,Genesis 16:1–16:16,16,380,6,series issue,Hagar; Sarai; Abram,Angel of Yahweh,Spring on the way to Shur,lesser-known,
+15,Abraham,Abraham 5: A New Name,Genesis 17:1–17:27,27,652,9,series issue,Abraham; Sarah,Ishmael,Abraham's household,lesser-known,Circumcision: describe via text only
+16,Abraham,Abraham 6: Three Visitors,Genesis 18:1–18:33,33,803,11,series issue,Abraham; Sarah; three men,,Oaks of Mamre,lesser-known,Angel depiction decision
+17,Abraham,Abraham 7: Sodom and Gomorrah,Genesis 19:1–19:38,38,1022,14,series issue,Lot; two angels,Lot's wife; daughters; men of Sodom,Sodom; Zoar; cave,well-known,19:5-8 and 19:30-38: rating decision
+18,Abraham,Abraham 8: Abimelech,Genesis 20:1–20:18,18,479,7,series issue,Abraham; Sarah; Abimelech,,Gerar,lesser-known,
+19,Abraham,Abraham 9: Isaac Is Born,Genesis 21:1–21:34,34,735,10,series issue,Abraham; Sarah; Isaac; Hagar; Ishmael,Abimelech; Phicol; angel of God,Wilderness of Beersheba,well-known,
+20,Abraham,Abraham 10: On the Mountain,Genesis 22:1–22:24,24,562,8,series issue,Abraham; Isaac,Angel of Yahweh; servants,Land of Moriah,well-known,
+21,Abraham,Abraham 11: The Cave of Machpelah,Genesis 23:1–23:20,20,511,7,series issue,Abraham; Ephron,Children of Heth,Hebron; Machpelah,lesser-known,
+22,Abraham,Abraham 12: A Bride for Isaac,Genesis 24:1–24:67,67,1663,23,series issue,Abraham's servant; Rebekah; Isaac,Laban; Bethuel,City of Nahor; the well,lesser-known,
+23,Abraham,Abraham 13: Esau and Jacob,Genesis 25:1–25:34,34,629,9,series issue,Abraham; Esau; Jacob; Isaac; Rebekah,Keturah's sons; Ishmael line,Beer Lahai Roi,well-known,Esau red and hairy (25:25)
+24,Jacob,Jacob 1: Isaac in Gerar,Genesis 26:1–26:35,35,816,11,series issue,Isaac; Rebekah; Abimelech,Herdsmen of Gerar,Gerar; Beersheba,lesser-known,
+25,Jacob,Jacob 2: The Stolen Blessing,Genesis 27:1–27:46,46,1161,16,series issue,Jacob; Esau; Isaac; Rebekah,,Isaac's tent,well-known,
+26,Jacob,Jacob 3: The Ladder,Genesis 28:1–28:22,22,587,8,series issue,Jacob,Angels; Esau; Mahalath,Bethel,well-known,
+27,Jacob,Jacob 4: Rachel and Leah,Genesis 29:1–30:24,59,1194,16,series issue,Jacob; Rachel; Leah; Laban,Bilhah; Zilpah; sons,Haran; the well,lesser-known,
+28,Jacob,Jacob 5: Jacob and Laban,Genesis 30:25–31:55,74,1819,25,series issue,Jacob; Laban; Rachel; Leah,,Haran; Gilead; Mizpah,lesser-known,
+29,Jacob,Jacob 6: Wrestling at the Jabbok,Genesis 32:1–32:32,32,772,11,series issue,Jacob; the man who wrestled,Messengers; angels,Mahanaim; Peniel,well-known,Who the wrestler is: show text only
+30,Jacob,Jacob 7: Esau Runs to Meet Him,Genesis 33:1–33:20,20,477,7,series issue,Jacob; Esau,Wives; children,Succoth; Shechem,lesser-known,
+31,Jacob,Jacob 8: Dinah,Genesis 34:1–34:31,31,751,11,series issue,Dinah; Shechem; Simeon; Levi; Jacob,Hamor,Shechem,lesser-known,"34:2 assault, 34:25 slaughter: rating decision"
+32,Jacob,Jacob 9: Return to Bethel,Genesis 35:1–35:29,29,610,9,series issue,Jacob; Rachel; Benjamin,Deborah (Rebekah's nurse); Reuben; Isaac,Bethel; Ephrath; Mamre,lesser-known,35:22: restrained
+33,Jacob,The Generations of Esau,Genesis 36:1–36:43,43,813,11,series issue,Esau,Edomite chiefs and kings,Seir; Edom,lesser-known,Genealogy
+34,Joseph,Joseph 1: The Dreamer,Genesis 37:1–37:36,36,886,12,series issue,Joseph; Jacob; Reuben; Judah,Brothers; Midianites,Hebron; Shechem; Dothan,well-known,
+35,Joseph,Joseph 2: Judah and Tamar,Genesis 38:1–38:30,30,726,10,series issue,Judah; Tamar,Er; Onan; Shelah; Hirah,Adullam; Timnah; Enaim,lesser-known,"38:9, 38:15-18: rating decision"
+36,Joseph,Joseph 3: Potiphar's House,Genesis 39:1–39:23,23,579,8,series issue,Joseph; Potiphar; Potiphar's wife,Keeper of the prison,Egypt,well-known,39:7-12: restrained
+37,Joseph,Joseph 4: Two Dreams in Prison,Genesis 40:1–40:23,23,538,8,series issue,Joseph; cupbearer; baker,,Egyptian prison,lesser-known,
+38,Joseph,Joseph 5: Pharaoh's Dreams,Genesis 41:1–41:57,57,1325,18,series issue,Joseph; Pharaoh,Cupbearer; Asenath; Manasseh; Ephraim,Pharaoh's court,well-known,
+39,Joseph,Joseph 6: The Brothers Bow,Genesis 42:1–42:38,38,937,13,series issue,Joseph; brothers; Jacob,Simeon; Benjamin,Egypt; Canaan,well-known,
+40,Joseph,Joseph 7: Benjamin Comes,Genesis 43:1–43:34,34,866,12,series issue,Joseph; Judah; Benjamin,Steward,Joseph's house,lesser-known,
+41,Joseph,Joseph 8: The Silver Cup,Genesis 44:1–44:34,34,833,12,series issue,Joseph; Judah; Benjamin,Steward,Road from the city; Joseph's house,lesser-known,
+42,Joseph,Joseph 9: I Am Joseph,Genesis 45:1–45:28,28,688,10,series issue,Joseph; brothers; Jacob,Pharaoh,Joseph's house,well-known,
+43,Joseph,Joseph 10: Israel Goes Down to Egypt,Genesis 46:1–47:31,65,1635,22,series issue,Jacob; Joseph; Pharaoh,Family of seventy,Beersheba; Goshen,lesser-known,Genealogy 46:8-27
+44,Joseph,Joseph 11: Ephraim and Manasseh,Genesis 48:1–48:22,22,607,9,series issue,Jacob; Joseph; Ephraim; Manasseh,,Jacob's bedside,lesser-known,
+45,Joseph,Joseph 12: Jacob's Last Words,Genesis 49:1–49:33,33,725,10,series issue,Jacob; twelve sons,,Jacob's bedside,lesser-known,Mostly poetry
+46,Joseph,Joseph 13: The Bones of Joseph,Genesis 50:1–50:26,26,641,9,series issue,Joseph; brothers,Egyptians; physicians,Egypt; Atad; Machpelah,lesser-known,
+47,Exodus,Exodus 1: The Baby in the Basket,Exodus 1:1–2:25,47,1029,14,series issue,Moses; Shiphrah; Puah; Pharaoh's daughter; Miriam,Pharaoh; Jochebed; Reuel; Zipporah,Egypt; the Nile; Midian,well-known,"1:16, 1:22 infanticide: restrained"
+48,Exodus,Exodus 2: The Burning Bush,Exodus 3:1–4:31,53,1533,21,series issue,Moses; Aaron,Angel of Yahweh; Zipporah; Gershom,Horeb; Midian; Egypt,well-known,4:24-26: show text only
+49,Exodus,Exodus 3: Bricks Without Straw,Exodus 5:1–6:30,53,1269,17,series issue,Moses; Aaron; Pharaoh,Taskmasters; officers,Pharaoh's court; brickfields,lesser-known,Genealogy 6:14-27
+50,Exodus,"Exodus 4: Blood, Frogs, Lice, Flies",Exodus 7:1–8:32,57,1522,21,series issue,Moses; Aaron; Pharaoh,Magicians,The Nile; Egypt,well-known,
+51,Exodus,"Exodus 5: Livestock, Boils, Hail, Locusts, Darkness",Exodus 9:1–10:29,64,1770,24,series issue,Moses; Aaron; Pharaoh,Servants of Pharaoh,Egypt; Goshen,well-known,
+52,Exodus,Exodus 6: The Passover,Exodus 11:1–12:51,61,1710,23,series issue,Moses; Aaron; Pharaoh,Israelites,Egypt; Rameses,well-known,12:29 death of firstborn: restrained
+53,Exodus,Exodus 7: The Sea,Exodus 13:1–14:31,53,1488,20,series issue,Moses; Pharaoh,Angel of God; pillar of cloud and fire,Succoth; Etham; the Red Sea,well-known,14:28-30: restrained
+54,Exodus,Exodus 8: The Song of the Sea,Exodus 15:1–15:27,27,658,9,series issue,Moses; Miriam,Israelites,Shore of the Red Sea; Marah; Elim,lesser-known,Mostly poetry
+55,Wilderness,Wilderness 1: Manna,Exodus 16:1–16:36,36,966,13,series issue,Moses; Aaron,Israelites,Wilderness of Sin,well-known,
+56,Wilderness,Wilderness 2: Water and Amalek,Exodus 17:1–17:16,16,414,6,series issue,Moses; Joshua; Aaron; Hur,Amalek,Rephidim; Massah and Meribah,lesser-known,Battle: restrained
+57,Wilderness,Wilderness 3: Jethro's Advice,Exodus 18:1–18:27,27,695,10,series issue,Moses; Jethro,Zipporah; Gershom; Eliezer,Mountain of God,lesser-known,
+58,Sinai,Sinai 1: The Ten Commandments,Exodus 19:1–20:26,51,1189,16,series issue,Moses; Aaron,Israelites,Mount Sinai,well-known,
+59,Sinai,Sinai 2: The Book of the Covenant,Exodus 21:1–23:33,100,2445,33,series issue,Moses,Israelites,Mount Sinai,lesser-known,"Law: main commandments only, verbatim"
+60,Sinai,Sinai 3: The Covenant Meal,Exodus 24:1–24:18,18,439,6,series issue,Moses; Aaron; Nadab; Abihu; seventy elders,Joshua,Mount Sinai,lesser-known,24:10 'they saw the God of Israel': depiction rule
+61,Tabernacle,Tabernacle 1: The Pattern,Exodus 25:1–31:18,243,6027,81,series issue,Moses; Aaron; Bezalel; Oholiab,Aaron's sons,Mount Sinai,lesser-known,Instructions: key verses only
+62,Sinai,Sinai 4: The Golden Calf,Exodus 32:1–32:35,35,1028,14,series issue,Moses; Aaron; Joshua,Sons of Levi,Camp below Sinai,well-known,32:27-28: restrained
+63,Sinai,Sinai 5: Show Me Your Glory,Exodus 33:1–33:23,23,650,9,series issue,Moses; Joshua,,Tent of meeting; cleft of the rock,lesser-known,33:20-23: depiction rule
+64,Sinai,Sinai 6: The Shining Face,Exodus 34:1–34:35,35,954,13,series issue,Moses,Aaron; Israelites,Mount Sinai,lesser-known,
+65,Tabernacle,Tabernacle 2: The Glory Fills the Tabernacle,Exodus 35:1–40:38,214,4776,64,series issue,Moses; Bezalel; Oholiab,Israelites; Aaron and sons,The camp; the tabernacle,lesser-known,Construction: key verses only

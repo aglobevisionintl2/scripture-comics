@@ -1,0 +1,36 @@
+id: ADAM
+name: Adam
+status: candidate          # candidate -> locked (only the publisher locks a design)
+first_appears: Genesis 2:7
+scripture_basis:
+  - ref: Genesis 2:7
+    note: Formed from the dust of the ground. The text gives no physical description.
+  - ref: Genesis 3:21
+    note: Wears garments of animal skins from 3:21 onward.
+  - ref: Genesis 5:5
+    note: Lived 930 years. An older look is needed only if later issues show him aged.
+silent_on: face, skin, hair, height, build
+design_choice: >-
+  Text is silent, so a fixed, plausible ancient Near Eastern adult man is used.
+  Locked once approved and never changed.
+locked_traits:
+  age_look: about 30
+  skin: warm olive-brown
+  hair: dark brown-black, wavy, shoulder length
+  beard: full, dark, neatly natural
+  eyes: dark brown
+  build: lean, strong, a laborer's hands
+  distinguishing_marks: none (do not invent scars)
+palette:
+  skin: "#A8754F"
+  hair: "#2A1D15"
+  eyes: "#3B2A1E"
+  skins_garment: "#8A6A4A"
+costumes:
+  eden: Framing only. Shoulders-up or concealed by foliage, per editorial rules (Gen 2:25).
+  after_3_21: Simple wrap garment of tanned animal skins, knee length, bare arms, leather tie.
+portrait_prompt: >-
+  Head-and-shoulders portrait of an adult man about 30 years old, warm olive-brown skin,
+  dark brown-black wavy shoulder-length hair, full natural dark beard, dark brown eyes,
+  lean strong face, calm and attentive expression, bare shoulders only, plain soft
+  warm-grey studio background, even soft light, front view, looking at viewer.

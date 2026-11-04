@@ -1,0 +1,35 @@
+id: EVE
+name: Eve
+status: candidate          # candidate -> locked (only the publisher locks a design)
+first_appears: Genesis 2:22
+scripture_basis:
+  - ref: Genesis 2:22
+    note: Made from the rib taken from the man. The text gives no physical description.
+  - ref: Genesis 3:20
+    note: Named Eve, "the mother of all the living."
+  - ref: Genesis 3:21
+    note: Wears garments of animal skins from 3:21 onward.
+silent_on: face, skin, hair, height, build
+design_choice: >-
+  Text is silent, so a fixed, plausible ancient Near Eastern adult woman is used.
+  Very long hair is part of the locked design, to support the Genesis 2:25 framing rule.
+locked_traits:
+  age_look: about 25
+  skin: warm olive-brown, slightly lighter than Adam
+  hair: very long, dark brown-black, thick, loose waves, reaching below the waist
+  eyes: dark brown
+  build: slender, strong
+  distinguishing_marks: none (do not invent marks)
+palette:
+  skin: "#B07E57"
+  hair: "#241812"
+  eyes: "#3B2A1E"
+  skins_garment: "#94744F"
+costumes:
+  eden: Framing plus very long hair and foliage, per editorial rules (Gen 2:25).
+  after_3_21: Simple wrap garment of tanned animal skins, mid-calf length, leather tie at the shoulder.
+portrait_prompt: >-
+  Head-and-shoulders portrait of an adult woman about 25 years old, warm olive-brown skin,
+  very long thick dark brown-black hair in loose waves falling over both shoulders and
+  covering them, dark brown eyes, gentle and attentive expression, plain soft warm-grey
+  studio background, even soft light, front view, looking at viewer.

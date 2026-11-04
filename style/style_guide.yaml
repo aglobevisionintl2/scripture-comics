@@ -1,0 +1,17 @@
+name: Scripture Comics house style
+approved: 2026-11-03
+style_prompt: >-
+  Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil
+  painting, visible soft brushwork, film-still composition and lighting, warm earthy
+  ancient Near Eastern palette, historically grounded detail, dignified and restrained.
+  Not a photograph, not cartoon, not anime, no text, no watermark.
+negative_rules:
+  - No modern clothing, objects or hairstyles.
+  - No halos or religious iconography that the passage does not describe.
+  - God is never drawn as a figure.
+  - No text inside generated art (lettering is added in layout).
+model:
+  generate: fal-ai/flux-2-pro
+  reference_edit: fal-ai/flux-2-pro/edit
+  safety_tolerance: "2"
+  output_format: png

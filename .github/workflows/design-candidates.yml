@@ -1,0 +1,38 @@
+name: Character design candidates
+
+on:
+  workflow_dispatch:
+    inputs:
+      characters:
+        description: "Character IDs, comma separated"
+        default: "ADAM,EVE"
+        required: true
+      count:
+        description: "Candidates per character"
+        default: "4"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install fal-client pyyaml
+      - name: Generate
+        env:
+          FAL_KEY: ${{ secrets.FAL_KEY }}
+        run: python pipeline/generate_designs.py "${{ inputs.characters }}" "${{ inputs.count }}"
+      - name: Commit results
+        run: |
+          git config user.name "scripture-comics-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add designs
+          git commit -m "Design candidates: ${{ inputs.characters }}" || echo "nothing to commit"
+          git push

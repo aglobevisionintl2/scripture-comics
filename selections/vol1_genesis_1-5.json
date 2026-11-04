@@ -1,0 +1,30 @@
+{
+  "volume": "Volume 1: Genesis 1-5",
+  "issues": [
+    {"issue": 1, "title": "In the Beginning", "book": "GEN", "range": "1:1-2:3",
+     "keep": ["1:1", "1:2", "1:3", "1:4", "1:5", "1:6", "1:8", "1:9", "1:10", "1:11", "1:13",
+              {"ref": "1:14", "text": "God said, “Let there be lights in the expanse of the sky to divide the day from the night;"},
+              "1:16", "1:19", "1:20", "1:23", "1:24",
+              {"ref": "1:26", "text": "God said, “Let’s make man in our image, after our likeness."},
+              "1:27",
+              {"ref": "1:28", "text": "God blessed them. God said to them, “Be fruitful, multiply, fill the earth, and subdue it."},
+              "1:31", "2:1", "2:2", "2:3"]},
+    {"issue": 2, "title": "The Garden", "book": "GEN", "range": "2:4-2:25",
+     "keep": ["2:7", "2:8", "2:9", "2:15", "2:16", "2:17", "2:18",
+              {"ref": "2:19", "text": "Out of the ground Yahweh God formed every animal of the field, and every bird of the sky, and brought them to the man to see what he would call them."},
+              "2:21", "2:22", "2:23", "2:24", "2:25"]},
+    {"issue": 3, "title": "The Serpent", "book": "GEN", "range": "3:1-3:24",
+     "keep": ["3:1", "3:2", "3:3", "3:4", "3:5", "3:6", "3:7", "3:8", "3:9", "3:10", "3:11", "3:12", "3:13",
+              "3:14", "3:15", "3:16",
+              {"ref": "3:17", "text": "To Adam he said, “Because you have listened to your wife’s voice, and have eaten from the tree, about which I commanded you, saying, ‘You shall not eat of it,’ the ground is cursed for your sake."},
+              {"ref": "3:19", "text": "For you are dust, and you shall return to dust.”"},
+              "3:21", "3:23", "3:24"]},
+    {"issue": 4, "title": "Cain and Abel", "book": "GEN", "range": "4:1-4:26",
+     "keep": ["4:1", "4:2", "4:3", "4:4", "4:5", "4:6", "4:7", "4:8", "4:9", "4:10", "4:11", "4:12", "4:13",
+              {"ref": "4:15", "text": "Yahweh appointed a sign for Cain, so that anyone finding him would not strike him."},
+              "4:16", "4:25", "4:26"]},
+    {"issue": 5, "title": "From Adam to Noah", "book": "GEN", "range": "5:1-5:32",
+     "keep": ["5:1", "5:3", "5:5", "5:22", "5:24", "5:27", "5:29", "5:32"],
+     "scroll_page_names": ["Adam", "Seth", "Enosh", "Kenan", "Mahalalel", "Jared", "Enoch", "Methuselah", "Lamech", "Noah", "Shem", "Ham", "Japheth"]}
+  ]
+}
