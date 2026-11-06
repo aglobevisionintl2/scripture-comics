@@ -1,16 +1,5 @@
 [
   {
-    "panel": "p1.1",
-    "file": "p01_1.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, extreme wide, cosmic. Vast darkness with the first faint shapes of the heavens and a formless earth; no figure, no symbol. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5110,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:29:42.959515Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
     "panel": "p2.1",
     "file": "p02_1.png",
     "model": "fal-ai/flux-2-pro",
@@ -289,6 +278,17 @@
     "seed": 5920,
     "post": "trimmed 5% border",
     "generated_utc": "2026-11-06T06:38:21.102491Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p1.1",
+    "file": "p01_1.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, extreme wide, cosmic. Vast darkness with the first faint shapes of the heavens and a formless earth; no figure, no symbol. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6110,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:41:04.162366Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   }
 ]
