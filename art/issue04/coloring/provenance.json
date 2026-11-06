@@ -1,0 +1,18 @@
+[
+  {
+    "file": "coloring_1.png",
+    "subject": "Cain and Abel with their offerings (locked designs)",
+    "model": "fal-ai/flux-2-pro/edit",
+    "source_panel": "p02_1.png",
+    "generated_utc": "2026-11-06T17:38:28.138117Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "coloring_2.png",
+    "subject": "Abel's flock on the hillside",
+    "model": "fal-ai/flux-2-pro",
+    "source_panel": null,
+    "generated_utc": "2026-11-06T17:38:42.390800Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  }
+]
