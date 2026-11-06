@@ -23,7 +23,7 @@ heads = [(front, "Front"), (f"{cid}_face_three_quarter.png", "Three-quarter"),
          (f"{cid}_face_profile.png", "Profile"), (f"{cid}_head_back.png", "Back")]
 for i, (f, l) in enumerate(heads): tile(f, l, 50 + i * 330, 150, 310, 413)
 exprs = [(f"{cid}_expression_afraid.png", "Afraid / ashamed"), (f"{cid}_expression_grief.png", "Grief")]
-for i, (f, l) in enumerate(exprs): tile(f, l, 50 + i * 330, 660, 310, 413)
+for i, (f, l) in enumerate([e for e in exprs if (d / e[0]).exists()]): tile(f, l, 50 + i * 330, 660, 310, 413)
 bodies = [(f"{cid}_full_garment_front.png", "Gen 3:21 garment · front"), (f"{cid}_full_garment_back.png", "Gen 3:21 garment · back")]
 for i, (f, l) in enumerate(bodies): tile(f, l, 1390 + i * 500, 150, 470, 836)
 # palette

@@ -30,3 +30,12 @@ portrait_prompt: Head-and-shoulders portrait of a young man about 21, the son of
   Plain soft warm-grey background, front view, looking at viewer.
 selected_face: designs/locked/ABEL/ABEL_face_front.png
 selected_pick: option 3 (seed 1002), publisher 2026-11-06
+views:
+- face_three_quarter
+- face_profile
+- head_back
+- expression_afraid
+- full_garment_front
+- full_garment_back
+views_note: 'No grief view: the text never shows Abel grieving, and the crying expression failed the face check
+  on 8 seeds (best 0.38).'
