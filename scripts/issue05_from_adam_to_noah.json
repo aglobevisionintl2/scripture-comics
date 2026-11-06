@@ -52,7 +52,7 @@
           "size": "landscape_16_9",
           "face_visible": true,
           "story_point": "adam_older",
-          "allow_crowd": false
+          "allow_crowd": true
         }
       ]
     },

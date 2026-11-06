@@ -221,9 +221,10 @@
           "panel": 2,
           "camera": "medium, the woman framed from the collarbone up, soft morning light, flowering branches in the foreground",
           "characters": [
-            "EVE"
+            "EVE",
+            "ADAM"
           ],
-          "art": "The first woman, newly made, looking toward the man (who is out of frame).",
+          "art": "The first woman, newly made, being brought to the man; both framed from the collarbone up.",
           "text": [
             {
               "type": "caption",

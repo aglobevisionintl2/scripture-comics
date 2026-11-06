@@ -346,9 +346,10 @@
         },
         {
           "panel": 2,
-          "camera": "close, the man pointing toward the woman",
+          "camera": "close, the man pointing toward the woman beside him",
           "characters": [
-            "ADAM"
+            "ADAM",
+            "EVE"
           ],
           "art": "The man blaming the woman.",
           "text": [
@@ -452,7 +453,7 @@
           "size": "landscape_16_9",
           "face_visible": true,
           "story_point": null,
-          "allow_crowd": false
+          "allow_crowd": true
         }
       ]
     },
