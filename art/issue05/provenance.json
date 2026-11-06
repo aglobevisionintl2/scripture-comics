@@ -13,19 +13,6 @@
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   },
   {
-    "panel": "p1.2",
-    "file": "p01_2.png",
-    "model": "fal-ai/flux-2-pro/edit",
-    "prompt": "Image 1 shows the exact face and hair of Adam (older, about 60 in appearance, grey at the temples and in the beard; garment of tanned animal hide); draw this same person with an identical face. Comic panel, medium, Adam holding a small child whose face is turned toward him; the child's face is hidden. Adam with his young son Seth. The only people in the image are the 1 described; no other people anywhere. Setting rule for Genesis 5: open lands, simple tents of hide and early stone dwellings only. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
-    "references": [
-      "designs/locked/ADAM/ADAM_age_older.png"
-    ],
-    "seed": 5121,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T17:14:42.912943Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
     "panel": "p2.1",
     "file": "p02_1.png",
     "model": "fal-ai/flux-2-pro/edit",
@@ -112,6 +99,19 @@
     "seed": 5510,
     "post": "trimmed 5% border",
     "generated_utc": "2026-11-06T17:17:05.205862Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p1.2",
+    "file": "p01_2.png",
+    "model": "fal-ai/flux-2-pro/edit",
+    "prompt": "Image 1 shows the exact face and hair of Adam (older, about 60 in appearance, grey at the temples and in the beard; garment of tanned animal hide); draw this same person with an identical face. Comic panel, medium, Adam holding a small child whose face is turned toward him; the child's face is hidden. Adam with his young son Seth. Other people may appear as described. Setting rule for Genesis 5: open lands, simple tents of hide and early stone dwellings only. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [
+      "designs/locked/ADAM/ADAM_age_older.png"
+    ],
+    "seed": 5220,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T17:27:19.885709Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   }
 ]

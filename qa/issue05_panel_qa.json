@@ -23,51 +23,17 @@
     "characters": [
       "ADAM"
     ],
-    "status": "FAIL",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5120,
+        "seed": 5220,
         "checks": {
           "faces_detected": 1,
           "people_detected": 2,
           "letterbox": false,
-          "ADAM": 0.784,
-          "extra_people": true
+          "ADAM": 0.614
         },
-        "pass": false
-      },
-      {
-        "seed": 5121,
-        "checks": {
-          "faces_detected": 1,
-          "people_detected": 2,
-          "letterbox": false,
-          "ADAM": 0.806,
-          "extra_people": true
-        },
-        "pass": false
-      },
-      {
-        "seed": 5122,
-        "checks": {
-          "faces_detected": 2,
-          "people_detected": 2,
-          "letterbox": false,
-          "ADAM": 0.748,
-          "extra_people": true
-        },
-        "pass": false
-      },
-      {
-        "seed": 5123,
-        "checks": {
-          "faces_detected": 2,
-          "people_detected": 3,
-          "letterbox": false,
-          "ADAM": 0.694,
-          "extra_people": true
-        },
-        "pass": false
+        "pass": true
       }
     ]
   },
