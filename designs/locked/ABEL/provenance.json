@@ -84,39 +84,6 @@
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   },
   {
-    "file": "ABEL_expression_grief.png",
-    "view": "expression_grief",
-    "face_check": true,
-    "threshold": 0.45,
-    "seed": 2051,
-    "attempts": [
-      {
-        "seed": 2050,
-        "error": "[{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/er"
-      },
-      {
-        "seed": 2051,
-        "similarity": 0.384
-      },
-      {
-        "seed": 2052,
-        "similarity": 0.335
-      },
-      {
-        "seed": 2053,
-        "similarity": 0.217
-      }
-    ],
-    "model": "fal-ai/flux-2-pro/edit",
-    "references": [
-      "designs/locked/ABEL/ABEL_face_front.png"
-    ],
-    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark brown-black, wavy, chin length. Head-and-shoulders portrait, front view, expression of deep grief, wearing: Wearing a simple undyed garment of tanned hide and coarse wool, leather tie.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T16:17:55.441655Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
     "file": "ABEL_full_garment_front.png",
     "view": "full_garment_front",
     "face_check": true,
@@ -157,6 +124,39 @@
     "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark brown-black, wavy, chin length. Clothing exactly as in image 2. Full-body standing figure, back view, head to bare feet visible, wearing exactly the same garment as image 2, seen from behind. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
     "post": "trimmed 5% border",
     "generated_utc": "2026-11-06T16:18:26.479057Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "ABEL_expression_grief.png",
+    "view": "expression_grief",
+    "face_check": true,
+    "threshold": 0.45,
+    "seed": 2353,
+    "attempts": [
+      {
+        "seed": 2350,
+        "similarity": 0.368
+      },
+      {
+        "seed": 2351,
+        "similarity": 0.353
+      },
+      {
+        "seed": 2352,
+        "similarity": 0.23
+      },
+      {
+        "seed": 2353,
+        "similarity": 0.381
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/ABEL/ABEL_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark brown-black, wavy, chin length. Head-and-shoulders portrait, front view, expression of deep grief, wearing: Wearing a simple undyed garment of tanned hide and coarse wool, leather tie.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:34:56.334128Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   }
 ]

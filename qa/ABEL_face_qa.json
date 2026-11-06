@@ -22,11 +22,6 @@
       "result": "PASS"
     },
     {
-      "file": "ABEL_expression_grief.png",
-      "similarity": 0.384,
-      "result": "FAIL"
-    },
-    {
       "file": "ABEL_full_garment_front.png",
       "similarity": 0.904,
       "result": "PASS"
@@ -34,6 +29,11 @@
     {
       "file": "ABEL_full_garment_back.png",
       "result": "exempt (no face visible)"
+    },
+    {
+      "file": "ABEL_expression_grief.png",
+      "similarity": 0.381,
+      "result": "FAIL"
     }
   ],
   "pass_rate": "4/5"
