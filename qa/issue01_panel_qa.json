@@ -358,10 +358,10 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 7920,
+        "seed": 8920,
         "checks": {
           "faces_detected": 0,
-          "people_detected": 2,
+          "people_detected": 1,
           "letterbox": false
         },
         "pass": true

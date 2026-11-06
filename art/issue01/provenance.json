@@ -267,20 +267,6 @@
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   },
   {
-    "panel": "p9.2",
-    "file": "p09_2.png",
-    "model": "fal-ai/flux-2-pro/edit",
-    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; framed from the collarbone up); draw this same person with an identical face. Image 2 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; framed from the collarbone up, her long hair falling forward over both shoulders); draw this same person with an identical face. Comic panel, medium-wide from behind, figures small against a vast land. Two small dark silhouettes far in the distance, seen from behind, backlit by the low sun, standing in tall meadow grass that rises to their shoulders, overlooking the living earth. The only people in the image are the 2 described; no other people anywhere. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
-    "references": [
-      "designs/locked/ADAM/ADAM_face_front.png",
-      "designs/locked/EVE/EVE_face_front.png"
-    ],
-    "seed": 7920,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:51:44.582797Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
     "panel": "p10.3",
     "file": "p10_3.png",
     "model": "fal-ai/flux-2-pro",
@@ -289,6 +275,20 @@
     "seed": 8030,
     "post": "trimmed 5% border",
     "generated_utc": "2026-11-06T06:51:59.150027Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p9.2",
+    "file": "p09_2.png",
+    "model": "fal-ai/flux-2-pro/edit",
+    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; framed from the collarbone up); draw this same person with an identical face. Image 2 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; framed from the collarbone up, her long hair falling forward over both shoulders); draw this same person with an identical face. Comic panel, wide, low angle into a bright low sun. Two figures far away, a man and a woman, seen from behind, rendered as solid black silhouettes against the blazing low sun with no visible detail at all; only their heads and shoulders rise above tall meadow grass; the living earth spreads before them. The only people in the image are the 2 described; no other people anywhere. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [
+      "designs/locked/ADAM/ADAM_face_front.png",
+      "designs/locked/EVE/EVE_face_front.png"
+    ],
+    "seed": 8920,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:54:13.696923Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   }
 ]
