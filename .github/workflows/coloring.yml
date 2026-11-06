@@ -1,0 +1,34 @@
+name: Coloring pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      script:
+        description: "Issue script path"
+        default: "scripts/issue01_in_the_beginning.json"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  coloring:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install fal-client pyyaml pillow
+      - name: Generate coloring pages
+        env:
+          FAL_KEY: ${{ secrets.FAL_KEY }}
+        run: python pipeline/generate_coloring.py "${{ inputs.script }}"
+      - name: Commit results
+        run: |
+          git config user.name "scripture-comics-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add art
+          git commit -m "Coloring pages: ${{ inputs.script }}" || echo "nothing to commit"
+          git pull --rebase && git push

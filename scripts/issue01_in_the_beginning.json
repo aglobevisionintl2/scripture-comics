@@ -603,15 +603,17 @@
   },
   "coloring_pages": [
     {
-      "subject": "ADAM and EVE, head-and-shoulders, locked designs (as page 9 panel 1)",
+      "subject": "Adam and Eve, faces (from page 9, panel 1; locked designs)",
       "characters": [
         "ADAM",
         "EVE"
-      ]
+      ],
+      "source_panel": "p09_1.png"
     },
     {
-      "subject": "Creation days 4-6: sun, moon, stars, birds, fish and land animals",
-      "characters": []
+      "subject": "Creation: sun, moon, stars, birds, fish and land animals",
+      "characters": [],
+      "prompt": "A natural landscape on the sixth day of creation: a sun and crescent moon with stars in the sky, birds flying, fish leaping in a river, a lion, sheep, deer and a rabbit on grassy hills. No people."
     }
   ],
   "status": "approved 2026-11-05",
