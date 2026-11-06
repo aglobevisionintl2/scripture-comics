@@ -1,0 +1,38 @@
+[
+  {
+    "file": "METHUSELAH_portrait_seed1000.png",
+    "seed": 1000,
+    "model": "fal-ai/flux-2-pro",
+    "derived_from": [],
+    "prompt": "Head-and-shoulders portrait of a very old man, weathered deeply lined olive-brown skin, long white hair, very long white beard, clear dark brown eyes, thin face, heavy brown wool mantle. Plain soft warm-grey background, front view, looking at viewer. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:24:32.174596Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "METHUSELAH_portrait_seed1001.png",
+    "seed": 1001,
+    "model": "fal-ai/flux-2-pro",
+    "derived_from": [],
+    "prompt": "Head-and-shoulders portrait of a very old man, weathered deeply lined olive-brown skin, long white hair, very long white beard, clear dark brown eyes, thin face, heavy brown wool mantle. Plain soft warm-grey background, front view, looking at viewer. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:24:41.032677Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "METHUSELAH_portrait_seed1002.png",
+    "seed": 1002,
+    "model": "fal-ai/flux-2-pro",
+    "derived_from": [],
+    "prompt": "Head-and-shoulders portrait of a very old man, weathered deeply lined olive-brown skin, long white hair, very long white beard, clear dark brown eyes, thin face, heavy brown wool mantle. Plain soft warm-grey background, front view, looking at viewer. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:24:50.940465Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "METHUSELAH_portrait_seed1003.png",
+    "seed": 1003,
+    "model": "fal-ai/flux-2-pro",
+    "derived_from": [],
+    "prompt": "Head-and-shoulders portrait of a very old man, weathered deeply lined olive-brown skin, long white hair, very long white beard, clear dark brown eyes, thin face, heavy brown wool mantle. Plain soft warm-grey background, front view, looking at viewer. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:25:05.932392Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  }
+]

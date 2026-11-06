@@ -1,0 +1,46 @@
+[
+  {
+    "file": "SETH_portrait_seed1000.png",
+    "seed": 1000,
+    "model": "fal-ai/flux-2-pro/edit",
+    "derived_from": [
+      "ADAM"
+    ],
+    "prompt": "Head-and-shoulders portrait of an adult man about 30 who is the son of the man in image 1 and looks very much like him: same face shape, eyes, nose and coloring, slightly younger, wavy shoulder-length dark hair, full dark beard, calm expression, Wearing a simple undyed garment of tanned hide and coarse wool, leather tie. Plain soft warm-grey background, front view, looking at viewer. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:22:57.072550Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "SETH_portrait_seed1001.png",
+    "seed": 1001,
+    "model": "fal-ai/flux-2-pro/edit",
+    "derived_from": [
+      "ADAM"
+    ],
+    "prompt": "Head-and-shoulders portrait of an adult man about 30 who is the son of the man in image 1 and looks very much like him: same face shape, eyes, nose and coloring, slightly younger, wavy shoulder-length dark hair, full dark beard, calm expression, Wearing a simple undyed garment of tanned hide and coarse wool, leather tie. Plain soft warm-grey background, front view, looking at viewer. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:23:10.955737Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "SETH_portrait_seed1002.png",
+    "seed": 1002,
+    "model": "fal-ai/flux-2-pro/edit",
+    "derived_from": [
+      "ADAM"
+    ],
+    "prompt": "Head-and-shoulders portrait of an adult man about 30 who is the son of the man in image 1 and looks very much like him: same face shape, eyes, nose and coloring, slightly younger, wavy shoulder-length dark hair, full dark beard, calm expression, Wearing a simple undyed garment of tanned hide and coarse wool, leather tie. Plain soft warm-grey background, front view, looking at viewer. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:23:25.450769Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "SETH_portrait_seed1003.png",
+    "seed": 1003,
+    "model": "fal-ai/flux-2-pro/edit",
+    "derived_from": [
+      "ADAM"
+    ],
+    "prompt": "Head-and-shoulders portrait of an adult man about 30 who is the son of the man in image 1 and looks very much like him: same face shape, eyes, nose and coloring, slightly younger, wavy shoulder-length dark hair, full dark beard, calm expression, Wearing a simple undyed garment of tanned hide and coarse wool, leather tie. Plain soft warm-grey background, front view, looking at viewer. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:23:38.812171Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  }
+]

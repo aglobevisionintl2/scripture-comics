@@ -1,0 +1,50 @@
+[
+  {
+    "file": "CAIN_portrait_seed1000.png",
+    "seed": 1000,
+    "model": "fal-ai/flux-2-pro/edit",
+    "derived_from": [
+      "ADAM",
+      "EVE"
+    ],
+    "prompt": "Head-and-shoulders portrait of an adult man about 25, the son of the man in image 1 and the woman in image 2, clear family resemblance to both, warm olive-brown skin, short thick curly dark hair, short dark beard, broad heavy shoulders, serious brooding expression, Wearing a simple undyed garment of tanned hide and coarse wool, leather tie. Plain soft warm-grey background, front view, looking at viewer. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:20:31.589988Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "CAIN_portrait_seed1001.png",
+    "seed": 1001,
+    "model": "fal-ai/flux-2-pro/edit",
+    "derived_from": [
+      "ADAM",
+      "EVE"
+    ],
+    "prompt": "Head-and-shoulders portrait of an adult man about 25, the son of the man in image 1 and the woman in image 2, clear family resemblance to both, warm olive-brown skin, short thick curly dark hair, short dark beard, broad heavy shoulders, serious brooding expression, Wearing a simple undyed garment of tanned hide and coarse wool, leather tie. Plain soft warm-grey background, front view, looking at viewer. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:20:51.785851Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "CAIN_portrait_seed1002.png",
+    "seed": 1002,
+    "model": "fal-ai/flux-2-pro/edit",
+    "derived_from": [
+      "ADAM",
+      "EVE"
+    ],
+    "prompt": "Head-and-shoulders portrait of an adult man about 25, the son of the man in image 1 and the woman in image 2, clear family resemblance to both, warm olive-brown skin, short thick curly dark hair, short dark beard, broad heavy shoulders, serious brooding expression, Wearing a simple undyed garment of tanned hide and coarse wool, leather tie. Plain soft warm-grey background, front view, looking at viewer. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:21:08.470340Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "CAIN_portrait_seed1003.png",
+    "seed": 1003,
+    "model": "fal-ai/flux-2-pro/edit",
+    "derived_from": [
+      "ADAM",
+      "EVE"
+    ],
+    "prompt": "Head-and-shoulders portrait of an adult man about 25, the son of the man in image 1 and the woman in image 2, clear family resemblance to both, warm olive-brown skin, short thick curly dark hair, short dark beard, broad heavy shoulders, serious brooding expression, Wearing a simple undyed garment of tanned hide and coarse wool, leather tie. Plain soft warm-grey background, front view, looking at viewer. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:21:26.940084Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  }
+]

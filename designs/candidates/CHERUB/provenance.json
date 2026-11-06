@@ -1,0 +1,38 @@
+[
+  {
+    "file": "CHERUB_portrait_seed1000.png",
+    "seed": 1000,
+    "model": "fal-ai/flux-2-pro",
+    "derived_from": [],
+    "prompt": "Head-and-shoulders portrait of a majestic heavenly being with two great bronze-gold and white feathered wings rising behind the shoulders, solemn ageless adult face, olive-bronze skin, dark hair, white linen robe edged with soft golden light, no halo, no weapon, plain soft warm-grey background, front view. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:27:27.258595Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "CHERUB_portrait_seed1001.png",
+    "seed": 1001,
+    "model": "fal-ai/flux-2-pro",
+    "derived_from": [],
+    "prompt": "Head-and-shoulders portrait of a majestic heavenly being with two great bronze-gold and white feathered wings rising behind the shoulders, solemn ageless adult face, olive-bronze skin, dark hair, white linen robe edged with soft golden light, no halo, no weapon, plain soft warm-grey background, front view. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:27:38.111037Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "CHERUB_portrait_seed1002.png",
+    "seed": 1002,
+    "model": "fal-ai/flux-2-pro",
+    "derived_from": [],
+    "prompt": "Head-and-shoulders portrait of a majestic heavenly being with two great bronze-gold and white feathered wings rising behind the shoulders, solemn ageless adult face, olive-bronze skin, dark hair, white linen robe edged with soft golden light, no halo, no weapon, plain soft warm-grey background, front view. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:27:56.220130Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "CHERUB_portrait_seed1003.png",
+    "seed": 1003,
+    "model": "fal-ai/flux-2-pro",
+    "derived_from": [],
+    "prompt": "Head-and-shoulders portrait of a majestic heavenly being with two great bronze-gold and white feathered wings rising behind the shoulders, solemn ageless adult face, olive-bronze skin, dark hair, white linen robe edged with soft golden light, no halo, no weapon, plain soft warm-grey background, front view. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:28:07.716472Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  }
+]

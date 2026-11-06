@@ -1,0 +1,38 @@
+[
+  {
+    "file": "SERPENT_portrait_seed1000.png",
+    "seed": 1000,
+    "model": "fal-ai/flux-2-pro",
+    "derived_from": [],
+    "prompt": "Close-up portrait of a large serpent coiled on a tree branch, olive and bronze scales with a dark diamond pattern, amber eyes with vertical pupils, realistic animal, head raised, plain soft warm-grey background. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:26:44.834160Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "SERPENT_portrait_seed1001.png",
+    "seed": 1001,
+    "model": "fal-ai/flux-2-pro",
+    "derived_from": [],
+    "prompt": "Close-up portrait of a large serpent coiled on a tree branch, olive and bronze scales with a dark diamond pattern, amber eyes with vertical pupils, realistic animal, head raised, plain soft warm-grey background. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:26:56.124918Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "SERPENT_portrait_seed1002.png",
+    "seed": 1002,
+    "model": "fal-ai/flux-2-pro",
+    "derived_from": [],
+    "prompt": "Close-up portrait of a large serpent coiled on a tree branch, olive and bronze scales with a dark diamond pattern, amber eyes with vertical pupils, realistic animal, head raised, plain soft warm-grey background. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:27:05.494877Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "SERPENT_portrait_seed1003.png",
+    "seed": 1003,
+    "model": "fal-ai/flux-2-pro",
+    "derived_from": [],
+    "prompt": "Close-up portrait of a large serpent coiled on a tree branch, olive and bronze scales with a dark diamond pattern, amber eyes with vertical pupils, realistic animal, head raised, plain soft warm-grey background. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T15:27:16.816452Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  }
+]
