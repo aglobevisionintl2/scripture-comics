@@ -1,0 +1,68 @@
+name: Build volume (upscale all issues + print interior PDF)
+
+on:
+  workflow_dispatch:
+    inputs:
+      volume:
+        description: "Volume file"
+        default: "volumes/vol1.volume.json"
+        required: true
+      proof:
+        description: "Stamp pages PROOF"
+        default: "true"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: |
+          sudo apt-get update && sudo apt-get install -y poppler-utils unzip ghostscript
+          pip install fal-client pyyaml pillow beautifulsoup4 playwright
+          python -m playwright install --with-deps chromium
+      - name: Rebuild WEB verse database
+        run: |
+          unzip -q source/eng-web_html.zip -d /tmp/web_html
+          python -I pipeline/build_verse_db.py source/eng-web_html.zip /tmp/web_html data/web.sqlite
+      - name: Verify, measure and upscale every issue
+        env:
+          FAL_KEY: ${{ secrets.FAL_KEY }}
+        run: |
+          for S in $(python -c "import json;print(' '.join(json.load(open('${{ inputs.volume }}'))['scripts']))"); do
+            T=$(basename $S .json | cut -c1-7)
+            python -I pipeline/verify_script.py data/web.sqlite "$S"
+            python pipeline/layout_issue.py "$S" "build/measure_$T"
+            cp "build/measure_$T/layout_report.json" "qa/${T}_layout_report.json"
+            python pipeline/upscale_panels.py "$S" "qa/${T}_layout_report.json"
+          done
+      - name: Build volume interior
+        run: |
+          FLAG=""; if [ "${{ inputs.proof }}" = "true" ]; then FLAG="--proof"; fi
+          python pipeline/layout_issue.py "${{ inputs.volume }}" build/volume $FLAG
+          V=$(python -c "import json;print(json.load(open('${{ inputs.volume }}'))['id'])")
+          cp build/volume/layout_report.json "qa/${V}_print_report.json"
+          PDF=$(ls build/volume/*.pdf | head -1)
+          python pipeline/preflight.py "$PDF" "qa/${V}_preflight.json"
+          gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -dDownsampleColorImages=true \
+             -dColorImageResolution=100 -sOutputFile="qa/${V}_review.pdf" "$PDF"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: volume-interior
+          path: build/volume/*.pdf
+          retention-days: 60
+      - name: Commit reports
+        if: always()
+        run: |
+          git config user.name "scripture-comics-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add qa
+          git commit -m "Volume build reports: ${{ inputs.volume }}" || echo "nothing to commit"
+          git pull --rebase && git push
