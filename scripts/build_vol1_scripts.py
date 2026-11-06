@@ -312,6 +312,6 @@ issue5 = {
 
 for sc, name in [(issue2, "issue02_the_garden"), (issue3, "issue03_the_serpent"), (issue4, "issue04_cain_and_abel"),
                  (issue5, "issue05_from_adam_to_noah")]:
-    sc["status"] = "draft"
+    sc["status"] = "approved 2026-11-06"
     (HERE / f"{name}.json").write_text(json.dumps(sc, ensure_ascii=False, indent=2), encoding="utf-8")
     print("wrote", name)

@@ -1,6 +1,6 @@
 id: ABEL
 name: Abel
-status: face_selected
+status: locked
 first_appears: Genesis 4:2
 scripture_basis:
 - ref: Genesis 4:2
@@ -39,3 +39,4 @@ views:
 - full_garment_back
 views_note: 'No grief view: the text never shows Abel grieving, and the crying expression failed the face check
   on 8 seeds (best 0.38).'
+locked_on: 2026-11-06 (publisher approved reference sheet)

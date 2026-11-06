@@ -1,6 +1,6 @@
 id: SERPENT
 name: The serpent
-status: face_selected
+status: locked
 first_appears: Genesis 3:1
 scripture_basis:
 - ref: Genesis 3:1
@@ -48,3 +48,4 @@ extra_views:
   size: landscape_4_3
   face_check: false
 qa_note: 'Non-human: no automated face check. Consistency is checked by visual review against the locked front image.'
+locked_on: 2026-11-06 (publisher approved reference sheet)

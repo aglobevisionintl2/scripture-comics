@@ -55,3 +55,4 @@ extra_views:
 views: []
 age_qa_note: Age variants use age-adjusted face thresholds (ArcFace similarity drops with heavy aging); publisher
   approves them visually.
+age_variants_approved: 2026-11-06 (publisher)

@@ -1,6 +1,6 @@
 id: CHERUB
 name: Cherubim (fixed design)
-status: face_selected
+status: locked
 first_appears: Genesis 3:24
 scripture_basis:
 - ref: Genesis 3:24
@@ -53,3 +53,4 @@ extra_views:
     feathered wings spread upward, white linen robe to the feet.
   size: portrait_16_9
   face_check: false
+locked_on: 2026-11-06 (publisher approved reference sheet)

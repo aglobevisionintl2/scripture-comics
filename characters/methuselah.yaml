@@ -1,6 +1,6 @@
 id: METHUSELAH
 name: Methuselah
-status: face_selected
+status: locked
 first_appears: Genesis 5:21
 scripture_basis:
 - ref: Genesis 5:27
@@ -26,3 +26,4 @@ portrait_prompt: Head-and-shoulders portrait of a very old man, weathered deeply
   front view, looking at viewer.
 selected_face: designs/locked/METHUSELAH/METHUSELAH_face_front.png
 selected_pick: option 3 (seed 1002), publisher 2026-11-06
+locked_on: 2026-11-06 (publisher approved reference sheet)

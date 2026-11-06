@@ -1,6 +1,6 @@
 id: LAMECH
 name: Lamech (father of Noah)
-status: face_selected
+status: locked
 first_appears: Genesis 5:25
 scripture_basis:
 - ref: Genesis 5:28-29
@@ -26,3 +26,4 @@ portrait_prompt: Head-and-shoulders portrait of an older man, sun-darkened olive
   view, looking at viewer.
 selected_face: designs/locked/LAMECH/LAMECH_face_front.png
 selected_pick: option 1 (seed 1000), publisher 2026-11-06
+locked_on: 2026-11-06 (publisher approved reference sheet)

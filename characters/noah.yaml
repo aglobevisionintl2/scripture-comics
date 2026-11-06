@@ -1,6 +1,6 @@
 id: NOAH
 name: Noah
-status: face_selected
+status: locked
 first_appears: Genesis 5:29
 scripture_basis:
 - ref: Genesis 5:32
@@ -28,3 +28,4 @@ portrait_prompt: Head-and-shoulders portrait of a strong mature man, warm olive-
   warm-grey background, front view, looking at viewer.
 selected_face: designs/locked/NOAH/NOAH_face_front.png
 selected_pick: option 4 (seed 1003), publisher 2026-11-06
+locked_on: 2026-11-06 (publisher approved reference sheet)
