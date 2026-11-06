@@ -84,7 +84,7 @@ def person_count(path):
         from ultralytics import YOLO
         _yolo = YOLO("yolov8s.pt")
     r = _yolo(str(path), classes=[0], conf=0.35, verbose=False)[0]
-    return len(r.boxes)
+    return int(len(r.boxes))
 
 
 def letterboxed(path):
@@ -93,7 +93,7 @@ def letterboxed(path):
     band = max(4, a.shape[0] // 30)
     flat = lambda e: e.mean() < 14 and e.std() < 6
     # bars come in pairs; a single dark edge (night sky, deep water) is allowed
-    return (flat(a[:band]) and flat(a[-band:])) or (flat(a[:, :band]) and flat(a[:, -band:]))
+    return bool((flat(a[:band]) and flat(a[-band:])) or (flat(a[:, :band]) and flat(a[:, -band:])))
 
 
 def check(path, chars, face_visible, max_people):
