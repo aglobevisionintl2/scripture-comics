@@ -7,12 +7,12 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 5110,
+        "seed": 5310,
         "checks": {
           "faces_detected": 1,
           "people_detected": 1,
           "letterbox": false,
-          "ADAM": 0.64
+          "ADAM": 0.752
         },
         "pass": true
       }
@@ -176,36 +176,24 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 5620,
-        "checks": {
-          "faces_detected": 2,
-          "people_detected": 3,
-          "letterbox": false,
-          "EVE": 0.734,
-          "ADAM": 0.877,
-          "extra_people": true
-        },
-        "pass": false
-      },
-      {
-        "seed": 5621,
+        "seed": 5720,
         "checks": {
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "EVE": 0.4,
-          "ADAM": 0.595
+          "EVE": 0.344,
+          "ADAM": 0.744
         },
         "pass": false
       },
       {
-        "seed": 5622,
+        "seed": 5721,
         "checks": {
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "EVE": 0.599,
-          "ADAM": 0.644
+          "EVE": 0.769,
+          "ADAM": 0.899
         },
         "pass": true
       }
@@ -220,36 +208,24 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 5610,
+        "seed": 5810,
         "checks": {
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "ADAM": 0.596,
-          "EVE": 0.438
+          "ADAM": 0.609,
+          "EVE": 0.354
         },
         "pass": false
       },
       {
-        "seed": 5611,
-        "checks": {
-          "faces_detected": 2,
-          "people_detected": 3,
-          "letterbox": false,
-          "ADAM": 0.651,
-          "EVE": 0.524,
-          "extra_people": true
-        },
-        "pass": false
-      },
-      {
-        "seed": 5612,
+        "seed": 5811,
         "checks": {
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "ADAM": 0.723,
-          "EVE": 0.604
+          "ADAM": 0.637,
+          "EVE": 0.543
         },
         "pass": true
       }

@@ -1,18 +1,5 @@
 [
   {
-    "panel": "p1.1",
-    "file": "p01_1.png",
-    "model": "fal-ai/flux-2-pro/edit",
-    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; framed from the collarbone up); draw this same person with an identical face. Comic panel, close, low angle, warm first light. A man's head and shoulders rising from red earth, eyes just opening, dust falling away; framed from the collarbone up. The only people in the image are the 1 described; no other people anywhere. Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
-    "references": [
-      "designs/locked/ADAM/ADAM_face_front.png"
-    ],
-    "seed": 5110,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T17:13:39.808260Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
     "panel": "p2.1",
     "file": "p02_1.png",
     "model": "fal-ai/flux-2-pro",
@@ -109,20 +96,6 @@
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   },
   {
-    "panel": "p6.1",
-    "file": "p06_1.png",
-    "model": "fal-ai/flux-2-pro/edit",
-    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; framed from the collarbone up); draw this same person with an identical face. Image 2 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; framed from the collarbone up, her long hair falling forward over both shoulders); draw this same person with an identical face. Comic panel, two faces close, cropped below the chin, leaves in the foreground. The man seeing the woman for the first time, wonder on his face. The only people in the image are the 2 described; no other people anywhere. Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
-    "references": [
-      "designs/locked/ADAM/ADAM_face_front.png",
-      "designs/locked/EVE/EVE_face_front.png"
-    ],
-    "seed": 5612,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T17:17:45.844294Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
     "panel": "p6.2",
     "file": "p06_2.png",
     "model": "fal-ai/flux-2-pro/edit",
@@ -162,17 +135,44 @@
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   },
   {
+    "panel": "p1.1",
+    "file": "p01_1.png",
+    "model": "fal-ai/flux-2-pro/edit",
+    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; framed from the collarbone up); draw this same person with an identical face. Comic panel, close, low angle, warm first light. A man's head and shoulders rising from red earth, eyes just opening, dust falling away; framed from the collarbone up. The only people in the image are the 1 described; no other people anywhere. Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, not inked line art, no black ink outlines, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [
+      "designs/locked/ADAM/ADAM_face_front.png"
+    ],
+    "seed": 5310,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T17:29:59.262122Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
     "panel": "p5.2",
     "file": "p05_2.png",
     "model": "fal-ai/flux-2-pro/edit",
-    "prompt": "Image 1 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; framed from the collarbone up, her long hair falling forward over both shoulders); draw this same person with an identical face. Image 2 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; framed from the collarbone up); draw this same person with an identical face. Comic panel, medium, the woman framed from the collarbone up, soft morning light, flowering branches in the foreground. The first woman, newly made, being brought to the man; both framed from the collarbone up. The only people in the image are the 2 described; no other people anywhere. Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "prompt": "Image 1 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; framed from the collarbone up, her long hair falling forward over both shoulders); draw this same person with an identical face. Image 2 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; framed from the collarbone up); draw this same person with an identical face. Comic panel, medium, the woman framed from the collarbone up, soft morning light, flowering branches in the foreground. The first woman, newly made, being brought to the man; both framed from the collarbone up. The only people in the image are the 2 described; no other people anywhere. Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, not inked line art, no black ink outlines, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
     "references": [
-      "designs/locked/EVE/EVE_face_front.png",
+      "designs/locked/EVE/EVE_face_crop.png",
       "designs/locked/ADAM/ADAM_face_front.png"
     ],
-    "seed": 5622,
+    "seed": 5721,
     "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T17:27:49.997510Z",
+    "generated_utc": "2026-11-06T17:30:34.457649Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p6.1",
+    "file": "p06_1.png",
+    "model": "fal-ai/flux-2-pro/edit",
+    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; framed from the collarbone up); draw this same person with an identical face. Image 2 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; framed from the collarbone up, her long hair falling forward over both shoulders); draw this same person with an identical face. Comic panel, two faces close, cropped below the chin, leaves in the foreground. The man seeing the woman for the first time, wonder on his face. The only people in the image are the 2 described; no other people anywhere. Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, not inked line art, no black ink outlines, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [
+      "designs/locked/ADAM/ADAM_face_front.png",
+      "designs/locked/EVE/EVE_face_crop.png"
+    ],
+    "seed": 5811,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T17:31:10.540761Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   }
 ]
