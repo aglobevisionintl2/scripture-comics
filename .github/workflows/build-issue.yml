@@ -25,7 +25,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: |
-          sudo apt-get update && sudo apt-get install -y poppler-utils unzip
+          sudo apt-get update && sudo apt-get install -y poppler-utils unzip ghostscript
           pip install fal-client pyyaml pillow beautifulsoup4 playwright
           python -m playwright install --with-deps chromium
       - name: Rebuild WEB verse database from the committed source archive
@@ -47,6 +47,23 @@ jobs:
           FLAG=""; if [ "${{ inputs.proof }}" = "true" ]; then FLAG="--proof"; fi
           python pipeline/layout_issue.py "${{ inputs.script }}" build/print $FLAG
           cp build/print/layout_report.json "qa/$(basename ${{ inputs.script }} .json | cut -c1-7)_print_report.json"
+      - name: KDP preflight + review copy
+        run: |
+          T=$(basename ${{ inputs.script }} .json | cut -c1-7)
+          PDF=$(ls build/print/*.pdf | head -1)
+          python pipeline/preflight.py "$PDF" "qa/${T}_preflight.json"
+          gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -dDownsampleColorImages=true \
+             -dColorImageResolution=110 -sOutputFile="qa/${T}_review.pdf" "$PDF"
+          mkdir -p qa/${T}_crops
+          python - <<'PY'
+          from PIL import Image; import glob, os
+          t = os.environ.get("T") or "issue01"
+          for f in ["p09_1.jpg", "p05_3.jpg"]:
+              p = glob.glob(f"art/*/print/{f}")
+              if p:
+                  im = Image.open(p[0]); w, h = im.size
+                  im.crop((w//2 - 500, h//2 - 350, w//2 + 500, h//2 + 350)).save(f"qa/issue01_crops/{f}", quality=88)
+          PY
       - uses: actions/upload-artifact@v4
         with:
           name: interior
