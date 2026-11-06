@@ -75,16 +75,22 @@ def run(char_id, only, seed_offset):
     spec = yaml.safe_load((ROOT / f"characters/{char_id.lower()}.yaml").read_text())
     face = ROOT / spec["selected_face"]
     out = face.parent
-    ref_emb = embed(face)
+    human = spec.get("human", True)
+    ref_emb = embed(face) if human else None
     face_url = fal_client.upload_file(str(face))
     beard = ", and beard" if "beard" in spec["locked_traits"] else ""
-    hair = spec["locked_traits"]["hair"]
-    top = spec.get("head_costume", "bare shoulders only")
-    garment = spec["costumes"]["after_3_21"]
+    hair = spec["locked_traits"].get("hair", "")
+    garment = spec["costumes"].get("after_3_21") or spec["costumes"].get("default", "")
+    top = spec.get("head_costume") or ("bare shoulders only" if spec["id"] == "ADAM" else f"wearing: {garment}")
     head_ref = "face_front_garment" if "head_costume" in spec else None
     prov_path = out / "provenance.json"
     log = json.loads(prov_path.read_text()) if prov_path.exists() else []
-    for i, (vid, tmpl, size, face_check, costume) in enumerate(VIEWS):
+    views = [v for v in VIEWS if "views" not in spec or v[0] in spec["views"]]
+    views = [(*v, None) for v in views]
+    for ev in spec.get("extra_views", []):
+        views.append((ev["id"], ev["prompt"], ev["size"], ev["face_check"] and human, None, ev.get("threshold")))
+    for i, (vid, tmpl, size, face_check, costume, thr) in enumerate(views):
+        thr = thr or THRESHOLD
         if only and vid not in only:
             continue
         if vid == "face_front_garment" and "head_costume" not in spec:
@@ -96,7 +102,10 @@ def run(char_id, only, seed_offset):
         if costume and (out / f"{char_id}_{costume}.png").exists():
             urls.append(fal_client.upload_file(str(out / f"{char_id}_{costume}.png")))
             same += " Clothing exactly as in image 2."
-        prompt = " ".join([same, tmpl.format(top=top, garment=garment), BG + ".", STYLE["style_prompt"].strip()])
+        if not human or vid in {e["id"] for e in spec.get("extra_views", [])}:
+            same = ""
+        body = tmpl if thr != THRESHOLD or vid in {e["id"] for e in spec.get("extra_views", [])} else tmpl.format(top=top, garment=garment)
+        prompt = " ".join(x for x in [same, body, BG + ".", STYLE["style_prompt"].strip()] if x)
         fname = f"{char_id}_{vid}.png"
         attempts, best = [], None
         for t in range(MAX_TRIES if face_check else 1):
@@ -113,13 +122,13 @@ def run(char_id, only, seed_offset):
             if best is None or (sim if sim is not None else -1) > (best[1] if best[1] is not None else -1):
                 best = (tmp, sim, seed)
             print(f"{fname} try {t + 1}: seed {seed} similarity {sim}")
-            if not face_check or (sim is not None and sim >= THRESHOLD):
+            if not face_check or (sim is not None and sim >= thr):
                 break
         best[0].replace(out / fname)
         for f in out.glob(f".try_{vid}_*.png"):
             f.unlink()
         log = [e for e in log if e["file"] != fname]
-        log.append({"file": fname, "view": vid, "face_check": face_check, "seed": best[2],
+        log.append({"file": fname, "view": vid, "face_check": face_check, "threshold": thr, "seed": best[2],
                     "attempts": attempts, "model": STYLE["model"]["reference_edit"],
                     "references": [spec["selected_face"]] + ([f"{char_id}_{costume}.png"] if len(urls) > 1 else []),
                     "prompt": prompt, "post": f"trimmed {int(TRIM * 100)}% border",

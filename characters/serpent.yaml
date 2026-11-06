@@ -1,6 +1,6 @@
 id: SERPENT
 name: The serpent
-status: candidate
+status: face_selected
 first_appears: Genesis 3:1
 scripture_basis:
 - ref: Genesis 3:1
@@ -26,3 +26,23 @@ costumes:
   default: none
 portrait_prompt: Close-up portrait of a large serpent coiled on a tree branch, olive and bronze scales with a dark
   diamond pattern, amber eyes with vertical pupils, realistic animal, head raised, plain soft warm-grey background.
+selected_face: designs/locked/SERPENT/SERPENT_face_front.png
+selected_pick: option 2 (seed 1001), publisher 2026-11-06
+human: false
+views: []
+extra_views:
+- id: coiled_branch
+  prompt: The exact same serpent as image 1, identical scales, pattern and eyes, coiled on a low tree branch, full
+    body visible, side view.
+  size: landscape_4_3
+  face_check: false
+- id: head_close
+  prompt: The exact same serpent as image 1, extreme close-up of the head, three-quarter view, amber eye clearly
+    visible.
+  size: landscape_4_3
+  face_check: false
+- id: on_ground
+  prompt: The exact same serpent as image 1, lying stretched on bare dusty ground, full body, seen from above at
+    an angle.
+  size: landscape_4_3
+  face_check: false

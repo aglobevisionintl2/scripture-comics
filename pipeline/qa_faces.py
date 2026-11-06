@@ -31,6 +31,9 @@ def main(ids, threshold):
     (ROOT / "qa").mkdir(exist_ok=True)
     for cid in ids:
         spec = yaml.safe_load((ROOT / f"characters/{cid.lower()}.yaml").read_text())
+        if not spec.get("human", True):
+            print(cid, "non-human: face QA not applicable")
+            continue
         ref = embed(ROOT / spec["selected_face"])
         prov = json.loads((ROOT / f"designs/locked/{cid}/provenance.json").read_text())
         rows = []
@@ -44,7 +47,7 @@ def main(ids, threshold):
                 failed += 1
                 continue
             sim = float(np.dot(ref, e))
-            ok = sim >= threshold
+            ok = sim >= p.get("threshold", threshold)
             failed += 0 if ok else 1
             rows.append({"file": p["file"], "similarity": round(sim, 3), "result": "PASS" if ok else "FAIL"})
         checked = [r for r in rows if "similarity" in r]

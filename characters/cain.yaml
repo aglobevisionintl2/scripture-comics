@@ -1,6 +1,6 @@
 id: CAIN
 name: Cain
-status: candidate
+status: face_selected
 first_appears: Genesis 4:1
 scripture_basis:
 - ref: Genesis 4:1
@@ -30,3 +30,5 @@ portrait_prompt: Head-and-shoulders portrait of an adult man about 25, the son o
   in image 2, clear family resemblance to both, warm olive-brown skin, short thick curly dark hair, short dark beard,
   broad heavy shoulders, serious brooding expression, Wearing a simple undyed garment of tanned hide and coarse
   wool, leather tie. Plain soft warm-grey background, front view, looking at viewer.
+selected_face: designs/locked/CAIN/CAIN_face_front.png
+selected_pick: option 2 (seed 1001), publisher 2026-11-06

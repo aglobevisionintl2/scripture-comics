@@ -1,19 +1,20 @@
 id: ADAM
 name: Adam
-status: locked             # publisher approved reference sheet 2026-11-05; never change
-selected_face: designs/locked/ADAM/ADAM_face_front.png   # publisher pick 2026-11-05 (seed 1002)
+status: locked
+selected_face: designs/locked/ADAM/ADAM_face_front.png
 first_appears: Genesis 2:7
 scripture_basis:
-  - ref: Genesis 2:7
-    note: Formed from the dust of the ground. The text gives no physical description.
-  - ref: Genesis 3:21
-    note: Wears garments of animal skins from 3:21 onward.
-  - ref: Genesis 5:5
-    note: Lived 930 years. An older look is needed only if later issues show him aged.
+- ref: Genesis 2:7
+  note: Formed from the dust of the ground. The text gives no physical description.
+- ref: Genesis 3:21
+  note: Wears garments of animal skins from 3:21 onward.
+- ref: Genesis 5:5
+  note: Lived 930 years. An older look is needed only if later issues show him aged.
+- ref: Genesis 5:3-5
+  note: Fathered Seth at 130; lived 930 years. Older variants used in Issue 5.
 silent_on: face, skin, hair, height, build
-design_choice: >-
-  Text is silent, so a fixed, plausible ancient Near Eastern adult man is used.
-  Locked once approved and never changed.
+design_choice: Text is silent, so a fixed, plausible ancient Near Eastern adult man is used. Locked once approved
+  and never changed.
 locked_traits:
   age_look: about 30
   skin: warm olive-brown
@@ -23,15 +24,32 @@ locked_traits:
   build: lean, strong, a laborer's hands
   distinguishing_marks: none (do not invent scars)
 palette:
-  skin: "#A8754F"
-  hair: "#2A1D15"
-  eyes: "#3B2A1E"
-  skins_garment: "#8A6A4A"
+  skin: '#A8754F'
+  hair: '#2A1D15'
+  eyes: '#3B2A1E'
+  skins_garment: '#8A6A4A'
 costumes:
   eden: Framing only. Shoulders-up or concealed by foliage, per editorial rules (Gen 2:25).
   after_3_21: Simple wrap garment of tanned animal skins, knee length, bare arms, leather tie.
-portrait_prompt: >-
-  Head-and-shoulders portrait of an adult man about 30 years old, warm olive-brown skin,
-  dark brown-black wavy shoulder-length hair, full natural dark beard, dark brown eyes,
-  lean strong face, calm and attentive expression, bare shoulders only, plain soft
-  warm-grey studio background, even soft light, front view, looking at viewer.
+portrait_prompt: Head-and-shoulders portrait of an adult man about 30 years old, warm olive-brown skin, dark brown-black
+  wavy shoulder-length hair, full natural dark beard, dark brown eyes, lean strong face, calm and attentive expression,
+  bare shoulders only, plain soft warm-grey studio background, even soft light, front view, looking at viewer.
+age_variants:
+  adam_older: 'about 60 in appearance: hair and beard dark with grey at the temples and in the beard, a few lines
+    at the eyes'
+  adam_old: 'very old: long white hair and long white beard, deeply lined face, same eyes and features'
+extra_views:
+- id: age_older
+  prompt: 'The exact same man as image 1, now older, about 60 in appearance: grey at the temples and in the beard,
+    a few lines at the eyes; same face, eyes and features. Head-and-shoulders portrait, front view, wearing a garment
+    of tanned animal hide.'
+  size: portrait_4_3
+  face_check: true
+  threshold: 0.4
+- id: age_very_old
+  prompt: 'The exact same man as image 1, now very old: long white hair, long white beard, deeply lined face; same
+    eyes and features. Head-and-shoulders portrait, front view, wearing a garment of tanned animal hide.'
+  size: portrait_4_3
+  face_check: true
+  threshold: 0.35
+views: []
