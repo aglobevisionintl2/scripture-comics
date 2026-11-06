@@ -4,20 +4,20 @@
     "view": "face_three_quarter",
     "face_check": true,
     "threshold": 0.45,
-    "seed": 2000,
+    "seed": 2500,
     "attempts": [
       {
-        "seed": 2000,
-        "similarity": 0.708
+        "seed": 2500,
+        "similarity": 0.614
       }
     ],
     "model": "fal-ai/flux-2-pro/edit",
     "references": [
       "designs/locked/CHERUB/CHERUB_face_front.png"
     ],
-    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes. Hair exactly as image 1: . Head-and-shoulders portrait, three-quarter view turned to the left, wearing: White linen robe.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "prompt": "The exact same heavenly being as image 1, identical face, hair and great bronze-gold and white feathered wings rising behind the shoulders. Head-and-shoulders portrait, three-quarter view turned to the left, both wings clearly visible behind the shoulders, white linen robe. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
     "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T16:30:59.057906Z",
+    "generated_utc": "2026-11-06T16:38:19.110466Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   },
   {
@@ -25,20 +25,28 @@
     "view": "face_profile",
     "face_check": true,
     "threshold": 0.45,
-    "seed": 2010,
+    "seed": 2512,
     "attempts": [
       {
-        "seed": 2010,
-        "similarity": 0.558
+        "seed": 2510,
+        "error": "[{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/er"
+      },
+      {
+        "seed": 2511,
+        "error": "[{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/er"
+      },
+      {
+        "seed": 2512,
+        "similarity": 0.645
       }
     ],
     "model": "fal-ai/flux-2-pro/edit",
     "references": [
       "designs/locked/CHERUB/CHERUB_face_front.png"
     ],
-    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes. Hair exactly as image 1: . Head-and-shoulders portrait, exact side profile facing left, wearing: White linen robe.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "prompt": "The exact same heavenly being as image 1, identical face, hair and great bronze-gold and white feathered wings. Head-and-shoulders portrait, exact side profile facing left, the near wing clearly visible rising behind the shoulder, white linen robe. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
     "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T16:31:15.737597Z",
+    "generated_utc": "2026-11-06T16:39:10.409586Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   },
   {
@@ -46,24 +54,20 @@
     "view": "full_front",
     "face_check": true,
     "threshold": 0.45,
-    "seed": 2021,
+    "seed": 2520,
     "attempts": [
       {
-        "seed": 2020,
-        "error": "[{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/er"
-      },
-      {
-        "seed": 2021,
-        "similarity": 0.813
+        "seed": 2520,
+        "similarity": 0.897
       }
     ],
     "model": "fal-ai/flux-2-pro/edit",
     "references": [
       "designs/locked/CHERUB/CHERUB_face_front.png"
     ],
-    "prompt": "The exact same heavenly being as image 1, identical face and wings, full body standing, front view, wings spread wide upward, white linen robe to the feet, nothing held in the hands. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "prompt": "The exact same heavenly being as image 1, identical face, with the same bronze-gold and white feathered wings as image 1, full body standing, front view, wings spread wide upward, white linen robe to the feet, nothing held in the hands. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
     "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T16:31:47.888181Z",
+    "generated_utc": "2026-11-06T16:39:28.779346Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   },
   {
@@ -71,10 +75,10 @@
     "view": "full_back",
     "face_check": false,
     "threshold": 0.45,
-    "seed": 2030,
+    "seed": 2530,
     "attempts": [
       {
-        "seed": 2030,
+        "seed": 2530,
         "similarity": null
       }
     ],
@@ -82,9 +86,9 @@
     "references": [
       "designs/locked/CHERUB/CHERUB_face_front.png"
     ],
-    "prompt": "The exact same heavenly being as image 1, full body seen from behind, both great wings spread upward, white linen robe to the feet. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "prompt": "The exact same heavenly being as image 1, full body seen from behind, both great bronze-gold and white feathered wings spread upward, white linen robe to the feet. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
     "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T16:32:05.749191Z",
+    "generated_utc": "2026-11-06T16:39:44.857412Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   }
 ]

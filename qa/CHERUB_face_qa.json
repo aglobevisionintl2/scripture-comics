@@ -4,17 +4,17 @@
   "views": [
     {
       "file": "CHERUB_face_three_quarter.png",
-      "similarity": 0.708,
+      "similarity": 0.614,
       "result": "PASS"
     },
     {
       "file": "CHERUB_face_profile.png",
-      "similarity": 0.558,
+      "similarity": 0.645,
       "result": "PASS"
     },
     {
       "file": "CHERUB_full_front.png",
-      "similarity": 0.813,
+      "similarity": 0.897,
       "result": "PASS"
     },
     {
