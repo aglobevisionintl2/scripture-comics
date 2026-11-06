@@ -245,23 +245,15 @@
       "ADAM",
       "EVE"
     ],
-    "status": "NO IMAGE",
+    "status": "PASS",
     "attempts": [
       {
         "seed": 5910,
-        "error": "[{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/errors#content_policy_violation', 'input': \"Image 1 shows the exact face and hair of Adam (age look: a"
-      },
-      {
-        "seed": 5911,
-        "error": "[{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/errors#content_policy_violation', 'input': \"Image 1 shows the exact face and hair of Adam (age look: a"
-      },
-      {
-        "seed": 5912,
-        "error": "[{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/errors#content_policy_violation', 'input': \"Image 1 shows the exact face and hair of Adam (age look: a"
-      },
-      {
-        "seed": 5913,
-        "error": "[{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/errors#content_policy_violation', 'input': \"Image 1 shows the exact face and hair of Adam (age look: a"
+        "similarity": {
+          "ADAM": 0.867,
+          "EVE": 0.909
+        },
+        "pass": true
       }
     ]
   },
@@ -271,11 +263,12 @@
       "ADAM",
       "EVE"
     ],
-    "status": "NO IMAGE",
+    "status": "PASS (no faces to check)",
     "attempts": [
       {
         "seed": 5920,
-        "error": "[{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/errors#content_policy_violation', 'input': \"Image 1 shows the exact face and hair of Adam (age look: a"
+        "similarity": {},
+        "pass": true
       }
     ]
   },

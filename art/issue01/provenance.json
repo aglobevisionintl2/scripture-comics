@@ -220,34 +220,6 @@
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   },
   {
-    "panel": "p9.1",
-    "file": "p09_1.png",
-    "model": "fal-ai/flux-2-pro/edit",
-    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; bare shoulders, no clothing visible in frame); draw this same person with an identical face. Image 2 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; long hair falling over her shoulders and chest, no clothing of any kind, ignore any clothing shown in the reference image); draw this same person with an identical face. Comic panel, head-and-shoulders, two figures side by side in warm light. The first man and woman, shoulders-up only, Eve's hair over her shoulders (framing rule Gen 2:25). Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [
-      "designs/locked/ADAM/ADAM_face_front.png",
-      "designs/locked/EVE/EVE_face_front.png"
-    ],
-    "seed": null,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:35:25.129893Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p9.2",
-    "file": "p09_2.png",
-    "model": "fal-ai/flux-2-pro/edit",
-    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; bare shoulders, no clothing visible in frame); draw this same person with an identical face. Image 2 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; long hair falling over her shoulders and chest, no clothing of any kind, ignore any clothing shown in the reference image); draw this same person with an identical face. Comic panel, medium-wide from behind, figures small against a vast land. The two seen from behind at a distance, waist-down hidden by tall grass, looking out over the living earth. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [
-      "designs/locked/ADAM/ADAM_face_front.png",
-      "designs/locked/EVE/EVE_face_front.png"
-    ],
-    "seed": null,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:35:34.486382Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
     "panel": "p9.3",
     "file": "p09_3.png",
     "model": "fal-ai/flux-2-pro",
@@ -289,6 +261,34 @@
     "seed": 6030,
     "post": "trimmed 5% border",
     "generated_utc": "2026-11-06T06:36:21.259286Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p9.1",
+    "file": "p09_1.png",
+    "model": "fal-ai/flux-2-pro/edit",
+    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; framed from the collarbone up); draw this same person with an identical face. Image 2 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; framed from the collarbone up, her long hair falling forward over both shoulders); draw this same person with an identical face. Comic panel, head-and-shoulders, two figures side by side in warm light. The first man and woman side by side, framed from the collarbone up, green leaves softly blurred in the foreground, Eve's long hair falling forward over her shoulders (framing rule Gen 2:25). Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
+    "references": [
+      "designs/locked/ADAM/ADAM_face_front.png",
+      "designs/locked/EVE/EVE_face_front.png"
+    ],
+    "seed": 5910,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:38:02.502799Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p9.2",
+    "file": "p09_2.png",
+    "model": "fal-ai/flux-2-pro/edit",
+    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; framed from the collarbone up); draw this same person with an identical face. Image 2 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; framed from the collarbone up, her long hair falling forward over both shoulders); draw this same person with an identical face. Comic panel, medium-wide from behind, figures small against a vast land. The two seen from behind, small in the distance, standing in tall meadow grass that rises to their shoulders, looking out over the living earth. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
+    "references": [
+      "designs/locked/ADAM/ADAM_face_front.png",
+      "designs/locked/EVE/EVE_face_front.png"
+    ],
+    "seed": 5920,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:38:21.102491Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   }
 ]
