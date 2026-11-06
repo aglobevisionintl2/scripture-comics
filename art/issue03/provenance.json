@@ -220,19 +220,6 @@
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   },
   {
-    "panel": "p4.1",
-    "file": "p04_1.png",
-    "model": "fal-ai/flux-2-pro/edit",
-    "prompt": "Image 1 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; framed from the collarbone up, her long hair falling forward over both shoulders); draw this same person with an identical face. Comic panel, close, the woman's hand reaching to the fruit, her face framed from the collarbone up. The woman taking the fruit. The only people in the image are the 1 described; no other people anywhere. Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, not inked line art, no black ink outlines, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
-    "references": [
-      "designs/locked/EVE/EVE_face_crop.png"
-    ],
-    "seed": 5610,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T17:31:10.523437Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
     "panel": "p4.2",
     "file": "p04_2.png",
     "model": "fal-ai/flux-2-pro/edit",
@@ -244,20 +231,6 @@
     "seed": 5620,
     "post": "trimmed 5% border",
     "generated_utc": "2026-11-06T17:31:28.761560Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p7.2",
-    "file": "p07_2.png",
-    "model": "fal-ai/flux-2-pro/edit",
-    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; wearing a simple covering sewn from large green fig leaves); draw this same person with an identical face. Image 2 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; wearing a simple covering sewn from large green fig leaves, long hair over her shoulders); draw this same person with an identical face. Comic panel, close, the man pointing toward the woman beside him. The man blaming the woman. The only people in the image are the 2 described; no other people anywhere. Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, not inked line art, no black ink outlines, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
-    "references": [
-      "designs/locked/ADAM/ADAM_face_front.png",
-      "designs/locked/EVE/EVE_face_crop.png"
-    ],
-    "seed": 5920,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T17:31:45.825551Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   },
   {
@@ -299,6 +272,33 @@
     "seed": 6310,
     "post": "trimmed 5% border",
     "generated_utc": "2026-11-06T17:32:48.377511Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p4.1",
+    "file": "p04_1.png",
+    "model": "fal-ai/flux-2-pro/edit",
+    "prompt": "Image 1 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; framed from the collarbone up, her long hair falling forward over both shoulders); draw this same person with an identical face. Comic panel, close, the woman's hand reaching to the fruit, her face framed from the collarbone up. The woman taking the fruit. The only people in the image are the 1 described; no other people anywhere. Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, not inked line art, no black ink outlines, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [
+      "designs/locked/EVE/EVE_face_crop.png"
+    ],
+    "seed": 5810,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T17:39:22.382416Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p7.2",
+    "file": "p07_2.png",
+    "model": "fal-ai/flux-2-pro/edit",
+    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; wearing a full covering sewn from many large green fig leaves, from the shoulders to the knees); draw this same person with an identical face. Image 2 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; wearing a full modest covering sewn from many large green fig leaves, from the shoulders to the knees, long hair over her shoulders); draw this same person with an identical face. Comic panel, medium, both framed from the chest up, the man pointing toward the woman beside him. The man blaming the woman; both wear full coverings of sewn fig leaves from the shoulders to the knees. The only people in the image are the 2 described; no other people anywhere. Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, not inked line art, no black ink outlines, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [
+      "designs/locked/ADAM/ADAM_face_front.png",
+      "designs/locked/EVE/EVE_face_crop.png"
+    ],
+    "seed": 6120,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T17:39:49.994380Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   }
 ]

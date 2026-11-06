@@ -129,12 +129,12 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 5610,
+        "seed": 5810,
         "checks": {
           "faces_detected": 1,
           "people_detected": 1,
           "letterbox": false,
-          "EVE": 0.64
+          "EVE": 0.627
         },
         "pass": true
       }
@@ -266,13 +266,13 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 5920,
+        "seed": 6120,
         "checks": {
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "ADAM": 0.574,
-          "EVE": 0.66
+          "ADAM": 0.679,
+          "EVE": 0.658
         },
         "pass": true
       }
