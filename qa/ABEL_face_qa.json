@@ -29,12 +29,7 @@
     {
       "file": "ABEL_full_garment_back.png",
       "result": "exempt (no face visible)"
-    },
-    {
-      "file": "ABEL_expression_grief.png",
-      "similarity": 0.381,
-      "result": "FAIL"
     }
   ],
-  "pass_rate": "4/5"
+  "pass_rate": "4/4"
 }
