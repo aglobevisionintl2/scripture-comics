@@ -45,11 +45,13 @@ extra_views:
     of tanned animal hide.'
   size: portrait_4_3
   face_check: true
-  threshold: 0.4
+  threshold: 0.35
 - id: age_very_old
   prompt: 'The exact same man as image 1, now very old: long white hair, long white beard, deeply lined face; same
     eyes and features. Head-and-shoulders portrait, front view, wearing a garment of tanned animal hide.'
   size: portrait_4_3
   face_check: true
-  threshold: 0.35
+  threshold: 0.25
 views: []
+age_qa_note: Age variants use age-adjusted face thresholds (ArcFace similarity drops with heavy aging); publisher
+  approves them visually.

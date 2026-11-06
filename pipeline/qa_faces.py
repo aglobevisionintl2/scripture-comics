@@ -38,6 +38,10 @@ def main(ids, threshold):
         prov = json.loads((ROOT / f"designs/locked/{cid}/provenance.json").read_text())
         rows = []
         for p in prov:
+            if p.get("result") == "NO IMAGE":
+                rows.append({"file": p["file"], "result": "FAIL (no image: content filter or error)"})
+                failed += 1
+                continue
             if not p["face_check"]:
                 rows.append({"file": p["file"], "result": "exempt (no face visible)"})
                 continue

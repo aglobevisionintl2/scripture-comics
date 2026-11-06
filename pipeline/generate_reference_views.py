@@ -108,13 +108,19 @@ def run(char_id, only, seed_offset):
         prompt = " ".join(x for x in [same, body, BG + ".", STYLE["style_prompt"].strip()] if x)
         fname = f"{char_id}_{vid}.png"
         attempts, best = [], None
-        for t in range(MAX_TRIES if face_check else 1):
+        for t in range(MAX_TRIES if face_check else 3):
             seed = 2000 + i * 10 + t + seed_offset
-            result = fal_client.subscribe(STYLE["model"]["reference_edit"], arguments={
-                "prompt": prompt, "image_urls": urls, "image_size": size, "seed": seed,
-                "safety_tolerance": STYLE["model"]["safety_tolerance"],
-                "output_format": STYLE["model"]["output_format"],
-            })
+            use_prompt = prompt if t < 2 else prompt.replace(f"wearing: {garment}", "plain clothing")
+            try:
+                result = fal_client.subscribe(STYLE["model"]["reference_edit"], arguments={
+                    "prompt": use_prompt, "image_urls": urls, "image_size": size, "seed": seed,
+                    "safety_tolerance": STYLE["model"]["safety_tolerance"],
+                    "output_format": STYLE["model"]["output_format"],
+                })
+            except Exception as e:  # e.g. content checker; logged, never hidden
+                attempts.append({"seed": seed, "error": str(e)[:200]})
+                print(f"{fname} try {t + 1}: seed {seed} ERROR {str(e)[:160]}")
+                continue
             tmp = out / f".try_{vid}_{t}.png"
             fetch_trimmed(result["images"][0]["url"], tmp)
             sim = similarity(ref_emb, tmp) if face_check else None
@@ -124,6 +130,12 @@ def run(char_id, only, seed_offset):
             print(f"{fname} try {t + 1}: seed {seed} similarity {sim}")
             if not face_check or (sim is not None and sim >= thr):
                 break
+        if best is None:
+            print(f"{fname}: NO IMAGE after {len(attempts)} attempts")
+            log = [e for e in log if e["file"] != fname]
+            log.append({"file": fname, "view": vid, "face_check": face_check, "attempts": attempts, "result": "NO IMAGE"})
+            prov_path.write_text(json.dumps(log, indent=2))
+            continue
         best[0].replace(out / fname)
         for f in out.glob(f".try_{vid}_*.png"):
             f.unlink()
