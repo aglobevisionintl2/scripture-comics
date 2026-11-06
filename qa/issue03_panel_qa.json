@@ -8,12 +8,12 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 5110,
+        "seed": 5310,
         "checks": {
           "faces_detected": 1,
           "people_detected": 1,
           "letterbox": false,
-          "EVE": 0.805
+          "EVE": 0.763
         },
         "pass": true
       }
@@ -28,12 +28,12 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 5210,
+        "seed": 5410,
         "checks": {
           "faces_detected": 1,
           "people_detected": 1,
           "letterbox": false,
-          "EVE": 0.48
+          "EVE": 0.547
         },
         "pass": true
       }
@@ -65,7 +65,7 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 5310,
+        "seed": 5510,
         "checks": {
           "faces_detected": 0,
           "people_detected": 0,
@@ -99,12 +99,23 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 5330,
+        "seed": 5530,
+        "checks": {
+          "faces_detected": 1,
+          "people_detected": 2,
+          "letterbox": false,
+          "EVE": 0.701,
+          "extra_people": true
+        },
+        "pass": false
+      },
+      {
+        "seed": 5531,
         "checks": {
           "faces_detected": 1,
           "people_detected": 1,
           "letterbox": false,
-          "EVE": 0.553
+          "EVE": 0.586
         },
         "pass": true
       }
@@ -118,23 +129,12 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 5410,
-        "checks": {
-          "faces_detected": 1,
-          "people_detected": 3,
-          "letterbox": false,
-          "EVE": 0.52,
-          "extra_people": true
-        },
-        "pass": false
-      },
-      {
-        "seed": 5411,
+        "seed": 5610,
         "checks": {
           "faces_detected": 1,
           "people_detected": 1,
           "letterbox": false,
-          "EVE": 0.659
+          "EVE": 0.64
         },
         "pass": true
       }
@@ -149,13 +149,13 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 5420,
+        "seed": 5620,
         "checks": {
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "ADAM": 0.822,
-          "EVE": 0.788
+          "ADAM": 0.603,
+          "EVE": 0.5
         },
         "pass": true
       }
@@ -266,24 +266,13 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 5820,
+        "seed": 5920,
         "checks": {
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "ADAM": 0.63,
-          "EVE": 0.443
-        },
-        "pass": false
-      },
-      {
-        "seed": 5821,
-        "checks": {
-          "faces_detected": 2,
-          "people_detected": 2,
-          "letterbox": false,
-          "ADAM": 0.673,
-          "EVE": 0.511
+          "ADAM": 0.574,
+          "EVE": 0.66
         },
         "pass": true
       }
@@ -458,13 +447,13 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 6010,
+        "seed": 6210,
         "checks": {
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "ADAM": 0.874,
-          "EVE": 0.64
+          "ADAM": 0.683,
+          "EVE": 0.598
         },
         "pass": true
       }
@@ -479,9 +468,9 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 6020,
+        "seed": 6220,
         "checks": {
-          "faces_detected": 0,
+          "faces_detected": 1,
           "people_detected": 2,
           "letterbox": false
         },
@@ -497,9 +486,9 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 6110,
+        "seed": 6310,
         "checks": {
-          "faces_detected": 2,
+          "faces_detected": 3,
           "people_detected": 4,
           "letterbox": false
         },
