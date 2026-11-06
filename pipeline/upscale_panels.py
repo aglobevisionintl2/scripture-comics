@@ -26,7 +26,8 @@ COLORING_PX_W = 2000  # about 330 DPI across a 6 in live area
 def esrgan(path, scale):
     url = fal_client.upload_file(str(path))
     res = fal_client.subscribe("fal-ai/esrgan", arguments={"image_url": url, "scale": scale, "output_format": "png"})
-    return Image.open(io.BytesIO(urllib.request.urlopen(res["images"][0]["url"]).read())).convert("RGB")
+    img = res["image"] if "image" in res else res["images"][0]
+    return Image.open(io.BytesIO(urllib.request.urlopen(img["url"]).read())).convert("RGB")
 
 
 def main(script_path, report_path):
