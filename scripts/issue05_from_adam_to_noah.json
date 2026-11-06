@@ -108,11 +108,11 @@
       "panels": [
         {
           "panel": 1,
-          "camera": "wide, Enoch walking alone toward a bright horizon on a high hill",
+          "camera": "wide, Enoch walking alone along a high hill toward a bright horizon, the low sun off to the side",
           "characters": [
             "ENOCH"
           ],
-          "art": "Enoch walking toward the light.",
+          "art": "Enoch walking toward the light; no glow or halo around him.",
           "text": [
             {
               "type": "caption",

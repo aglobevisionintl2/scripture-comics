@@ -4,7 +4,7 @@ style_prompt: >-
   Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil
   painting, visible soft brushwork, film-still composition and lighting, warm earthy
   ancient Near Eastern palette, historically grounded detail, dignified and restrained.
-  Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.
+  Not a photograph, not cartoon, not anime, not inked line art, no black ink outlines, no text, no watermark, no signature, no initials.
 negative_rules:
   - No modern clothing, objects or hairstyles.
   - No halos or religious iconography that the passage does not describe.

@@ -39,6 +39,8 @@ STORY_POINT = {
 }
 # Story points that swap a character's reference image (age variants) and description.
 REF_OVERRIDE = {
+    "eden_before_3_21": {"EVE": ("designs/locked/EVE/EVE_face_crop.png", None)},
+    "fig_leaves": {"EVE": ("designs/locked/EVE/EVE_face_crop.png", None)},
     "adam_older": {"ADAM": ("designs/locked/ADAM/ADAM_age_older.png",
                             "older, about 60 in appearance, grey at the temples and in the beard; garment of tanned animal hide")},
     "adam_old": {"ADAM": ("designs/locked/ADAM/ADAM_age_very_old.png",
@@ -86,7 +88,7 @@ def describe(cid, story_point):
     info = char_info(cid, story_point)
     t = info["spec"]["locked_traits"]
     look = ", ".join(f"{k.replace('_', ' ')}: {v}" for k, v in t.items() if k != "distinguishing_marks")
-    if story_point in REF_OVERRIDE and cid in REF_OVERRIDE[story_point]:
+    if story_point in REF_OVERRIDE and cid in REF_OVERRIDE[story_point] and REF_OVERRIDE[story_point][cid][1]:
         return f"{info['spec']['name']} ({REF_OVERRIDE[story_point][cid][1]})"
     costumes = info["spec"].get("costumes", {})
     costume = STORY_POINT.get(story_point, {}).get(cid) or costumes.get("after_3_21") or costumes.get("default", "")
@@ -112,6 +114,18 @@ def letterboxed(path):
     flat = lambda e: e.mean() < 14 and e.std() < 6
     # bars come in pairs; a single dark edge (night sky, deep water) is allowed
     return bool((flat(a[:band]) and flat(a[-band:])) or (flat(a[:, :band]) and flat(a[:, -band:])))
+
+
+def costume_ref(cid, story_point, cache={}):
+    """Locked full-body garment image, used as an extra reference after Genesis 3:21 and for clothed characters."""
+    if story_point in ("eden_before_3_21", "fig_leaves", "adam_older", "adam_old"):
+        return None
+    f = ROOT / f"designs/locked/{cid}/{cid}_full_garment_front.png"
+    if not f.exists():
+        return None
+    if cid not in cache:
+        cache[cid] = fal_client.upload_file(str(f))
+    return cache[cid]
 
 
 def check(path, chars, face_visible, max_people, story_point=None):
@@ -156,6 +170,12 @@ def main(script_path, only, offset):
                                  if char_info(c, sp)["human"] else
                                  f"Image {i + 1} shows the exact {describe(c, sp)}; draw this same creature identically.")
                                 for i, c in enumerate(chars))
+                for c in chars:
+                    cr = costume_ref(c, sp) if char_info(c, sp)["human"] else None
+                    if cr:
+                        refs.append(cr)
+                        lead += (f" Image {len(refs)} shows {char_info(c, sp)['spec']['name']}'s exact garment;"
+                                 f" dress him or her in exactly this garment (ignore the pose and background of that image).")
             humans = [c for c in chars if char_info(c, pn.get("story_point"))["human"]]
             cast_rule = ("Other people may appear as described." if pn.get("allow_crowd") else
                          f"The only people in the image are the {len(humans)} described; no other people anywhere." if humans

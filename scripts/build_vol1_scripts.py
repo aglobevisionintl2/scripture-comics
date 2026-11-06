@@ -168,7 +168,7 @@ issue3 = {
               [C("3:23", "Therefore Yahweh God sent him out from the garden of Eden, to till the ground from which he was taken.")],
               ["ADAM", "EVE"], "landscape_16_9", face=False, sp="after_3_21")]),
         page(11, "Genesis 3:24", "one large panel", [
-            P(1, "wide, the east gate of the garden at dusk", "Cherubim standing at the east of the garden; between them, apart from them and held by no one, a flaming sword turning every way in the air; the man and woman far away, small, outside.",
+            P(1, "wide, the east gate of the garden at dusk", "Two cherubim standing at the east of the garden; between them, apart from them and held by no one, exactly one single flaming sword turning in the air (only one sword in the whole image); the man and woman far away, small, outside.",
               [C("3:24", "So he drove out the man; and he placed cherubim at the east of the garden of Eden, and a flaming sword which turned every way, to guard the way to the tree of life.")],
               ["CHERUB"], "landscape_4_3", face=False, crowd=True)]),
     ],
@@ -209,7 +209,7 @@ issue4 = {
         page(3, "Genesis 4:6–7", "two wide horizontal panels", [
             P(1, "medium, Cain alone on the hill at dusk, turned away", "Cain alone, brooding.",
               [C("4:6", "Yahweh said to Cain,"), D("4:6", "Why are you angry? Why has the expression of your face fallen?")], ["CAIN"], "landscape_16_9"),
-            P(2, "low, a dark doorway of a rough stone shelter with deep shadow at the threshold, Cain small beyond it", "Shadow crouching at a door.",
+            P(2, "low, a dark doorway of a rough stone shelter with deep shadow at the threshold, Cain small beyond it", "Deep shadow lying across the threshold of the doorway; only darkness, no figure, no creature, no face or shape in the shadow.",
               [D("4:7", "If you do well, won’t it be lifted up? If you don’t do well, sin crouches at the door. Its desire is for you, but you are to rule over it.")],
               ["CAIN"], "landscape_16_9", face=False)]),
         page(4, "Genesis 4:8", "two wide horizontal panels", [
@@ -278,7 +278,7 @@ issue5 = {
               [C("5:22", "After Methuselah’s birth, Enoch walked with God for three hundred years, and became the father of more sons and daughters.")],
               ["ENOCH"], "landscape_16_9", crowd=True)]),
         page(3, "Genesis 5:24", "two wide horizontal panels", [
-            P(1, "wide, Enoch walking alone toward a bright horizon on a high hill", "Enoch walking toward the light.",
+            P(1, "wide, Enoch walking alone along a high hill toward a bright horizon, the low sun off to the side", "Enoch walking toward the light; no glow or halo around him.",
               [C("5:24", "Enoch walked with God,")], ["ENOCH"], "landscape_16_9", face=False),
             P(2, "the same hill and horizon, now empty, light lingering", "The empty hilltop.",
               [C("5:24", "and he was not found, for God took him.")], size="landscape_16_9")]),
