@@ -17,7 +17,7 @@ design_choice: >-
 locked_traits:
   age_look: about 25
   skin: warm olive-brown, slightly lighter than Adam
-  hair: very long, dark brown-black, thick, loose waves, reaching below the waist
+  hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1)
   eyes: dark brown
   build: slender, strong
   distinguishing_marks: none (do not invent marks)
@@ -26,6 +26,9 @@ palette:
   hair: "#241812"
   eyes: "#3B2A1E"
   skins_garment: "#94744F"
+head_costume: >-
+  wearing the plain tanned animal-hide garment of Genesis 3:21 at the shoulders, raw hide edges, leather tie,
+  no woven cloth, no embroidery, no patterns, no jewelry
 costumes:
   eden: Framing plus very long hair and foliage, per editorial rules (Gen 2:25).
   after_3_21: Simple wrap garment of tanned animal skins, mid-calf length, leather tie at the shoulder.

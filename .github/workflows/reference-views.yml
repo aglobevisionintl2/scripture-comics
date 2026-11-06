@@ -7,6 +7,14 @@ on:
         description: "Character IDs, comma separated"
         default: "ADAM,EVE"
         required: true
+      views:
+        description: "Only these views (blank = all)"
+        default: ""
+        required: false
+      seed_offset:
+        description: "Seed offset for regenerations"
+        default: "0"
+        required: false
       generate:
         description: "Generate new views (false = re-run QA only)"
         default: "true"
@@ -29,7 +37,7 @@ jobs:
         if: inputs.generate == 'true'
         env:
           FAL_KEY: ${{ secrets.FAL_KEY }}
-        run: python pipeline/generate_reference_views.py "${{ inputs.characters }}"
+        run: python pipeline/generate_reference_views.py "${{ inputs.characters }}" "${{ inputs.views }}" "${{ inputs.seed_offset }}"
       - name: Face QA
         id: qa
         continue-on-error: true
