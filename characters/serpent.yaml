@@ -37,12 +37,14 @@ extra_views:
   size: landscape_4_3
   face_check: false
 - id: head_close
-  prompt: The exact same serpent as image 1, extreme close-up of the head, three-quarter view, amber eye clearly
-    visible.
+  prompt: The exact same serpent as image 1, identical olive and bronze scales and dark diamond pattern, extreme
+    close-up of the head, three-quarter view, amber eye with vertical pupil clearly visible.
   size: landscape_4_3
   face_check: false
 - id: on_ground
-  prompt: The exact same serpent as image 1, lying stretched on bare dusty ground, full body, seen from above at
-    an angle.
+  prompt: The exact same large serpent as image 1, identical thick body, identical olive and bronze scales, identical
+    dark diamond pattern and amber eyes, now lying stretched out on bare dusty ground, full body, seen from the
+    side at ground level.
   size: landscape_4_3
   face_check: false
+qa_note: 'Non-human: no automated face check. Consistency is checked by visual review against the locked front image.'

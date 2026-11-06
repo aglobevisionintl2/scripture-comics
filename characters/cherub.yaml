@@ -28,17 +28,28 @@ portrait_prompt: Head-and-shoulders portrait of a majestic heavenly being with t
   with soft golden light, no halo, no weapon, plain soft warm-grey background, front view.
 selected_face: designs/locked/CHERUB/CHERUB_face_front.png
 selected_pick: option 4 (seed 1003), publisher 2026-11-06
-views:
-- face_three_quarter
-- face_profile
+views: []
 extra_views:
+- id: face_three_quarter
+  prompt: The exact same heavenly being as image 1, identical face, hair and great bronze-gold and white feathered
+    wings rising behind the shoulders. Head-and-shoulders portrait, three-quarter view turned to the left, both
+    wings clearly visible behind the shoulders, white linen robe.
+  size: portrait_4_3
+  face_check: true
+- id: face_profile
+  prompt: The exact same heavenly being as image 1, identical face, hair and great bronze-gold and white feathered
+    wings. Head-and-shoulders portrait, exact side profile facing left, the near wing clearly visible rising behind
+    the shoulder, white linen robe.
+  size: portrait_4_3
+  face_check: true
 - id: full_front
-  prompt: The exact same heavenly being as image 1, identical face and wings, full body standing, front view, wings
-    spread wide upward, white linen robe to the feet, nothing held in the hands.
+  prompt: The exact same heavenly being as image 1, identical face, with the same bronze-gold and white feathered
+    wings as image 1, full body standing, front view, wings spread wide upward, white linen robe to the feet, nothing
+    held in the hands.
   size: portrait_16_9
   face_check: true
 - id: full_back
-  prompt: The exact same heavenly being as image 1, full body seen from behind, both great wings spread upward,
-    white linen robe to the feet.
+  prompt: The exact same heavenly being as image 1, full body seen from behind, both great bronze-gold and white
+    feathered wings spread upward, white linen robe to the feet.
   size: portrait_16_9
   face_check: false
