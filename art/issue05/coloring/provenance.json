@@ -1,0 +1,18 @@
+[
+  {
+    "file": "coloring_1.png",
+    "subject": "Noah (locked design)",
+    "model": "fal-ai/flux-2-pro/edit",
+    "source_panel": "p05_1.png",
+    "generated_utc": "2026-11-06T17:38:27.352892Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "coloring_2.png",
+    "subject": "Enoch walking with God on the hill (locked design)",
+    "model": "fal-ai/flux-2-pro/edit",
+    "source_panel": "p03_1.png",
+    "generated_utc": "2026-11-06T17:38:42.593080Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  }
+]
