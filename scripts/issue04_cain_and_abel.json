@@ -40,7 +40,7 @@
           "size": "landscape_16_9",
           "face_visible": true,
           "story_point": "after_3_21",
-          "allow_crowd": false
+          "allow_crowd": true
         },
         {
           "panel": 2,
@@ -443,7 +443,7 @@
           "size": "landscape_16_9",
           "face_visible": true,
           "story_point": "after_3_21",
-          "allow_crowd": false
+          "allow_crowd": true
         },
         {
           "panel": 2,

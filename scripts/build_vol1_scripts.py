@@ -194,7 +194,7 @@ issue4 = {
         page(1, "Genesis 4:1–2", "two wide horizontal panels", [
             P(1, "medium, warm light, the woman holding a newborn wrapped in hide, the man beside her", "Eve holding her first son, Adam looking on.",
               [C("4:1", "The man knew Eve his wife. She conceived, and gave birth to Cain, and said,"), S("4:1", "I have gotten a man with Yahweh’s help.", "EVE")],
-              ["EVE", "ADAM"], "landscape_16_9", sp=A),
+              ["EVE", "ADAM"], "landscape_16_9", sp=A, crowd=True),
             P(2, "wide split composition: a grown farmer breaking soil on the left, a grown shepherd with his flock on the right", "Cain tilling a field; Abel keeping sheep on a hillside.",
               [C("4:2", "Again she gave birth, to Cain’s brother Abel. Abel was a keeper of sheep, but Cain was a tiller of the ground.")],
               ["CAIN", "ABEL"], "landscape_16_9")]),
@@ -239,7 +239,7 @@ issue4 = {
         page(8, "Genesis 4:25–26", "two wide horizontal panels", [
             P(1, "medium, warm light, Eve holding a newborn wrapped in hide, Adam beside her; the baby's face hidden", "Eve with her newborn son Seth.",
               [C("4:25", "Adam knew his wife again. She gave birth to a son, and named him Seth, saying,"),
-               S("4:25", "for God has given me another child instead of Abel, for Cain killed him.", "EVE")], ["EVE", "ADAM"], "landscape_16_9", sp=A),
+               S("4:25", "for God has given me another child instead of Abel, for Cain killed him.", "EVE")], ["EVE", "ADAM"], "landscape_16_9", sp=A, crowd=True),
             P(2, "wide, a small gathering of people on a hillside at dawn, hands lifted, among them a grown man holding an infant", "People beginning to call on Yahweh's name.",
               [C("4:26", "A son was also born to Seth, and he named him Enosh. At that time men began to call on Yahweh’s name.")],
               ["SETH"], "landscape_16_9", face=False, crowd=True)]),
