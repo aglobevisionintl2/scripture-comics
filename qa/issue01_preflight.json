@@ -1,0 +1,39 @@
+{
+  "pdf": "issue01_interior_PROOF.pdf",
+  "pages": 20,
+  "page_size_pt": [
+    513.12,
+    738.0
+  ],
+  "pages_wrong_size": [],
+  "fonts": [
+    "AAAAAA+Cinzel-Regular",
+    "AAAAAA+Cinzel-Regular",
+    "BAAAAA+Cinzel-Regular",
+    "BAAAAA+Cinzel-Regular",
+    "CAAAAA+EBGaramond-Regular",
+    "CAAAAA+EBGaramond-Regular",
+    "CAAAAA+EBGaramond-Regular",
+    "CAAAAA+EBGaramond-Regular",
+    "CAAAAA+EBGaramond-Regular",
+    "CAAAAA+EBGaramond-Regular",
+    "CAAAAA+EBGaramond-Regular",
+    "DAAAAA+Cinzel-Regular",
+    "DAAAAA+Cinzel-Regular",
+    "EAAAAA+Cinzel-Regular",
+    "EAAAAA+Cinzel-Regular",
+    "FAAAAA+EBGaramond-Regular",
+    "FAAAAA+EBGaramond-Regular",
+    "FAAAAA+EBGaramond-Regular",
+    "FAAAAA+EBGaramond-Regular",
+    "GAAAAA+Cinzel-Regular",
+    "GAAAAA+Cinzel-Regular",
+    "HAAAAA+Cinzel-Regular",
+    "HAAAAA+Cinzel-Regular"
+  ],
+  "fonts_not_embedded": [],
+  "even_page_count": true,
+  "meets_24_page_minimum": false,
+  "size_mb": 28.0,
+  "result": "PASS (bundle needed: under 24 pages)"
+}
