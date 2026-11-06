@@ -1,6 +1,7 @@
 id: EVE
 name: Eve
-status: candidate          # candidate -> locked (only the publisher locks a design)
+status: face_selected      # candidate -> face_selected -> locked (publisher approves reference sheet)
+selected_face: designs/locked/EVE/EVE_face_front.png   # publisher pick 2026-11-05 (seed 1000)
 first_appears: Genesis 2:22
 scripture_basis:
   - ref: Genesis 2:22

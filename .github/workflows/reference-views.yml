@@ -1,0 +1,43 @@
+name: Character reference views + face QA
+
+on:
+  workflow_dispatch:
+    inputs:
+      characters:
+        description: "Character IDs, comma separated"
+        default: "ADAM,EVE"
+        required: true
+      generate:
+        description: "Generate new views (false = re-run QA only)"
+        default: "true"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  views:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install fal-client pyyaml insightface onnxruntime opencv-python-headless numpy
+      - name: Generate views
+        if: inputs.generate == 'true'
+        env:
+          FAL_KEY: ${{ secrets.FAL_KEY }}
+        run: python pipeline/generate_reference_views.py "${{ inputs.characters }}"
+      - name: Face QA
+        id: qa
+        continue-on-error: true
+        run: python pipeline/qa_faces.py "${{ inputs.characters }}"
+      - name: Commit results
+        run: |
+          git config user.name "scripture-comics-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add designs qa
+          git commit -m "Reference views + face QA: ${{ inputs.characters }} (qa: ${{ steps.qa.outcome }})" || echo "nothing to commit"
+          git push
