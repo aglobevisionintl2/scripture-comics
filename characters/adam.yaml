@@ -1,6 +1,6 @@
 id: ADAM
 name: Adam
-status: face_selected      # candidate -> face_selected -> locked (publisher approves reference sheet)
+status: locked             # publisher approved reference sheet 2026-11-05; never change
 selected_face: designs/locked/ADAM/ADAM_face_front.png   # publisher pick 2026-11-05 (seed 1002)
 first_appears: Genesis 2:7
 scripture_basis:
