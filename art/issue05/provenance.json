@@ -39,19 +39,6 @@
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   },
   {
-    "panel": "p3.1",
-    "file": "p03_1.png",
-    "model": "fal-ai/flux-2-pro/edit",
-    "prompt": "Image 1 shows the exact face and hair of Enoch (son of Jared) (age look: mature, about 50 in appearance, skin: warm olive-brown, hair: dark hair streaked with grey, shoulder length, beard: long dark beard with grey, eyes: dark brown, build: slender; Long plain undyed wool robe, rope belt.); draw this same person with an identical face. Comic panel, wide, Enoch walking alone toward a bright horizon on a high hill. Enoch walking toward the light. The only people in the image are the 1 described; no other people anywhere. Setting rule for Genesis 5: open lands, simple tents of hide and early stone dwellings only. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
-    "references": [
-      "designs/locked/ENOCH/ENOCH_face_front.png"
-    ],
-    "seed": 5310,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T17:15:33.276377Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
     "panel": "p3.2",
     "file": "p03_2.png",
     "model": "fal-ai/flux-2-pro",
@@ -112,6 +99,19 @@
     "seed": 5220,
     "post": "trimmed 5% border",
     "generated_utc": "2026-11-06T17:27:19.885709Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p3.1",
+    "file": "p03_1.png",
+    "model": "fal-ai/flux-2-pro/edit",
+    "prompt": "Image 1 shows the exact face and hair of Enoch (son of Jared) (age look: mature, about 50 in appearance, skin: warm olive-brown, hair: dark hair streaked with grey, shoulder length, beard: long dark beard with grey, eyes: dark brown, build: slender; Long plain undyed wool robe, rope belt.); draw this same person with an identical face. Image 2 shows Enoch (son of Jared)'s exact garment; dress him or her in exactly this garment (ignore the pose and background of that image). Comic panel, wide, Enoch walking alone along a high hill toward a bright horizon, the low sun off to the side. Enoch walking toward the light; no glow or halo around him. The only people in the image are the 1 described; no other people anywhere. Setting rule for Genesis 5: open lands, simple tents of hide and early stone dwellings only. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, not inked line art, no black ink outlines, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [
+      "designs/locked/ENOCH/ENOCH_face_front.png"
+    ],
+    "seed": 5510,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T17:29:58.343655Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   }
 ]
