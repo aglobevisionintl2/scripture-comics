@@ -1,0 +1,79 @@
+[
+  {
+    "file": "EVE_face_three_quarter.png",
+    "view": "face_three_quarter",
+    "face_check": true,
+    "seed": 2000,
+    "model": "fal-ai/flux-2-pro/edit",
+    "reference": "designs/locked/EVE/EVE_face_front.png",
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, hair color, hair length and hair texture. Head-and-shoulders portrait, three-quarter view turned to the left, shoulders covered by the long hair. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T06:06:16.290055Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "EVE_face_profile.png",
+    "view": "face_profile",
+    "face_check": true,
+    "seed": 2001,
+    "model": "fal-ai/flux-2-pro/edit",
+    "reference": "designs/locked/EVE/EVE_face_front.png",
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, hair color, hair length and hair texture. Head-and-shoulders portrait, exact side profile facing left, shoulders covered by the long hair. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T06:06:57.649861Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "EVE_head_back.png",
+    "view": "head_back",
+    "face_check": false,
+    "seed": 2002,
+    "model": "fal-ai/flux-2-pro/edit",
+    "reference": "designs/locked/EVE/EVE_face_front.png",
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, hair color, hair length and hair texture. Head-and-shoulders view from directly behind, showing the back of the head and the full length of the hair, shoulders covered by the long hair. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T06:07:20.451789Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "EVE_expression_afraid.png",
+    "view": "expression_afraid",
+    "face_check": true,
+    "seed": 2003,
+    "model": "fal-ai/flux-2-pro/edit",
+    "reference": "designs/locked/EVE/EVE_face_front.png",
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, hair color, hair length and hair texture. Head-and-shoulders portrait, front view, expression of fear and shame, eyes lowered, shoulders covered by the long hair. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T06:07:35.749367Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "EVE_expression_grief.png",
+    "view": "expression_grief",
+    "face_check": true,
+    "seed": 2004,
+    "model": "fal-ai/flux-2-pro/edit",
+    "reference": "designs/locked/EVE/EVE_face_front.png",
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, hair color, hair length and hair texture. Head-and-shoulders portrait, front view, expression of deep grief, shoulders covered by the long hair. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T06:07:48.570994Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "EVE_full_garment_front.png",
+    "view": "full_garment_front",
+    "face_check": true,
+    "seed": 2005,
+    "model": "fal-ai/flux-2-pro/edit",
+    "reference": "designs/locked/EVE/EVE_face_front.png",
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, hair color, hair length and hair texture. Full-body standing figure, front view, head to bare feet visible, wearing Simple wrap garment of tanned animal skins, mid-calf length, leather tie at the shoulder.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T06:08:02.652204Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "EVE_full_garment_back.png",
+    "view": "full_garment_back",
+    "face_check": false,
+    "seed": 2006,
+    "model": "fal-ai/flux-2-pro/edit",
+    "reference": "designs/locked/EVE/EVE_face_front.png",
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, hair color, hair length and hair texture. Full-body standing figure, back view, head to bare feet visible, wearing Simple wrap garment of tanned animal skins, mid-calf length, leather tie at the shoulder.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "generated_utc": "2026-11-06T06:08:15.555406Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  }
+]

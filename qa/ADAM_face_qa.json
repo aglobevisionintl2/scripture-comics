@@ -1,0 +1,40 @@
+{
+  "character": "ADAM",
+  "threshold": 0.45,
+  "views": [
+    {
+      "file": "ADAM_face_three_quarter.png",
+      "similarity": 0.787,
+      "result": "PASS"
+    },
+    {
+      "file": "ADAM_face_profile.png",
+      "similarity": 0.615,
+      "result": "PASS"
+    },
+    {
+      "file": "ADAM_head_back.png",
+      "result": "exempt (no face visible)"
+    },
+    {
+      "file": "ADAM_expression_afraid.png",
+      "similarity": 0.753,
+      "result": "PASS"
+    },
+    {
+      "file": "ADAM_expression_grief.png",
+      "similarity": 0.707,
+      "result": "PASS"
+    },
+    {
+      "file": "ADAM_full_garment_front.png",
+      "similarity": 0.908,
+      "result": "PASS"
+    },
+    {
+      "file": "ADAM_full_garment_back.png",
+      "result": "exempt (no face visible)"
+    }
+  ],
+  "pass_rate": "5/5"
+}
