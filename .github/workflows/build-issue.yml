@@ -1,0 +1,63 @@
+name: Build issue (upscale + print interior PDF)
+
+on:
+  workflow_dispatch:
+    inputs:
+      script:
+        description: "Issue script path"
+        default: "scripts/issue01_in_the_beginning.json"
+        required: true
+      proof:
+        description: "Stamp pages PROOF"
+        default: "true"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: |
+          sudo apt-get update && sudo apt-get install -y poppler-utils unzip
+          pip install fal-client pyyaml pillow beautifulsoup4 playwright
+          python -m playwright install --with-deps chromium
+      - name: Rebuild WEB verse database from the committed source archive
+        run: |
+          unzip -q source/eng-web_html.zip -d /tmp/web_html
+          python -I pipeline/build_verse_db.py source/eng-web_html.zip /tmp/web_html data/web.sqlite
+      - name: Verify script against WEB
+        run: python -I pipeline/verify_script.py data/web.sqlite "${{ inputs.script }}"
+      - name: Measure layout (draft art)
+        run: |
+          python pipeline/layout_issue.py "${{ inputs.script }}" build/measure
+          cp build/measure/layout_report.json "qa/$(basename ${{ inputs.script }} .json | cut -c1-7)_layout_report.json"
+      - name: Upscale to print resolution
+        env:
+          FAL_KEY: ${{ secrets.FAL_KEY }}
+        run: python pipeline/upscale_panels.py "${{ inputs.script }}" "qa/$(basename ${{ inputs.script }} .json | cut -c1-7)_layout_report.json"
+      - name: Build print interior
+        run: |
+          FLAG=""; if [ "${{ inputs.proof }}" = "true" ]; then FLAG="--proof"; fi
+          python pipeline/layout_issue.py "${{ inputs.script }}" build/print $FLAG
+          cp build/print/layout_report.json "qa/$(basename ${{ inputs.script }} .json | cut -c1-7)_print_report.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: interior
+          path: |
+            build/print/*.pdf
+            build/print/preview/*.jpg
+          retention-days: 30
+      - name: Commit reports
+        run: |
+          git config user.name "scripture-comics-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add qa
+          git commit -m "Build reports: ${{ inputs.script }}" || echo "nothing to commit"
+          git pull --rebase && git push

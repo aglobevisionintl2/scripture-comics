@@ -25,14 +25,14 @@ GUTTER = 0.14
 BOOK = {"GEN": "Genesis", "EXO": "Exodus"}
 
 GRIDS = {  # layout keyword -> (grid-template-rows, grid-template-columns, areas)
-    "three tall vertical": ("1fr", "1fr 1fr 1fr", ['"a b c"']),
-    "large top panel, two bottom": ("1.35fr 1fr", "1fr 1fr", ['"a a"', '"b c"']),
-    "two wide horizontal": ("1fr 1fr", "1fr", ['"a"', '"b"']),
-    "four panels, grid": ("1fr 1fr", "1fr 1fr", ['"a b"', '"c d"']),
-    "tall left panel, two stacked right": ("1fr 1fr", "1fr 1fr", ['"a b"', '"a c"']),
-    "large panel split sea/sky, small bottom": ("2.2fr 1fr", "1fr", ['"a"', '"b"']),
-    "wide top panel, large bottom": ("1fr 1.5fr", "1fr", ['"a"', '"b"']),
-    "three panels, final panel largest": ("1fr 1fr 1.6fr", "1fr", ['"a"', '"b"', '"c"']),
+    "three tall vertical": ("1fr", "1fr 1fr 1fr", ["a b c"]),
+    "large top panel, two bottom": ("1.35fr 1fr", "1fr 1fr", ["a a", "b c"]),
+    "two wide horizontal": ("1fr 1fr", "1fr", ["a", "b"]),
+    "four panels, grid": ("1fr 1fr", "1fr 1fr", ["a b", "c d"]),
+    "tall left panel, two stacked right": ("1fr 1fr", "1fr 1fr", ["a b", "a c"]),
+    "large panel split sea/sky, small bottom": ("2.2fr 1fr", "1fr", ["a", "b"]),
+    "wide top panel, large bottom": ("1fr 1.5fr", "1fr", ["a", "b"]),
+    "three panels, final panel largest": ("1fr 1fr 1.6fr", "1fr", ["a", "b", "c"]),
 }
 
 
@@ -41,6 +41,15 @@ def grid_for(layout):
         if layout.startswith(k):
             return v
     raise SystemExit(f"No grid template for layout: {layout}")
+
+
+def art_file(art, name):
+    """Prefer the upscaled print file when it exists."""
+    stem = Path(name).stem
+    for cand in (art / "print" / f"{stem}.jpg", art / "print" / f"{stem}.png", art / name):
+        if cand.exists():
+            return cand
+    return art / name
 
 
 def esc(s):
@@ -69,16 +78,15 @@ body {{ background: #fff; }}
 .live {{ position: absolute; display: grid; gap: {GUTTER}in; }}
 .panel {{ position: relative; overflow: hidden; border: 1.4pt solid #1d140c; background: #111; }}
 .panel img {{ position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }}
+.panel.cast img {{ object-position: center 22%; }}
 .letters {{ position: absolute; left: 0.09in; top: 0.09in; right: 0.09in; display: flex; flex-direction: column;
            align-items: flex-start; gap: 0.06in; }}
 .cap {{ background: #f3e6c8; border: 0.8pt solid #3a2410; padding: 0.045in 0.08in; font-size: 9.6pt; line-height: 1.22;
         max-width: 88%; color: #24170c; }}
-.divine {{ font-family: 'Cinzel', serif; font-weight: 600; font-size: 11pt; line-height: 1.28; color: #fff6dc; max-width: 92%;
-          letter-spacing: 0.02em; padding: 0.02in 0.04in;
-          text-shadow: 0 0 0 #3a2410, 0.6pt 0 0 #3a2410, -0.6pt 0 0 #3a2410, 0 0.6pt 0 #3a2410, 0 -0.6pt 0 #3a2410,
-                       0.6pt 0.6pt 0 #3a2410, -0.6pt -0.6pt 0 #3a2410, 0.6pt -0.6pt 0 #3a2410, -0.6pt 0.6pt 0 #3a2410; }}
+.divine {{ font-family: 'Cinzel', serif; font-weight: 600; font-size: 11pt; line-height: 1.3; color: #ffe9b0; max-width: 92%;
+          letter-spacing: 0.02em; padding: 0.06in 0.1in; background: #2e1d0e; border-radius: 0.06in; }}
 .tag {{ font-family: 'EBG', serif; font-style: italic; font-size: 7.5pt; color: #6b4a2a; white-space: nowrap; margin-left: 0.04in; }}
-.divine .tag {{ color: #fff6dc; font-family: 'EBG'; font-weight: 500; }}
+.divine .tag {{ color: #e8cf96; font-family: 'EBG'; font-weight: 500; }}
 .footer {{ position: absolute; font-size: 8.5pt; color: #4a3220; display: flex; gap: 0.18in; }}
 .full {{ position: absolute; inset: 0; }}
 .full img {{ width: 100%; height: 100%; object-fit: cover; }}
@@ -146,7 +154,7 @@ def main(script_path, out_dir, proof):
     verify_text(sc, db)
     tag = f"issue{sc['issue']:02d}"
     art = ROOT / "art" / tag
-    out = Path(out_dir)
+    out = Path(out_dir).resolve()
     out.mkdir(parents=True, exist_ok=True)
     book_name = BOOK[sc["book"]]
     b = Book(proof)
@@ -182,7 +190,7 @@ def main(script_path, out_dir, proof):
         foot = f"{pg['verses']}"
         if pg["layout"].startswith("full-page splash"):
             pn = pg["panels"][0]
-            img = art / f"p{pg['page']:02d}_{pn['panel']}.png"
+            img = art_file(art, f"p{pg['page']:02d}_{pn['panel']}.png")
             title = (f'<div style="position:absolute;left:{left}in;top:{top}in;width:{width}in;text-align:center;color:#fff6dc;'
                      f'text-shadow:0 0 6pt #000">'
                      f'<div style="font-family:Cinzel;font-size:11pt;letter-spacing:0.25em">SCRIPTURE COMICS · ISSUE {sc["issue"]}</div>'
@@ -196,11 +204,11 @@ def main(script_path, out_dir, proof):
         names = "abcd"
         cells = []
         for i, pn in enumerate(pg["panels"]):
-            img = art / f"p{pg['page']:02d}_{pn['panel']}.png"
-            cells.append(f'<div class="panel" style="grid-area:{names[i]}">'
+            img = art_file(art, f"p{pg['page']:02d}_{pn['panel']}.png")
+            cells.append(f'<div class="panel{" cast" if pn["characters"] else ""}" style="grid-area:{names[i]}">'
                          f'<img data-panel="p{pg["page"]}.{pn["panel"]}" src="{img.as_uri()}">{letters(pn, sc["book"])}</div>')
         b.add(f'<div class="live" style="left:{left}in;top:{top}in;width:{width}in;height:{height}in;'
-              f'grid-template-rows:{rows};grid-template-columns:{cols};grid-template-areas:{" ".join(areas)}">'
+              f'grid-template-rows:{rows};grid-template-columns:{cols};grid-template-areas:{" ".join("'" + a + "'" for a in areas)}">'
               + "".join(cells) + "</div>", foot)
 
     # Moral page
@@ -215,7 +223,9 @@ def main(script_path, out_dir, proof):
         if len(b.pages) % 2 == 1:  # next page would be verso: insert blank so coloring lands on recto
             b.add("", None)
         recto, tx, left, top, width, height, _ = b.live_box()
-        img = art / "coloring" / f"coloring_{i}.png"
+        img = art_file(art / "coloring", f"coloring_{i}.png")
+        if (art / "print" / f"coloring_{i}.png").exists():
+            img = art / "print" / f"coloring_{i}.png"
         if img.exists():
             body = (f'<div style="position:absolute;left:{left}in;top:{top}in;width:{width}in;height:{height - 0.3}in;'
                     f'background:#fff;border:1pt solid #2b1d12"><img src="{img.as_uri()}" '
@@ -245,8 +255,9 @@ def main(script_path, out_dir, proof):
         page.goto(html_path.as_uri())
         page.wait_for_load_state("networkidle")
         page.evaluate("document.fonts.ready")
+        page.wait_for_function("[...document.images].every(i => i.complete && i.naturalWidth > 0)")
         dpi = page.evaluate("""() => [...document.querySelectorAll('img[data-panel]')].map(i => {
-            const r = i.getBoundingClientRect(); const wIn = r.width/96, hIn = r.height/96;
+            const r = i.parentElement.getBoundingClientRect(); const wIn = r.width/96, hIn = r.height/96;
             const scale = Math.max(wIn/i.naturalWidth, hIn/i.naturalHeight);
             return {panel: i.dataset.panel, box_in: [+wIn.toFixed(2), +hIn.toFixed(2)],
                     px: [i.naturalWidth, i.naturalHeight], effective_dpi: Math.round(1/scale)}; })""")

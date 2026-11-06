@@ -1,2 +1,3 @@
 data/web.sqlite
 __pycache__/
+build/
