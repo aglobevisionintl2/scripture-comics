@@ -260,53 +260,32 @@
   "p7.2": {
     "file": "p07_2.png",
     "characters": [
-      "ADAM"
+      "ADAM",
+      "EVE"
     ],
-    "status": "FAIL",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5720,
+        "seed": 5820,
         "checks": {
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "ADAM": 0.578,
-          "extra_people": true
+          "ADAM": 0.63,
+          "EVE": 0.443
         },
         "pass": false
       },
       {
-        "seed": 5721,
+        "seed": 5821,
         "checks": {
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "ADAM": 0.601,
-          "extra_people": true
+          "ADAM": 0.673,
+          "EVE": 0.511
         },
-        "pass": false
-      },
-      {
-        "seed": 5722,
-        "checks": {
-          "faces_detected": 2,
-          "people_detected": 2,
-          "letterbox": false,
-          "ADAM": 0.473,
-          "extra_people": true
-        },
-        "pass": false
-      },
-      {
-        "seed": 5723,
-        "checks": {
-          "faces_detected": 2,
-          "people_detected": 2,
-          "letterbox": false,
-          "ADAM": 0.594,
-          "extra_people": true
-        },
-        "pass": false
+        "pass": true
       }
     ]
   },
@@ -362,47 +341,16 @@
     "characters": [
       "SERPENT"
     ],
-    "status": "FAIL",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5820,
+        "seed": 5920,
         "checks": {
           "faces_detected": 0,
           "people_detected": 1,
-          "letterbox": false,
-          "extra_people": true
+          "letterbox": false
         },
-        "pass": false
-      },
-      {
-        "seed": 5821,
-        "checks": {
-          "faces_detected": 0,
-          "people_detected": 1,
-          "letterbox": false,
-          "extra_people": true
-        },
-        "pass": false
-      },
-      {
-        "seed": 5822,
-        "checks": {
-          "faces_detected": 0,
-          "people_detected": 1,
-          "letterbox": false,
-          "extra_people": true
-        },
-        "pass": false
-      },
-      {
-        "seed": 5823,
-        "checks": {
-          "faces_detected": 0,
-          "people_detected": 1,
-          "letterbox": false,
-          "extra_people": true
-        },
-        "pass": false
+        "pass": true
       }
     ]
   },

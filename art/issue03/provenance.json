@@ -171,19 +171,6 @@
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   },
   {
-    "panel": "p7.2",
-    "file": "p07_2.png",
-    "model": "fal-ai/flux-2-pro/edit",
-    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; wearing a simple covering sewn from large green fig leaves); draw this same person with an identical face. Comic panel, close, the man pointing toward the woman. The man blaming the woman. The only people in the image are the 1 described; no other people anywhere. Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
-    "references": [
-      "designs/locked/ADAM/ADAM_face_front.png"
-    ],
-    "seed": 5721,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T17:18:44.192624Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
     "panel": "p7.3",
     "file": "p07_3.png",
     "model": "fal-ai/flux-2-pro/edit",
@@ -207,19 +194,6 @@
     "seed": 5810,
     "post": "trimmed 5% border",
     "generated_utc": "2026-11-06T17:19:39.619218Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p8.2",
-    "file": "p08_2.png",
-    "model": "fal-ai/flux-2-pro/edit",
-    "prompt": "Image 1 shows the exact The serpent (species look: large patterned serpent, olive and bronze scales with dark diamond pattern, eyes: amber, vertical pupils, size: long, thick-bodied; none); draw this same creature identically. Comic panel, close at ground level, a bare human heel near the serpent's head in the dust. A heel and the serpent's head on the ground. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
-    "references": [
-      "designs/locked/SERPENT/SERPENT_face_front.png"
-    ],
-    "seed": 5820,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T17:20:53.807757Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   },
   {
@@ -298,6 +272,33 @@
     "seed": 6110,
     "post": "trimmed 5% border",
     "generated_utc": "2026-11-06T17:24:32.475094Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p7.2",
+    "file": "p07_2.png",
+    "model": "fal-ai/flux-2-pro/edit",
+    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; wearing a simple covering sewn from large green fig leaves); draw this same person with an identical face. Image 2 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; wearing a simple covering sewn from large green fig leaves, long hair over her shoulders); draw this same person with an identical face. Comic panel, close, the man pointing toward the woman beside him. The man blaming the woman. The only people in the image are the 2 described; no other people anywhere. Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [
+      "designs/locked/ADAM/ADAM_face_front.png",
+      "designs/locked/EVE/EVE_face_front.png"
+    ],
+    "seed": 5821,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T17:27:40.551962Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p8.2",
+    "file": "p08_2.png",
+    "model": "fal-ai/flux-2-pro/edit",
+    "prompt": "Image 1 shows the exact The serpent (species look: large patterned serpent, olive and bronze scales with dark diamond pattern, eyes: amber, vertical pupils, size: long, thick-bodied; none); draw this same creature identically. Comic panel, close at ground level, a bare human heel near the serpent's head in the dust. A heel and the serpent's head on the ground. Other people may appear as described. Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [
+      "designs/locked/SERPENT/SERPENT_face_front.png"
+    ],
+    "seed": 5920,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T17:27:56.603062Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   }
 ]
