@@ -18,12 +18,12 @@
     },
     {
       "file": "EVE_face_three_quarter.png",
-      "similarity": 0.521,
+      "similarity": 0.598,
       "result": "PASS"
     },
     {
       "file": "EVE_face_profile.png",
-      "similarity": 0.492,
+      "similarity": 0.588,
       "result": "PASS"
     },
     {
@@ -32,14 +32,14 @@
     },
     {
       "file": "EVE_expression_afraid.png",
-      "similarity": 0.353,
-      "result": "FAIL"
+      "similarity": 0.524,
+      "result": "PASS"
     },
     {
       "file": "EVE_expression_grief.png",
-      "similarity": 0.288,
-      "result": "FAIL"
+      "similarity": 0.596,
+      "result": "PASS"
     }
   ],
-  "pass_rate": "4/6"
+  "pass_rate": "6/6"
 }
