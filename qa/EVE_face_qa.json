@@ -3,13 +3,27 @@
   "threshold": 0.45,
   "views": [
     {
+      "file": "EVE_full_garment_front.png",
+      "similarity": 0.929,
+      "result": "PASS"
+    },
+    {
+      "file": "EVE_full_garment_back.png",
+      "result": "exempt (no face visible)"
+    },
+    {
+      "file": "EVE_face_front_garment.png",
+      "similarity": 0.773,
+      "result": "PASS"
+    },
+    {
       "file": "EVE_face_three_quarter.png",
-      "similarity": 0.706,
+      "similarity": 0.521,
       "result": "PASS"
     },
     {
       "file": "EVE_face_profile.png",
-      "similarity": 0.594,
+      "similarity": 0.492,
       "result": "PASS"
     },
     {
@@ -18,23 +32,14 @@
     },
     {
       "file": "EVE_expression_afraid.png",
-      "similarity": 0.589,
-      "result": "PASS"
+      "similarity": 0.353,
+      "result": "FAIL"
     },
     {
       "file": "EVE_expression_grief.png",
-      "similarity": 0.465,
-      "result": "PASS"
-    },
-    {
-      "file": "EVE_full_garment_front.png",
-      "similarity": 0.929,
-      "result": "PASS"
-    },
-    {
-      "file": "EVE_full_garment_back.png",
-      "result": "exempt (no face visible)"
+      "similarity": 0.288,
+      "result": "FAIL"
     }
   ],
-  "pass_rate": "5/5"
+  "pass_rate": "4/6"
 }
