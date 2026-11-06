@@ -1,0 +1,156 @@
+[
+  {
+    "panel": "p1.1",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.097,
+    "px": [
+      2282,
+      4047
+    ],
+    "effective_dpi_after": 320
+  },
+  {
+    "panel": "p2.1",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2080
+    ],
+    "effective_dpi_after": 480
+  },
+  {
+    "panel": "p2.2",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2080
+    ],
+    "effective_dpi_after": 480
+  },
+  {
+    "panel": "p3.1",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2080
+    ],
+    "effective_dpi_after": 419
+  },
+  {
+    "panel": "p3.2",
+    "esrgan_scale": 2,
+    "lanczos_topup": 1.0,
+    "px": [
+      1844,
+      1384
+    ],
+    "effective_dpi_after": 375
+  },
+  {
+    "panel": "p3.3",
+    "esrgan_scale": 2,
+    "lanczos_topup": 1.0,
+    "px": [
+      1844,
+      1384
+    ],
+    "effective_dpi_after": 375
+  },
+  {
+    "panel": "p4.1",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2080
+    ],
+    "effective_dpi_after": 601
+  },
+  {
+    "panel": "p4.2",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2768
+    ],
+    "effective_dpi_after": 532
+  },
+  {
+    "panel": "p5.1",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2080
+    ],
+    "effective_dpi_after": 480
+  },
+  {
+    "panel": "p5.2",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2080
+    ],
+    "effective_dpi_after": 480
+  },
+  {
+    "panel": "p6.1",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2080
+    ],
+    "effective_dpi_after": 419
+  },
+  {
+    "panel": "p6.2",
+    "esrgan_scale": 2,
+    "lanczos_topup": 1.0,
+    "px": [
+      1844,
+      1384
+    ],
+    "effective_dpi_after": 375
+  },
+  {
+    "panel": "p6.3",
+    "esrgan_scale": 2,
+    "lanczos_topup": 1.0,
+    "px": [
+      1844,
+      1384
+    ],
+    "effective_dpi_after": 375
+  },
+  {
+    "panel": "p7.1",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.017,
+    "px": [
+      3752,
+      2816
+    ],
+    "effective_dpi_after": 320
+  },
+  {
+    "coloring": "coloring_1.png",
+    "px": [
+      2832,
+      3776
+    ]
+  },
+  {
+    "coloring": "coloring_2.png",
+    "px": [
+      2832,
+      3776
+    ]
+  }
+]
