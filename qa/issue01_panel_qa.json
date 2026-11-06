@@ -358,7 +358,7 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 6920,
+        "seed": 7920,
         "checks": {
           "faces_detected": 0,
           "people_detected": 2,
@@ -422,7 +422,7 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 7030,
+        "seed": 8030,
         "checks": {
           "faces_detected": 0,
           "people_detected": 0,
