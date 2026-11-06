@@ -69,11 +69,11 @@
     "file": "ADAM_full_garment_back.png",
     "view": "full_garment_back",
     "face_check": false,
-    "seed": 2006,
+    "seed": 2107,
     "model": "fal-ai/flux-2-pro/edit",
     "reference": "designs/locked/ADAM/ADAM_face_front.png",
     "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, hair color, hair length and hair texture, and beard. Full-body standing figure, back view, head to bare feet visible, wearing Simple wrap garment of tanned animal skins, knee length, bare arms, leather tie.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
-    "generated_utc": "2026-11-06T06:05:33.824003Z",
+    "generated_utc": "2026-11-06T06:13:10.542165Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   }
 ]
