@@ -2,11 +2,15 @@
   "p1.1": {
     "file": "p01_1.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5110,
-        "similarity": {},
+        "seed": 6110,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -14,11 +18,15 @@
   "p2.1": {
     "file": "p02_1.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5210,
-        "similarity": {},
+        "seed": 6210,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -26,11 +34,15 @@
   "p2.2": {
     "file": "p02_2.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5220,
-        "similarity": {},
+        "seed": 6220,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -38,11 +50,15 @@
   "p2.3": {
     "file": "p02_3.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5230,
-        "similarity": {},
+        "seed": 6230,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -50,11 +66,15 @@
   "p3.1": {
     "file": "p03_1.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5310,
-        "similarity": {},
+        "seed": 6310,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -62,11 +82,15 @@
   "p3.2": {
     "file": "p03_2.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5320,
-        "similarity": {},
+        "seed": 6320,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -74,11 +98,24 @@
   "p3.3": {
     "file": "p03_3.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5330,
-        "similarity": {},
+        "seed": 6330,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": true
+        },
+        "pass": false
+      },
+      {
+        "seed": 6331,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -86,11 +123,15 @@
   "p4.1": {
     "file": "p04_1.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5410,
-        "similarity": {},
+        "seed": 6410,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -98,11 +139,15 @@
   "p4.2": {
     "file": "p04_2.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5420,
-        "similarity": {},
+        "seed": 6420,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -110,11 +155,15 @@
   "p5.1": {
     "file": "p05_1.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5510,
-        "similarity": {},
+        "seed": 6510,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -122,11 +171,15 @@
   "p5.2": {
     "file": "p05_2.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5520,
-        "similarity": {},
+        "seed": 6520,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -134,11 +187,15 @@
   "p5.3": {
     "file": "p05_3.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5530,
-        "similarity": {},
+        "seed": 6530,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -146,11 +203,15 @@
   "p5.4": {
     "file": "p05_4.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5540,
-        "similarity": {},
+        "seed": 6540,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -158,11 +219,15 @@
   "p6.1": {
     "file": "p06_1.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5610,
-        "similarity": {},
+        "seed": 6610,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -170,11 +235,15 @@
   "p6.2": {
     "file": "p06_2.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5620,
-        "similarity": {},
+        "seed": 6620,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -182,11 +251,15 @@
   "p6.3": {
     "file": "p06_3.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5630,
-        "similarity": {},
+        "seed": 6630,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -194,11 +267,15 @@
   "p7.1": {
     "file": "p07_1.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5710,
-        "similarity": {},
+        "seed": 6710,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -206,11 +283,15 @@
   "p7.2": {
     "file": "p07_2.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5720,
-        "similarity": {},
+        "seed": 6720,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -218,11 +299,15 @@
   "p8.1": {
     "file": "p08_1.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5810,
-        "similarity": {},
+        "seed": 6810,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -230,11 +315,15 @@
   "p8.2": {
     "file": "p08_2.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5820,
-        "similarity": {},
+        "seed": 6820,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -248,10 +337,13 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 5910,
-        "similarity": {
-          "ADAM": 0.867,
-          "EVE": 0.909
+        "seed": 6910,
+        "checks": {
+          "faces_detected": 2,
+          "people_detected": 2,
+          "letterbox": false,
+          "ADAM": 0.769,
+          "EVE": 0.691
         },
         "pass": true
       }
@@ -263,11 +355,15 @@
       "ADAM",
       "EVE"
     ],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5920,
-        "similarity": {},
+        "seed": 6920,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 2,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -275,11 +371,15 @@
   "p9.3": {
     "file": "p09_3.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 5930,
-        "similarity": {},
+        "seed": 6930,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -287,11 +387,15 @@
   "p10.1": {
     "file": "p10_1.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 6010,
-        "similarity": {},
+        "seed": 7010,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -299,11 +403,15 @@
   "p10.2": {
     "file": "p10_2.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 6020,
-        "similarity": {},
+        "seed": 7020,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]
@@ -311,11 +419,15 @@
   "p10.3": {
     "file": "p10_3.png",
     "characters": [],
-    "status": "PASS (no faces to check)",
+    "status": "PASS",
     "attempts": [
       {
-        "seed": 6030,
-        "similarity": {},
+        "seed": 7030,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
         "pass": true
       }
     ]

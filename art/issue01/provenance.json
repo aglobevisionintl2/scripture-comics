@@ -1,286 +1,5 @@
 [
   {
-    "panel": "p2.1",
-    "file": "p02_1.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, wide, low horizon. A shapeless, barren earth under a starless sky; no life, no landforms. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5210,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:29:52.788023Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p2.2",
-    "file": "p02_2.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, close on dark water surface. Black, deep water stretching to the edge of sight. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5220,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:30:02.567499Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p2.3",
-    "file": "p02_3.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, wide, eye level just above water. Wind moving across the waters, rippling the surface in long lines. No figure, no dove, no light source (editorial rule for 1:2). Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5230,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:30:14.223680Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p3.1",
-    "file": "p03_1.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, wide. Light breaks across the darkness over the waters, warm and overwhelming. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5310,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:30:34.948280Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p3.2",
-    "file": "p03_2.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, wide, split composition. Light and darkness side by side, a clear boundary between them. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5320,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:30:49.281489Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p3.3",
-    "file": "p03_3.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, wide horizon, dusk turning to dawn. The first evening fading and the first morning rising over the water. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5330,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:31:09.965083Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p4.1",
-    "file": "p04_1.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, wide, looking along the horizon. The waters parting into waters above and waters below, with open space opening between them. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5410,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:31:28.534282Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p4.2",
-    "file": "p04_2.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, wide, looking up. A clear sky stretched above the waters, evening light at the edge. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5420,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:31:38.816059Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p5.1",
-    "file": "p05_1.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, aerial. Waters drawing back; dry land rising. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5510,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:31:49.034206Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p5.2",
-    "file": "p05_2.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, wide coastline. Bare land meeting wide seas. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5520,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:32:01.321132Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p5.3",
-    "file": "p05_3.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, medium, ground level. Grass, seed-bearing plants and fruit trees spreading across the land. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5530,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:32:14.173366Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p5.4",
-    "file": "p05_4.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, wide, sunset over green land. A green, living land at evening. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5540,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:32:27.110476Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p6.1",
-    "file": "p06_1.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, looking up from the land. Points of light beginning to appear in the sky. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5610,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:32:45.890985Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p6.2",
-    "file": "p06_2.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, wide sky. The sun bright over the land, the moon and a field of stars across the night side. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5620,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:32:58.992611Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p6.3",
-    "file": "p06_3.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, horizon at dusk with moon rising. Sun setting and moon rising together. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5630,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:33:44.781692Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p7.1",
-    "file": "p07_1.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, split view above and below the waterline. Fish and great sea creatures filling the water below; birds crossing the sky above. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5710,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:33:57.727940Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p7.2",
-    "file": "p07_2.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, wide coast at dusk, birds roosting. Evening over a sea full of life. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5720,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:34:10.467230Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p8.1",
-    "file": "p08_1.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, wide plain. Livestock, creeping things and wild animals across the land. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5810,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:34:21.229463Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p8.2",
-    "file": "p08_2.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, low and quiet, golden light on the ground. Stillness: the animals at rest, warm light falling on the earth; no human figure yet. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5820,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:34:33.410412Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p9.3",
-    "file": "p09_3.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, extreme wide, the whole created world at sunset. Land, sea, sky and creatures together. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 5930,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:35:47.788287Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p10.1",
-    "file": "p10_1.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, wide. The finished world under clear sky, from heavens to sea. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 6010,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:35:58.486920Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p10.2",
-    "file": "p10_2.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, quiet landscape at morning. Calm and stillness across the land; no movement, no figure. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 6020,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:36:07.898462Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p10.3",
-    "file": "p10_3.png",
-    "model": "fal-ai/flux-2-pro",
-    "prompt": "Comic panel, wide, soft radiant morning light. The seventh-day morning in gentle light over everything made. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [],
-    "seed": 6030,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:36:21.259286Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p9.1",
-    "file": "p09_1.png",
-    "model": "fal-ai/flux-2-pro/edit",
-    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; framed from the collarbone up); draw this same person with an identical face. Image 2 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; framed from the collarbone up, her long hair falling forward over both shoulders); draw this same person with an identical face. Comic panel, head-and-shoulders, two figures side by side in warm light. The first man and woman side by side, framed from the collarbone up, green leaves softly blurred in the foreground, Eve's long hair falling forward over her shoulders (framing rule Gen 2:25). Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [
-      "designs/locked/ADAM/ADAM_face_front.png",
-      "designs/locked/EVE/EVE_face_front.png"
-    ],
-    "seed": 5910,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:38:02.502799Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
-    "panel": "p9.2",
-    "file": "p09_2.png",
-    "model": "fal-ai/flux-2-pro/edit",
-    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; framed from the collarbone up); draw this same person with an identical face. Image 2 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; framed from the collarbone up, her long hair falling forward over both shoulders); draw this same person with an identical face. Comic panel, medium-wide from behind, figures small against a vast land. The two seen from behind, small in the distance, standing in tall meadow grass that rises to their shoulders, looking out over the living earth. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border.",
-    "references": [
-      "designs/locked/ADAM/ADAM_face_front.png",
-      "designs/locked/EVE/EVE_face_front.png"
-    ],
-    "seed": 5920,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:38:21.102491Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
     "panel": "p1.1",
     "file": "p01_1.png",
     "model": "fal-ai/flux-2-pro",
@@ -288,7 +7,288 @@
     "references": [],
     "seed": 6110,
     "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T06:41:04.162366Z",
+    "generated_utc": "2026-11-06T06:43:02.956276Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p2.1",
+    "file": "p02_1.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, wide, low horizon. A shapeless, barren earth under a starless sky; no life, no landforms. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6210,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:43:15.822694Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p2.2",
+    "file": "p02_2.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, close on dark water surface. Black, deep water stretching to the edge of sight. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6220,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:43:26.448893Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p2.3",
+    "file": "p02_3.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, wide, eye level just above water. Wind moving across the waters, rippling the surface in long lines. No figure, no dove, no light source (editorial rule for 1:2). No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6230,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:43:38.666516Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p3.1",
+    "file": "p03_1.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, wide. Light breaks across the darkness over the waters, warm and overwhelming. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6310,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:43:51.356881Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p3.2",
+    "file": "p03_2.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, wide, split composition. Light and darkness side by side, a clear boundary between them. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6320,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:44:04.748982Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p3.3",
+    "file": "p03_3.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, wide horizon, dusk turning to dawn. The first evening fading and the first morning rising over the water. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6331,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:44:32.874002Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p4.1",
+    "file": "p04_1.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, wide, looking along the horizon. The waters parting into waters above and waters below, with open space opening between them. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6410,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:44:45.121813Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p4.2",
+    "file": "p04_2.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, wide, looking up. A clear sky stretched above the waters, evening light at the edge. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6420,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:44:56.841345Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p5.1",
+    "file": "p05_1.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, aerial. Waters drawing back; dry land rising. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6510,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:45:08.983660Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p5.2",
+    "file": "p05_2.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, wide coastline. Bare land meeting wide seas. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6520,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:45:24.457034Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p5.3",
+    "file": "p05_3.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, medium, ground level. Grass, seed-bearing plants and fruit trees spreading across the land. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6530,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:45:36.947182Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p5.4",
+    "file": "p05_4.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, wide, sunset over green land. A green, living land at evening. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6540,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:45:49.378841Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p6.1",
+    "file": "p06_1.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, looking up from the land. Points of light beginning to appear in the sky. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6610,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:46:02.463969Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p6.2",
+    "file": "p06_2.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, wide sky. The sun bright over the land, the moon and a field of stars across the night side. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6620,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:46:16.290259Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p6.3",
+    "file": "p06_3.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, horizon at dusk with moon rising. Sun setting and moon rising together. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6630,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:46:30.882723Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p7.1",
+    "file": "p07_1.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, split view above and below the waterline. Fish and great sea creatures filling the water below; birds crossing the sky above. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6710,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:46:45.523033Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p7.2",
+    "file": "p07_2.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, wide coast at dusk, birds roosting. Evening over a sea full of life. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6720,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:47:00.478900Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p8.1",
+    "file": "p08_1.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, wide plain. Livestock, creeping things and wild animals across the land. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6810,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:47:13.108168Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p8.2",
+    "file": "p08_2.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, low and quiet, golden light on the ground. Stillness: the animals at rest, warm light falling on the earth; no human figure yet. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6820,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:47:27.641928Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p9.1",
+    "file": "p09_1.png",
+    "model": "fal-ai/flux-2-pro/edit",
+    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; framed from the collarbone up); draw this same person with an identical face. Image 2 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; framed from the collarbone up, her long hair falling forward over both shoulders); draw this same person with an identical face. Comic panel, extreme close-up of two faces side by side, cropped just below the chin. The first man and woman, faces only, cropped below the chin, large soft green leaves in the foreground at the lower edge, Eve's long hair framing her face (framing rule Gen 2:25). The only people in the image are the 2 described; no other people anywhere. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [
+      "designs/locked/ADAM/ADAM_face_front.png",
+      "designs/locked/EVE/EVE_face_front.png"
+    ],
+    "seed": 6910,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:47:46.410711Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p9.2",
+    "file": "p09_2.png",
+    "model": "fal-ai/flux-2-pro/edit",
+    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; framed from the collarbone up); draw this same person with an identical face. Image 2 shows the exact face and hair of Eve (age look: about 25, skin: warm olive-brown, slightly lighter than Adam, hair: long, dark brown-black, thick, loose waves, reaching mid-chest (matches selected face E1), eyes: dark brown, build: slender, strong; framed from the collarbone up, her long hair falling forward over both shoulders); draw this same person with an identical face. Comic panel, medium-wide from behind, figures small against a vast land. Two small dark silhouettes far in the distance, seen from behind, backlit by the low sun, standing in tall meadow grass that rises to their shoulders, overlooking the living earth. The only people in the image are the 2 described; no other people anywhere. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [
+      "designs/locked/ADAM/ADAM_face_front.png",
+      "designs/locked/EVE/EVE_face_front.png"
+    ],
+    "seed": 6920,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:48:03.402022Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p9.3",
+    "file": "p09_3.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, extreme wide, the whole created world at sunset. Land, sea, sky and wild creatures together at sunset; no people visible. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 6930,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:48:18.162089Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p10.1",
+    "file": "p10_1.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, wide. The finished world under clear sky, from heavens to sea. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 7010,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:48:34.436168Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p10.2",
+    "file": "p10_2.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, quiet landscape at morning. Calm and stillness across the land; no movement, no figure. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 7020,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:48:46.605682Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p10.3",
+    "file": "p10_3.png",
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Comic panel, wide, soft radiant morning light. The seventh-day morning in gentle light over everything made. No people, no human figures, no faces anywhere, including in water, clouds or rocks. Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [],
+    "seed": 7030,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T06:48:59.599196Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   }
 ]
