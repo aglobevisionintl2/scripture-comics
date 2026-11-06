@@ -10,133 +10,609 @@
     "speech": "Standard speech bubble with tail"
   },
   "pages": [
-    {"page": 1, "verses": "Genesis 1:1", "layout": "full-page splash with series title, issue title and opening reference",
-     "panels": [
-      {"panel": 1, "camera": "extreme wide, cosmic", "characters": [],
-       "art": "Vast darkness with the first faint shapes of the heavens and a formless earth; no figure, no symbol.",
-       "text": [{"type": "caption", "ref": "1:1", "text": "In the beginning, God created the heavens and the earth."}]}]},
-    {"page": 2, "verses": "Genesis 1:2", "layout": "three tall vertical panels",
-     "panels": [
-      {"panel": 1, "camera": "wide, low horizon", "characters": [],
-       "art": "A shapeless, barren earth under a starless sky; no life, no landforms.",
-       "text": [{"type": "caption", "ref": "1:2", "text": "The earth was formless and empty."}]},
-      {"panel": 2, "camera": "close on dark water surface", "characters": [],
-       "art": "Black, deep water stretching to the edge of sight.",
-       "text": [{"type": "caption", "ref": "1:2", "text": "Darkness was on the surface of the deep"}]},
-      {"panel": 3, "camera": "wide, eye level just above water", "characters": [],
-       "art": "Wind moving across the waters, rippling the surface in long lines. No figure, no dove, no light source (editorial rule for 1:2).",
-       "text": [{"type": "caption", "ref": "1:2", "text": "and God’s Spirit was hovering over the surface of the waters."}]}]},
-    {"page": 3, "verses": "Genesis 1:3–5", "layout": "large top panel, two bottom panels",
-     "panels": [
-      {"panel": 1, "camera": "wide", "characters": [],
-       "art": "Light breaks across the darkness over the waters, warm and overwhelming.",
-       "text": [{"type": "caption", "ref": "1:3", "text": "God said,"},
-                {"type": "divine", "ref": "1:3", "text": "Let there be light,"},
-                {"type": "caption", "ref": "1:3", "text": "and there was light."}]},
-      {"panel": 2, "camera": "wide, split composition", "characters": [],
-       "art": "Light and darkness side by side, a clear boundary between them.",
-       "text": [{"type": "caption", "ref": "1:4", "text": "God saw the light, and saw that it was good. God divided the light from the darkness."}]},
-      {"panel": 3, "camera": "wide horizon, dusk turning to dawn", "characters": [],
-       "art": "The first evening fading and the first morning rising over the water.",
-       "text": [{"type": "caption", "ref": "1:5", "text": "God called the light “day”, and the darkness he called “night”. There was evening and there was morning, the first day."}]}]},
-    {"page": 4, "verses": "Genesis 1:6, 1:8", "layout": "two wide horizontal panels",
-     "panels": [
-      {"panel": 1, "camera": "wide, looking along the horizon", "characters": [],
-       "art": "The waters parting into waters above and waters below, with open space opening between them.",
-       "text": [{"type": "caption", "ref": "1:6", "text": "God said,"},
-                {"type": "divine", "ref": "1:6", "text": "Let there be an expanse in the middle of the waters, and let it divide the waters from the waters."}]},
-      {"panel": 2, "camera": "wide, looking up", "characters": [],
-       "art": "A clear sky stretched above the waters, evening light at the edge.",
-       "text": [{"type": "caption", "ref": "1:8", "text": "God called the expanse “sky”. There was evening and there was morning, a second day."}]}]},
-    {"page": 5, "verses": "Genesis 1:9–11, 1:13", "layout": "four panels, grid",
-     "panels": [
-      {"panel": 1, "camera": "aerial", "characters": [],
-       "art": "Waters drawing back; dry land rising.",
-       "text": [{"type": "caption", "ref": "1:9", "text": "God said,"},
-                {"type": "divine", "ref": "1:9", "text": "Let the waters under the sky be gathered together to one place, and let the dry land appear;"},
-                {"type": "caption", "ref": "1:9", "text": "and it was so."}]},
-      {"panel": 2, "camera": "wide coastline", "characters": [],
-       "art": "Bare land meeting wide seas.",
-       "text": [{"type": "caption", "ref": "1:10", "text": "God called the dry land “earth”, and the gathering together of the waters he called “seas”. God saw that it was good."}]},
-      {"panel": 3, "camera": "medium, ground level", "characters": [],
-       "art": "Grass, seed-bearing plants and fruit trees spreading across the land.",
-       "text": [{"type": "caption", "ref": "1:11", "text": "God said,"},
-                {"type": "divine", "ref": "1:11", "text": "Let the earth yield grass, herbs yielding seeds, and fruit trees bearing fruit after their kind, with their seeds in it, on the earth;"},
-                {"type": "caption", "ref": "1:11", "text": "and it was so."}]},
-      {"panel": 4, "camera": "wide, sunset over green land", "characters": [],
-       "art": "A green, living land at evening.",
-       "text": [{"type": "caption", "ref": "1:13", "text": "There was evening and there was morning, a third day."}]}]},
-    {"page": 6, "verses": "Genesis 1:14, 1:16, 1:19", "layout": "tall left panel, two stacked right panels",
-     "panels": [
-      {"panel": 1, "camera": "looking up from the land", "characters": [],
-       "art": "Points of light beginning to appear in the sky.",
-       "text": [{"type": "caption", "ref": "1:14", "text": "God said,"},
-                {"type": "divine", "ref": "1:14", "text": "Let there be lights in the expanse of the sky to divide the day from the night;"}]},
-      {"panel": 2, "camera": "wide sky", "characters": [],
-       "art": "The sun bright over the land, the moon and a field of stars across the night side.",
-       "text": [{"type": "caption", "ref": "1:16", "text": "God made the two great lights: the greater light to rule the day, and the lesser light to rule the night. He also made the stars."}]},
-      {"panel": 3, "camera": "horizon at dusk with moon rising", "characters": [],
-       "art": "Sun setting and moon rising together.",
-       "text": [{"type": "caption", "ref": "1:19", "text": "There was evening and there was morning, a fourth day."}]}]},
-    {"page": 7, "verses": "Genesis 1:20, 1:23", "layout": "large panel split sea/sky, small bottom panel",
-     "panels": [
-      {"panel": 1, "camera": "split view above and below the waterline", "characters": [],
-       "art": "Fish and great sea creatures filling the water below; birds crossing the sky above.",
-       "text": [{"type": "caption", "ref": "1:20", "text": "God said,"},
-                {"type": "divine", "ref": "1:20", "text": "Let the waters abound with living creatures, and let birds fly above the earth in the open expanse of the sky."}]},
-      {"panel": 2, "camera": "wide coast at dusk, birds roosting", "characters": [],
-       "art": "Evening over a sea full of life.",
-       "text": [{"type": "caption", "ref": "1:23", "text": "There was evening and there was morning, a fifth day."}]}]},
-    {"page": 8, "verses": "Genesis 1:24, 1:26", "layout": "wide top panel, large bottom panel",
-     "panels": [
-      {"panel": 1, "camera": "wide plain", "characters": [],
-       "art": "Livestock, creeping things and wild animals across the land.",
-       "text": [{"type": "caption", "ref": "1:24", "text": "God said,"},
-                {"type": "divine", "ref": "1:24", "text": "Let the earth produce living creatures after their kind, livestock, creeping things, and animals of the earth after their kind;"},
-                {"type": "caption", "ref": "1:24", "text": "and it was so."}]},
-      {"panel": 2, "camera": "low and quiet, golden light on the ground", "characters": [],
-       "art": "Stillness: the animals at rest, warm light falling on the earth; no human figure yet.",
-       "text": [{"type": "caption", "ref": "1:26", "text": "God said,"},
-                {"type": "divine", "ref": "1:26", "text": "Let’s make man in our image, after our likeness."}]}]},
-    {"page": 9, "verses": "Genesis 1:27–28, 1:31", "layout": "large top panel, two bottom panels",
-     "panels": [
-      {"panel": 1, "camera": "head-and-shoulders, two figures side by side in warm light", "characters": ["ADAM", "EVE"],
-       "art": "The first man and woman, shoulders-up only, Eve's hair over her shoulders (framing rule Gen 2:25).",
-       "text": [{"type": "caption", "ref": "1:27", "text": "God created man in his own image. In God’s image he created him; male and female he created them."}]},
-      {"panel": 2, "camera": "medium-wide from behind, figures small against a vast land", "characters": ["ADAM", "EVE"],
-       "art": "The two seen from behind at a distance, waist-down hidden by tall grass, looking out over the living earth.",
-       "text": [{"type": "caption", "ref": "1:28", "text": "God blessed them. God said to them,"},
-                {"type": "divine", "ref": "1:28", "text": "Be fruitful, multiply, fill the earth, and subdue it."}]},
-      {"panel": 3, "camera": "extreme wide, the whole created world at sunset", "characters": [],
-       "art": "Land, sea, sky and creatures together.",
-       "text": [{"type": "caption", "ref": "1:31", "text": "God saw everything that he had made, and, behold, it was very good. There was evening and there was morning, a sixth day."}]}]},
-    {"page": 10, "verses": "Genesis 2:1–3", "layout": "three panels, final panel largest",
-     "panels": [
-      {"panel": 1, "camera": "wide", "characters": [],
-       "art": "The finished world under clear sky, from heavens to sea.",
-       "text": [{"type": "caption", "ref": "2:1", "text": "The heavens, the earth, and all their vast array were finished."}]},
-      {"panel": 2, "camera": "quiet landscape at morning", "characters": [],
-       "art": "Calm and stillness across the land; no movement, no figure.",
-       "text": [{"type": "caption", "ref": "2:2", "text": "On the seventh day God finished his work which he had done; and he rested on the seventh day from all his work which he had done."}]},
-      {"panel": 3, "camera": "wide, soft radiant morning light", "characters": [],
-       "art": "The seventh-day morning in gentle light over everything made.",
-       "text": [{"type": "caption", "ref": "2:3", "text": "God blessed the seventh day, and made it holy, because he rested in it from all his work of creation which he had done."}]}]}
+    {
+      "page": 1,
+      "verses": "Genesis 1:1",
+      "layout": "full-page splash with series title, issue title and opening reference",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "extreme wide, cosmic",
+          "characters": [],
+          "art": "Vast darkness with the first faint shapes of the heavens and a formless earth; no figure, no symbol.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:1",
+              "text": "In the beginning, God created the heavens and the earth."
+            }
+          ],
+          "size": "portrait_16_9",
+          "face_visible": false,
+          "story_point": null
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "verses": "Genesis 1:2",
+      "layout": "three tall vertical panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "wide, low horizon",
+          "characters": [],
+          "art": "A shapeless, barren earth under a starless sky; no life, no landforms.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:2",
+              "text": "The earth was formless and empty."
+            }
+          ],
+          "size": "portrait_16_9",
+          "face_visible": false,
+          "story_point": null
+        },
+        {
+          "panel": 2,
+          "camera": "close on dark water surface",
+          "characters": [],
+          "art": "Black, deep water stretching to the edge of sight.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:2",
+              "text": "Darkness was on the surface of the deep"
+            }
+          ],
+          "size": "portrait_16_9",
+          "face_visible": false,
+          "story_point": null
+        },
+        {
+          "panel": 3,
+          "camera": "wide, eye level just above water",
+          "characters": [],
+          "art": "Wind moving across the waters, rippling the surface in long lines. No figure, no dove, no light source (editorial rule for 1:2).",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:2",
+              "text": "and God’s Spirit was hovering over the surface of the waters."
+            }
+          ],
+          "size": "portrait_16_9",
+          "face_visible": false,
+          "story_point": null
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "verses": "Genesis 1:3–5",
+      "layout": "large top panel, two bottom panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "wide",
+          "characters": [],
+          "art": "Light breaks across the darkness over the waters, warm and overwhelming.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:3",
+              "text": "God said,"
+            },
+            {
+              "type": "divine",
+              "ref": "1:3",
+              "text": "Let there be light,"
+            },
+            {
+              "type": "caption",
+              "ref": "1:3",
+              "text": "and there was light."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null
+        },
+        {
+          "panel": 2,
+          "camera": "wide, split composition",
+          "characters": [],
+          "art": "Light and darkness side by side, a clear boundary between them.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:4",
+              "text": "God saw the light, and saw that it was good. God divided the light from the darkness."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": null
+        },
+        {
+          "panel": 3,
+          "camera": "wide horizon, dusk turning to dawn",
+          "characters": [],
+          "art": "The first evening fading and the first morning rising over the water.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:5",
+              "text": "God called the light “day”, and the darkness he called “night”. There was evening and there was morning, the first day."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": null
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "verses": "Genesis 1:6, 1:8",
+      "layout": "two wide horizontal panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "wide, looking along the horizon",
+          "characters": [],
+          "art": "The waters parting into waters above and waters below, with open space opening between them.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:6",
+              "text": "God said,"
+            },
+            {
+              "type": "divine",
+              "ref": "1:6",
+              "text": "Let there be an expanse in the middle of the waters, and let it divide the waters from the waters."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null
+        },
+        {
+          "panel": 2,
+          "camera": "wide, looking up",
+          "characters": [],
+          "art": "A clear sky stretched above the waters, evening light at the edge.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:8",
+              "text": "God called the expanse “sky”. There was evening and there was morning, a second day."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "verses": "Genesis 1:9–11, 1:13",
+      "layout": "four panels, grid",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "aerial",
+          "characters": [],
+          "art": "Waters drawing back; dry land rising.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:9",
+              "text": "God said,"
+            },
+            {
+              "type": "divine",
+              "ref": "1:9",
+              "text": "Let the waters under the sky be gathered together to one place, and let the dry land appear;"
+            },
+            {
+              "type": "caption",
+              "ref": "1:9",
+              "text": "and it was so."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": null
+        },
+        {
+          "panel": 2,
+          "camera": "wide coastline",
+          "characters": [],
+          "art": "Bare land meeting wide seas.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:10",
+              "text": "God called the dry land “earth”, and the gathering together of the waters he called “seas”. God saw that it was good."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": null
+        },
+        {
+          "panel": 3,
+          "camera": "medium, ground level",
+          "characters": [],
+          "art": "Grass, seed-bearing plants and fruit trees spreading across the land.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:11",
+              "text": "God said,"
+            },
+            {
+              "type": "divine",
+              "ref": "1:11",
+              "text": "Let the earth yield grass, herbs yielding seeds, and fruit trees bearing fruit after their kind, with their seeds in it, on the earth;"
+            },
+            {
+              "type": "caption",
+              "ref": "1:11",
+              "text": "and it was so."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": null
+        },
+        {
+          "panel": 4,
+          "camera": "wide, sunset over green land",
+          "characters": [],
+          "art": "A green, living land at evening.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:13",
+              "text": "There was evening and there was morning, a third day."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": null
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "verses": "Genesis 1:14, 1:16, 1:19",
+      "layout": "tall left panel, two stacked right panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "looking up from the land",
+          "characters": [],
+          "art": "Points of light beginning to appear in the sky.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:14",
+              "text": "God said,"
+            },
+            {
+              "type": "divine",
+              "ref": "1:14",
+              "text": "Let there be lights in the expanse of the sky to divide the day from the night;"
+            }
+          ],
+          "size": "portrait_16_9",
+          "face_visible": false,
+          "story_point": null
+        },
+        {
+          "panel": 2,
+          "camera": "wide sky",
+          "characters": [],
+          "art": "The sun bright over the land, the moon and a field of stars across the night side.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:16",
+              "text": "God made the two great lights: the greater light to rule the day, and the lesser light to rule the night. He also made the stars."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": null
+        },
+        {
+          "panel": 3,
+          "camera": "horizon at dusk with moon rising",
+          "characters": [],
+          "art": "Sun setting and moon rising together.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:19",
+              "text": "There was evening and there was morning, a fourth day."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": null
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "verses": "Genesis 1:20, 1:23",
+      "layout": "large panel split sea/sky, small bottom panel",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "split view above and below the waterline",
+          "characters": [],
+          "art": "Fish and great sea creatures filling the water below; birds crossing the sky above.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:20",
+              "text": "God said,"
+            },
+            {
+              "type": "divine",
+              "ref": "1:20",
+              "text": "Let the waters abound with living creatures, and let birds fly above the earth in the open expanse of the sky."
+            }
+          ],
+          "size": "portrait_4_3",
+          "face_visible": false,
+          "story_point": null
+        },
+        {
+          "panel": 2,
+          "camera": "wide coast at dusk, birds roosting",
+          "characters": [],
+          "art": "Evening over a sea full of life.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:23",
+              "text": "There was evening and there was morning, a fifth day."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "verses": "Genesis 1:24, 1:26",
+      "layout": "wide top panel, large bottom panel",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "wide plain",
+          "characters": [],
+          "art": "Livestock, creeping things and wild animals across the land.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:24",
+              "text": "God said,"
+            },
+            {
+              "type": "divine",
+              "ref": "1:24",
+              "text": "Let the earth produce living creatures after their kind, livestock, creeping things, and animals of the earth after their kind;"
+            },
+            {
+              "type": "caption",
+              "ref": "1:24",
+              "text": "and it was so."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null
+        },
+        {
+          "panel": 2,
+          "camera": "low and quiet, golden light on the ground",
+          "characters": [],
+          "art": "Stillness: the animals at rest, warm light falling on the earth; no human figure yet.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:26",
+              "text": "God said,"
+            },
+            {
+              "type": "divine",
+              "ref": "1:26",
+              "text": "Let’s make man in our image, after our likeness."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": null
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "verses": "Genesis 1:27–28, 1:31",
+      "layout": "large top panel, two bottom panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "head-and-shoulders, two figures side by side in warm light",
+          "characters": [
+            "ADAM",
+            "EVE"
+          ],
+          "art": "The first man and woman, shoulders-up only, Eve's hair over her shoulders (framing rule Gen 2:25).",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:27",
+              "text": "God created man in his own image. In God’s image he created him; male and female he created them."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": "eden_before_3_21"
+        },
+        {
+          "panel": 2,
+          "camera": "medium-wide from behind, figures small against a vast land",
+          "characters": [
+            "ADAM",
+            "EVE"
+          ],
+          "art": "The two seen from behind at a distance, waist-down hidden by tall grass, looking out over the living earth.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:28",
+              "text": "God blessed them. God said to them,"
+            },
+            {
+              "type": "divine",
+              "ref": "1:28",
+              "text": "Be fruitful, multiply, fill the earth, and subdue it."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": "eden_before_3_21"
+        },
+        {
+          "panel": 3,
+          "camera": "extreme wide, the whole created world at sunset",
+          "characters": [],
+          "art": "Land, sea, sky and creatures together.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "1:31",
+              "text": "God saw everything that he had made, and, behold, it was very good. There was evening and there was morning, a sixth day."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": null
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "verses": "Genesis 2:1–3",
+      "layout": "three panels, final panel largest",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "wide",
+          "characters": [],
+          "art": "The finished world under clear sky, from heavens to sea.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "2:1",
+              "text": "The heavens, the earth, and all their vast array were finished."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null
+        },
+        {
+          "panel": 2,
+          "camera": "quiet landscape at morning",
+          "characters": [],
+          "art": "Calm and stillness across the land; no movement, no figure.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "2:2",
+              "text": "On the seventh day God finished his work which he had done; and he rested on the seventh day from all his work which he had done."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null
+        },
+        {
+          "panel": 3,
+          "camera": "wide, soft radiant morning light",
+          "characters": [],
+          "art": "The seventh-day morning in gentle light over everything made.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "2:3",
+              "text": "God blessed the seventh day, and made it holy, because he rested in it from all his work of creation which he had done."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": null
+        }
+      ]
+    }
   ],
   "moral": {
     "heading": "What This Story Teaches",
     "paragraph": "Genesis begins by telling us who made everything: “In the beginning, God created the heavens and the earth” (Genesis 1:1). Again and again God speaks, and what he says happens. The Bible says the same thing later: “For he spoke, and it was done” (Psalm 33:9), and “By faith we understand that the universe has been framed by the word of God” (Hebrews 11:3). Each day God looked at what he had made and saw that it was good, and at the end, “it was very good” (Genesis 1:31). People were made in a special way: “In God’s image he created him” (Genesis 1:27). When God rested on the seventh day, he blessed it and made it holy, a pattern the Bible later gives to his people (Exodus 20:11). Psalm 19:1 puts it simply: “The heavens declare the glory of God.”",
     "quotes": [
-      {"ref": "GEN 1:1", "text": "In the beginning, God created the heavens and the earth"},
-      {"ref": "PSA 33:9", "text": "For he spoke, and it was done"},
-      {"ref": "HEB 11:3", "text": "By faith we understand that the universe has been framed by the word of God"},
-      {"ref": "GEN 1:31", "text": "it was very good"},
-      {"ref": "GEN 1:27", "text": "In God’s image he created him"},
-      {"ref": "PSA 19:1", "text": "The heavens declare the glory of God."}
+      {
+        "ref": "GEN 1:1",
+        "text": "In the beginning, God created the heavens and the earth"
+      },
+      {
+        "ref": "PSA 33:9",
+        "text": "For he spoke, and it was done"
+      },
+      {
+        "ref": "HEB 11:3",
+        "text": "By faith we understand that the universe has been framed by the word of God"
+      },
+      {
+        "ref": "GEN 1:31",
+        "text": "it was very good"
+      },
+      {
+        "ref": "GEN 1:27",
+        "text": "In God’s image he created him"
+      },
+      {
+        "ref": "PSA 19:1",
+        "text": "The heavens declare the glory of God."
+      }
     ],
-    "cited_without_quote": ["EXO 20:11"]
+    "cited_without_quote": [
+      "EXO 20:11"
+    ]
   },
   "coloring_pages": [
-    {"subject": "ADAM and EVE, head-and-shoulders, locked designs (as page 9 panel 1)", "characters": ["ADAM", "EVE"]},
-    {"subject": "Creation days 4-6: sun, moon, stars, birds, fish and land animals", "characters": []}
-  ]
+    {
+      "subject": "ADAM and EVE, head-and-shoulders, locked designs (as page 9 panel 1)",
+      "characters": [
+        "ADAM",
+        "EVE"
+      ]
+    },
+    {
+      "subject": "Creation days 4-6: sun, moon, stars, birds, fish and land animals",
+      "characters": []
+    }
+  ],
+  "status": "approved 2026-11-05"
 }

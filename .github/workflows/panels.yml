@@ -1,0 +1,43 @@
+name: Issue panels + character QA
+
+on:
+  workflow_dispatch:
+    inputs:
+      script:
+        description: "Issue script path"
+        default: "scripts/issue01_in_the_beginning.json"
+        required: true
+      panels:
+        description: "Only these panels, e.g. p9.1,p9.2 (blank = all)"
+        default: ""
+        required: false
+      seed_offset:
+        description: "Seed offset for regenerations"
+        default: "0"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  panels:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install fal-client pyyaml insightface onnxruntime opencv-python-headless numpy pillow
+      - name: Generate panels
+        env:
+          FAL_KEY: ${{ secrets.FAL_KEY }}
+        run: python pipeline/generate_panels.py "${{ inputs.script }}" "${{ inputs.panels }}" "${{ inputs.seed_offset }}"
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "scripture-comics-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add art qa
+          git commit -m "Panels: ${{ inputs.script }} ${{ inputs.panels }}" || echo "nothing to commit"
+          git pull --rebase && git push
