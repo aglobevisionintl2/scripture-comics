@@ -1,0 +1,327 @@
+{
+  "pdf": "issue01_interior.pdf",
+  "pages": 20,
+  "page_size_in": [
+    7.125,
+    10.25
+  ],
+  "trim_in": [
+    7.0,
+    10.0
+  ],
+  "panels": [
+    {
+      "panel": "p1.1",
+      "box_in": [
+        7.13,
+        10.25
+      ],
+      "px": [
+        520,
+        922
+      ],
+      "effective_dpi": 73
+    },
+    {
+      "panel": "p2.1",
+      "box_in": [
+        1.92,
+        8.8
+      ],
+      "px": [
+        520,
+        922
+      ],
+      "effective_dpi": 105
+    },
+    {
+      "panel": "p2.2",
+      "box_in": [
+        1.92,
+        8.8
+      ],
+      "px": [
+        520,
+        922
+      ],
+      "effective_dpi": 105
+    },
+    {
+      "panel": "p2.3",
+      "box_in": [
+        1.92,
+        8.8
+      ],
+      "px": [
+        520,
+        922
+      ],
+      "effective_dpi": 105
+    },
+    {
+      "panel": "p3.1",
+      "box_in": [
+        6.05,
+        4.97
+      ],
+      "px": [
+        922,
+        520
+      ],
+      "effective_dpi": 105
+    },
+    {
+      "panel": "p3.2",
+      "box_in": [
+        2.95,
+        3.69
+      ],
+      "px": [
+        922,
+        692
+      ],
+      "effective_dpi": 188
+    },
+    {
+      "panel": "p3.3",
+      "box_in": [
+        2.96,
+        3.69
+      ],
+      "px": [
+        922,
+        692
+      ],
+      "effective_dpi": 188
+    },
+    {
+      "panel": "p4.1",
+      "box_in": [
+        6.05,
+        4.33
+      ],
+      "px": [
+        922,
+        520
+      ],
+      "effective_dpi": 120
+    },
+    {
+      "panel": "p4.2",
+      "box_in": [
+        6.05,
+        4.33
+      ],
+      "px": [
+        922,
+        520
+      ],
+      "effective_dpi": 120
+    },
+    {
+      "panel": "p5.1",
+      "box_in": [
+        2.95,
+        4.33
+      ],
+      "px": [
+        922,
+        692
+      ],
+      "effective_dpi": 160
+    },
+    {
+      "panel": "p5.2",
+      "box_in": [
+        2.96,
+        4.33
+      ],
+      "px": [
+        922,
+        692
+      ],
+      "effective_dpi": 160
+    },
+    {
+      "panel": "p5.3",
+      "box_in": [
+        2.95,
+        4.33
+      ],
+      "px": [
+        922,
+        692
+      ],
+      "effective_dpi": 160
+    },
+    {
+      "panel": "p5.4",
+      "box_in": [
+        2.96,
+        4.33
+      ],
+      "px": [
+        922,
+        692
+      ],
+      "effective_dpi": 160
+    },
+    {
+      "panel": "p6.1",
+      "box_in": [
+        2.95,
+        8.8
+      ],
+      "px": [
+        520,
+        922
+      ],
+      "effective_dpi": 105
+    },
+    {
+      "panel": "p6.2",
+      "box_in": [
+        2.96,
+        4.33
+      ],
+      "px": [
+        922,
+        692
+      ],
+      "effective_dpi": 160
+    },
+    {
+      "panel": "p6.3",
+      "box_in": [
+        2.96,
+        4.33
+      ],
+      "px": [
+        922,
+        692
+      ],
+      "effective_dpi": 160
+    },
+    {
+      "panel": "p7.1",
+      "box_in": [
+        6.05,
+        5.95
+      ],
+      "px": [
+        692,
+        922
+      ],
+      "effective_dpi": 114
+    },
+    {
+      "panel": "p7.2",
+      "box_in": [
+        6.05,
+        2.71
+      ],
+      "px": [
+        922,
+        520
+      ],
+      "effective_dpi": 152
+    },
+    {
+      "panel": "p8.1",
+      "box_in": [
+        6.05,
+        3.46
+      ],
+      "px": [
+        922,
+        520
+      ],
+      "effective_dpi": 150
+    },
+    {
+      "panel": "p8.2",
+      "box_in": [
+        6.05,
+        5.2
+      ],
+      "px": [
+        922,
+        692
+      ],
+      "effective_dpi": 133
+    },
+    {
+      "panel": "p9.1",
+      "box_in": [
+        6.05,
+        4.97
+      ],
+      "px": [
+        922,
+        520
+      ],
+      "effective_dpi": 105
+    },
+    {
+      "panel": "p9.2",
+      "box_in": [
+        2.95,
+        3.69
+      ],
+      "px": [
+        922,
+        692
+      ],
+      "effective_dpi": 188
+    },
+    {
+      "panel": "p9.3",
+      "box_in": [
+        2.96,
+        3.69
+      ],
+      "px": [
+        922,
+        692
+      ],
+      "effective_dpi": 188
+    },
+    {
+      "panel": "p10.1",
+      "box_in": [
+        6.05,
+        2.37
+      ],
+      "px": [
+        922,
+        520
+      ],
+      "effective_dpi": 152
+    },
+    {
+      "panel": "p10.2",
+      "box_in": [
+        6.05,
+        2.37
+      ],
+      "px": [
+        922,
+        520
+      ],
+      "effective_dpi": 152
+    },
+    {
+      "panel": "p10.3",
+      "box_in": [
+        6.05,
+        3.79
+      ],
+      "px": [
+        922,
+        692
+      ],
+      "effective_dpi": 152
+    }
+  ],
+  "panels_below_300dpi": 26
+}

@@ -1,0 +1,276 @@
+[
+  {
+    "panel": "p1.1",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.097,
+    "px": [
+      2282,
+      4047
+    ],
+    "effective_dpi_after": 320
+  },
+  {
+    "panel": "p2.1",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      2080,
+      3688
+    ],
+    "effective_dpi_after": 419
+  },
+  {
+    "panel": "p2.2",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      2080,
+      3688
+    ],
+    "effective_dpi_after": 419
+  },
+  {
+    "panel": "p2.3",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      2080,
+      3688
+    ],
+    "effective_dpi_after": 419
+  },
+  {
+    "panel": "p3.1",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2080
+    ],
+    "effective_dpi_after": 419
+  },
+  {
+    "panel": "p3.2",
+    "esrgan_scale": 2,
+    "lanczos_topup": 1.0,
+    "px": [
+      1844,
+      1384
+    ],
+    "effective_dpi_after": 375
+  },
+  {
+    "panel": "p3.3",
+    "esrgan_scale": 2,
+    "lanczos_topup": 1.0,
+    "px": [
+      1844,
+      1384
+    ],
+    "effective_dpi_after": 375
+  },
+  {
+    "panel": "p4.1",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2080
+    ],
+    "effective_dpi_after": 480
+  },
+  {
+    "panel": "p4.2",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2080
+    ],
+    "effective_dpi_after": 480
+  },
+  {
+    "panel": "p5.1",
+    "esrgan_scale": 2,
+    "lanczos_topup": 1.001,
+    "px": [
+      1847,
+      1386
+    ],
+    "effective_dpi_after": 320
+  },
+  {
+    "panel": "p5.2",
+    "esrgan_scale": 2,
+    "lanczos_topup": 1.001,
+    "px": [
+      1847,
+      1386
+    ],
+    "effective_dpi_after": 320
+  },
+  {
+    "panel": "p5.3",
+    "esrgan_scale": 2,
+    "lanczos_topup": 1.001,
+    "px": [
+      1847,
+      1386
+    ],
+    "effective_dpi_after": 320
+  },
+  {
+    "panel": "p5.4",
+    "esrgan_scale": 2,
+    "lanczos_topup": 1.001,
+    "px": [
+      1847,
+      1386
+    ],
+    "effective_dpi_after": 320
+  },
+  {
+    "panel": "p6.1",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      2080,
+      3688
+    ],
+    "effective_dpi_after": 419
+  },
+  {
+    "panel": "p6.2",
+    "esrgan_scale": 2,
+    "lanczos_topup": 1.001,
+    "px": [
+      1847,
+      1386
+    ],
+    "effective_dpi_after": 320
+  },
+  {
+    "panel": "p6.3",
+    "esrgan_scale": 2,
+    "lanczos_topup": 1.001,
+    "px": [
+      1847,
+      1386
+    ],
+    "effective_dpi_after": 320
+  },
+  {
+    "panel": "p7.1",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      2768,
+      3688
+    ],
+    "effective_dpi_after": 458
+  },
+  {
+    "panel": "p7.2",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2080
+    ],
+    "effective_dpi_after": 610
+  },
+  {
+    "panel": "p8.1",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2080
+    ],
+    "effective_dpi_after": 601
+  },
+  {
+    "panel": "p8.2",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2768
+    ],
+    "effective_dpi_after": 532
+  },
+  {
+    "panel": "p9.1",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2080
+    ],
+    "effective_dpi_after": 419
+  },
+  {
+    "panel": "p9.2",
+    "esrgan_scale": 2,
+    "lanczos_topup": 1.0,
+    "px": [
+      1844,
+      1384
+    ],
+    "effective_dpi_after": 375
+  },
+  {
+    "panel": "p9.3",
+    "esrgan_scale": 2,
+    "lanczos_topup": 1.0,
+    "px": [
+      1844,
+      1384
+    ],
+    "effective_dpi_after": 375
+  },
+  {
+    "panel": "p10.1",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2080
+    ],
+    "effective_dpi_after": 610
+  },
+  {
+    "panel": "p10.2",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2080
+    ],
+    "effective_dpi_after": 610
+  },
+  {
+    "panel": "p10.3",
+    "esrgan_scale": 4,
+    "lanczos_topup": 1.0,
+    "px": [
+      3688,
+      2768
+    ],
+    "effective_dpi_after": 610
+  },
+  {
+    "coloring": "coloring_1.png",
+    "px": [
+      2832,
+      3776
+    ]
+  },
+  {
+    "coloring": "coloring_2.png",
+    "px": [
+      2832,
+      3776
+    ]
+  }
+]
