@@ -1,0 +1,321 @@
+{
+  "p1.1": {
+    "file": "p01_1.png",
+    "characters": [
+      "ADAM"
+    ],
+    "status": "PASS",
+    "attempts": [
+      {
+        "seed": 5110,
+        "checks": {
+          "faces_detected": 1,
+          "people_detected": 1,
+          "letterbox": false,
+          "ADAM": 0.64
+        },
+        "pass": true
+      }
+    ]
+  },
+  "p2.1": {
+    "file": "p02_1.png",
+    "characters": [],
+    "status": "PASS",
+    "attempts": [
+      {
+        "seed": 5210,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
+        "pass": true
+      }
+    ]
+  },
+  "p2.2": {
+    "file": "p02_2.png",
+    "characters": [],
+    "status": "PASS",
+    "attempts": [
+      {
+        "seed": 5220,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
+        "pass": true
+      }
+    ]
+  },
+  "p3.1": {
+    "file": "p03_1.png",
+    "characters": [
+      "ADAM"
+    ],
+    "status": "PASS",
+    "attempts": [
+      {
+        "seed": 5310,
+        "checks": {
+          "faces_detected": 2,
+          "people_detected": 1,
+          "letterbox": false,
+          "ADAM": 0.674,
+          "extra_people": true
+        },
+        "pass": false
+      },
+      {
+        "seed": 5311,
+        "checks": {
+          "faces_detected": 1,
+          "people_detected": 1,
+          "letterbox": false,
+          "ADAM": 0.618
+        },
+        "pass": true
+      }
+    ]
+  },
+  "p3.2": {
+    "file": "p03_2.png",
+    "characters": [],
+    "status": "PASS",
+    "attempts": [
+      {
+        "seed": 5320,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
+        "pass": true
+      }
+    ]
+  },
+  "p3.3": {
+    "file": "p03_3.png",
+    "characters": [],
+    "status": "PASS",
+    "attempts": [
+      {
+        "seed": 5330,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
+        "pass": true
+      }
+    ]
+  },
+  "p4.1": {
+    "file": "p04_1.png",
+    "characters": [
+      "ADAM"
+    ],
+    "status": "PASS",
+    "attempts": [
+      {
+        "seed": 5410,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 1,
+          "letterbox": false
+        },
+        "pass": true
+      }
+    ]
+  },
+  "p4.2": {
+    "file": "p04_2.png",
+    "characters": [
+      "ADAM"
+    ],
+    "status": "PASS",
+    "attempts": [
+      {
+        "seed": 5420,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 1,
+          "letterbox": false
+        },
+        "pass": true
+      }
+    ]
+  },
+  "p5.1": {
+    "file": "p05_1.png",
+    "characters": [
+      "ADAM"
+    ],
+    "status": "PASS",
+    "attempts": [
+      {
+        "seed": 5510,
+        "checks": {
+          "faces_detected": 1,
+          "people_detected": 1,
+          "letterbox": false,
+          "ADAM": 0.763
+        },
+        "pass": true
+      }
+    ]
+  },
+  "p5.2": {
+    "file": "p05_2.png",
+    "characters": [
+      "EVE"
+    ],
+    "status": "FAIL",
+    "attempts": [
+      {
+        "seed": 5520,
+        "checks": {
+          "faces_detected": 1,
+          "people_detected": 2,
+          "letterbox": false,
+          "EVE": 0.657,
+          "extra_people": true
+        },
+        "pass": false
+      },
+      {
+        "seed": 5521,
+        "checks": {
+          "faces_detected": 1,
+          "people_detected": 2,
+          "letterbox": false,
+          "EVE": 0.726,
+          "extra_people": true
+        },
+        "pass": false
+      },
+      {
+        "seed": 5522,
+        "checks": {
+          "faces_detected": 2,
+          "people_detected": 2,
+          "letterbox": false,
+          "EVE": 0.606,
+          "extra_people": true
+        },
+        "pass": false
+      },
+      {
+        "seed": 5523,
+        "checks": {
+          "faces_detected": 2,
+          "people_detected": 2,
+          "letterbox": false,
+          "EVE": 0.703,
+          "extra_people": true
+        },
+        "pass": false
+      }
+    ]
+  },
+  "p6.1": {
+    "file": "p06_1.png",
+    "characters": [
+      "ADAM",
+      "EVE"
+    ],
+    "status": "PASS",
+    "attempts": [
+      {
+        "seed": 5610,
+        "checks": {
+          "faces_detected": 2,
+          "people_detected": 2,
+          "letterbox": false,
+          "ADAM": 0.596,
+          "EVE": 0.438
+        },
+        "pass": false
+      },
+      {
+        "seed": 5611,
+        "checks": {
+          "faces_detected": 2,
+          "people_detected": 3,
+          "letterbox": false,
+          "ADAM": 0.651,
+          "EVE": 0.524,
+          "extra_people": true
+        },
+        "pass": false
+      },
+      {
+        "seed": 5612,
+        "checks": {
+          "faces_detected": 2,
+          "people_detected": 2,
+          "letterbox": false,
+          "ADAM": 0.723,
+          "EVE": 0.604
+        },
+        "pass": true
+      }
+    ]
+  },
+  "p6.2": {
+    "file": "p06_2.png",
+    "characters": [
+      "ADAM",
+      "EVE"
+    ],
+    "status": "PASS",
+    "attempts": [
+      {
+        "seed": 5620,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 1,
+          "letterbox": false
+        },
+        "pass": true
+      }
+    ]
+  },
+  "p6.3": {
+    "file": "p06_3.png",
+    "characters": [],
+    "status": "PASS",
+    "attempts": [
+      {
+        "seed": 5630,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 0,
+          "letterbox": false
+        },
+        "pass": true
+      }
+    ]
+  },
+  "p7.1": {
+    "file": "p07_1.png",
+    "characters": [
+      "ADAM",
+      "EVE"
+    ],
+    "status": "PASS",
+    "attempts": [
+      {
+        "seed": 5710,
+        "checks": {
+          "faces_detected": 0,
+          "people_detected": 1,
+          "letterbox": false
+        },
+        "pass": true
+      }
+    ]
+  }
+}
