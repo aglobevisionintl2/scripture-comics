@@ -1,0 +1,34 @@
+[
+  {
+    "file": "EVE_portrait_seed1000.png",
+    "seed": 1000,
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Head-and-shoulders portrait of an adult woman about 25 years old, warm olive-brown skin, very long thick dark brown-black hair in loose waves falling over both shoulders and covering them, dark brown eyes, gentle and attentive expression, plain soft warm-grey studio background, even soft light, front view, looking at viewer. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark.",
+    "generated_utc": "2026-11-06T05:55:22.096247Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "EVE_portrait_seed1001.png",
+    "seed": 1001,
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Head-and-shoulders portrait of an adult woman about 25 years old, warm olive-brown skin, very long thick dark brown-black hair in loose waves falling over both shoulders and covering them, dark brown eyes, gentle and attentive expression, plain soft warm-grey studio background, even soft light, front view, looking at viewer. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark.",
+    "generated_utc": "2026-11-06T05:55:32.610932Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "EVE_portrait_seed1002.png",
+    "seed": 1002,
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Head-and-shoulders portrait of an adult woman about 25 years old, warm olive-brown skin, very long thick dark brown-black hair in loose waves falling over both shoulders and covering them, dark brown eyes, gentle and attentive expression, plain soft warm-grey studio background, even soft light, front view, looking at viewer. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark.",
+    "generated_utc": "2026-11-06T05:55:43.946449Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "EVE_portrait_seed1003.png",
+    "seed": 1003,
+    "model": "fal-ai/flux-2-pro",
+    "prompt": "Head-and-shoulders portrait of an adult woman about 25 years old, warm olive-brown skin, very long thick dark brown-black hair in loose waves falling over both shoulders and covering them, dark brown eyes, gentle and attentive expression, plain soft warm-grey studio background, even soft light, front view, looking at viewer. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark.",
+    "generated_utc": "2026-11-06T05:55:54.501212Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  }
+]
