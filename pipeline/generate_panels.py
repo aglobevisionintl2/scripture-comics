@@ -32,6 +32,17 @@ STORY_POINT = {
         "ADAM": "framed from the collarbone up",
         "EVE": "framed from the collarbone up, her long hair falling forward over both shoulders",
     },
+    "fig_leaves": {
+        "ADAM": "wearing a simple covering sewn from large green fig leaves",
+        "EVE": "wearing a simple covering sewn from large green fig leaves, long hair over her shoulders",
+    },
+}
+# Story points that swap a character's reference image (age variants) and description.
+REF_OVERRIDE = {
+    "adam_older": {"ADAM": ("designs/locked/ADAM/ADAM_age_older.png",
+                            "older, about 60 in appearance, grey at the temples and in the beard; garment of tanned animal hide")},
+    "adam_old": {"ADAM": ("designs/locked/ADAM/ADAM_age_very_old.png",
+                          "very old, long white hair and long white beard; garment of tanned animal hide")},
 }
 
 _app = None
@@ -57,22 +68,29 @@ def fetch_trimmed(url, dest):
     im.crop((dx, dy, im.width - dx, im.height - dy)).save(dest)
 
 
-def char_info(cid, cache={}):
-    if cid not in cache:
+def char_info(cid, story_point=None, cache={}):
+    key = (cid, story_point if story_point in REF_OVERRIDE and cid in REF_OVERRIDE[story_point] else None)
+    if key not in cache:
         spec = yaml.safe_load((ROOT / f"characters/{cid.lower()}.yaml").read_text())
         if spec.get("status") != "locked":
             sys.exit(f"{cid} is not locked; refusing to draw an unlocked character.")
-        face = ROOT / spec["selected_face"]
-        cache[cid] = {"spec": spec, "face": face, "emb": faces(face)[0],
+        face = ROOT / (REF_OVERRIDE[key[1]][cid][0] if key[1] else spec["selected_face"])
+        human = spec.get("human", True)
+        cache[key] = {"spec": spec, "face": face, "human": human,
+                      "emb": faces(face)[0] if human else None,
                       "url": fal_client.upload_file(str(face))}
-    return cache[cid]
+    return cache[key]
 
 
 def describe(cid, story_point):
-    t = char_info(cid)["spec"]["locked_traits"]
+    info = char_info(cid, story_point)
+    t = info["spec"]["locked_traits"]
     look = ", ".join(f"{k.replace('_', ' ')}: {v}" for k, v in t.items() if k != "distinguishing_marks")
-    costume = STORY_POINT.get(story_point, {}).get(cid, char_info(cid)["spec"]["costumes"].get("after_3_21", ""))
-    return f"{char_info(cid)['spec']['name']} ({look}; {costume})"
+    if story_point in REF_OVERRIDE and cid in REF_OVERRIDE[story_point]:
+        return f"{info['spec']['name']} ({REF_OVERRIDE[story_point][cid][1]})"
+    costumes = info["spec"].get("costumes", {})
+    costume = STORY_POINT.get(story_point, {}).get(cid) or costumes.get("after_3_21") or costumes.get("default", "")
+    return f"{info['spec']['name']} ({look}; {costume})"
 
 
 _yolo = None
@@ -96,15 +114,15 @@ def letterboxed(path):
     return bool((flat(a[:band]) and flat(a[-band:])) or (flat(a[:, :band]) and flat(a[:, -band:])))
 
 
-def check(path, chars, face_visible, max_people):
+def check(path, chars, face_visible, max_people, story_point=None):
     """Return (ok, details). Fails on: wrong/missing faces, extra people, letterbox bars."""
     found = faces(path)
     people = person_count(path)
     details = {"faces_detected": len(found), "people_detected": people, "letterbox": letterboxed(path)}
     ok = True
     if face_visible:
-        for c in chars:
-            sims = [float((char_info(c)["emb"] * f).sum()) for f in found]
+        for c in [c for c in chars if char_info(c, story_point)["human"]]:
+            sims = [float((char_info(c, story_point)["emb"] * f).sum()) for f in found]
             details[c] = round(max(sims), 3) if sims else None
             ok &= details[c] is not None and details[c] >= THRESHOLD
     if max_people is not None and (people > max_people or len(found) > max_people):
@@ -132,15 +150,20 @@ def main(script_path, only, offset):
             chars = pn["characters"]
             refs, lead = [], ""
             if chars:
-                refs = [char_info(c)["url"] for c in chars]
-                lead = " ".join(f"Image {i + 1} shows the exact face and hair of {describe(c, pn.get('story_point'))}; "
-                                f"draw this same person with an identical face." for i, c in enumerate(chars))
-            cast_rule = (f"The only people in the image are the {len(chars)} described; no other people anywhere."
-                         if chars else "No people, no human figures, no faces anywhere, including in water, clouds or rocks.")
+                sp = pn.get("story_point")
+                refs = [char_info(c, sp)["url"] for c in chars]
+                lead = " ".join((f"Image {i + 1} shows the exact face and hair of {describe(c, sp)}; draw this same person with an identical face."
+                                 if char_info(c, sp)["human"] else
+                                 f"Image {i + 1} shows the exact {describe(c, sp)}; draw this same creature identically.")
+                                for i, c in enumerate(chars))
+            humans = [c for c in chars if char_info(c, pn.get("story_point"))["human"]]
+            cast_rule = ("Other people may appear as described." if pn.get("allow_crowd") else
+                         f"The only people in the image are the {len(humans)} described; no other people anywhere." if humans
+                         else "No people, no human figures, no faces anywhere, including in water, clouds or rocks.")
             prompt = " ".join(x for x in [lead, f"Comic panel, {pn['camera']}.", pn["art"], cast_rule,
                                           sc.get("world_rule", ""), STYLE["style_prompt"].strip(), NO_TEXT,
                                           "Full-bleed image, no black bars."] if x)
-            max_people = None if pn.get("allow_crowd") else len(chars)
+            max_people = None if pn.get("allow_crowd") else len(humans)
             model = STYLE["model"]["reference_edit"] if refs else STYLE["model"]["generate"]
             tries, attempts, best = MAX_TRIES, [], None
             for t in range(tries):
@@ -158,7 +181,7 @@ def main(script_path, only, offset):
                     continue
                 tmp = out / f".try_{pid}_{t}.png"
                 fetch_trimmed(res["images"][0]["url"], tmp)
-                ok, sims = check(tmp, chars, pn.get("face_visible"), max_people)
+                ok, sims = check(tmp, chars, pn.get("face_visible"), max_people, pn.get("story_point"))
                 attempts.append({"seed": seed, "checks": sims, "pass": ok})
                 face_scores = [sims[c] for c in chars if isinstance(sims.get(c), float)]
                 score = (min(face_scores) if face_scores else 0.5) + (1 if ok else 0)
@@ -176,7 +199,7 @@ def main(script_path, only, offset):
             qa[pid] = {"file": fname, "characters": chars, "status": status, "attempts": attempts}
             prov = [p for p in prov if p["panel"] != pid]
             prov.append({"panel": pid, "file": fname, "model": model, "prompt": prompt,
-                         "references": [str(char_info(c)["face"].relative_to(ROOT)) for c in chars],
+                         "references": [str(char_info(c, pn.get("story_point"))["face"].relative_to(ROOT)) for c in chars],
                          "seed": best[2] if best else None, "post": f"trimmed {int(TRIM * 100)}% border",
                          "generated_utc": dt.datetime.utcnow().isoformat() + "Z",
                          "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"})

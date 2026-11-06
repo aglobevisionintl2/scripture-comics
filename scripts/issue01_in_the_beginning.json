@@ -617,5 +617,9 @@
     }
   ],
   "status": "approved 2026-11-05",
-  "world_rule": "Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools."
+  "world_rule": "Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools.",
+  "next": {
+    "title": "Issue 2: The Garden",
+    "reference": "Genesis 2:4–25, selected verses"
+  }
 }

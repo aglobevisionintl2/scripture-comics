@@ -1,0 +1,17 @@
+{
+  "id": "volume01",
+  "title": "In the Beginning",
+  "subtitle": "Volume 1",
+  "reference": "Genesis 1–5, selected verses",
+  "scripts": [
+    "scripts/issue01_in_the_beginning.json",
+    "scripts/issue02_the_garden.json",
+    "scripts/issue03_the_serpent.json",
+    "scripts/issue04_cain_and_abel.json",
+    "scripts/issue05_from_adam_to_noah.json"
+  ],
+  "next": {
+    "title": "Volume 2: Noah",
+    "reference": "Genesis 6–11, selected verses"
+  }
+}

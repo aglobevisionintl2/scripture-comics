@@ -33,6 +33,7 @@ GRIDS = {  # layout keyword -> (grid-template-rows, grid-template-columns, areas
     "large panel split sea/sky, small bottom": ("2.2fr 1fr", "1fr", ["a", "b"]),
     "wide top panel, large bottom": ("1fr 1.5fr", "1fr", ["a", "b"]),
     "three panels, final panel largest": ("1fr 1fr 1.6fr", "1fr", ["a", "b", "c"]),
+    "one large panel": ("1fr", "1fr", ["a"]),
 }
 
 
@@ -49,7 +50,12 @@ def art_file(art, name):
     for cand in (art / "print" / f"{stem}.jpg", art / "print" / f"{stem}.png", art / name):
         if cand.exists():
             return cand
-    return art / name
+    ph = ROOT / "build" / "_placeholder.png"  # art not generated yet: grey stand-in, flagged in the report
+    if not ph.exists():
+        from PIL import Image
+        ph.parent.mkdir(parents=True, exist_ok=True)
+        Image.new("RGB", (400, 300), (150, 150, 150)).save(ph)
+    return ph
 
 
 def esc(s):
@@ -87,6 +93,13 @@ body {{ background: #fff; }}
           letter-spacing: 0.02em; padding: 0.06in 0.1in; background: #2e1d0e; border-radius: 0.06in; }}
 .tag {{ font-family: 'EBG', serif; font-style: italic; font-size: 7.5pt; color: #6b4a2a; white-space: nowrap; margin-left: 0.04in; }}
 .divine .tag {{ color: #e8cf96; font-family: 'EBG'; font-weight: 500; }}
+.speech {{ background: #ffffff; border: 1pt solid #1d140c; border-radius: 0.16in; padding: 0.06in 0.12in; font-size: 9.8pt;
+          line-height: 1.22; max-width: 82%; color: #111; }}
+.header {{ position: absolute; text-align: center; border-bottom: 1pt solid #6b4a2a; padding-bottom: 0.06in; }}
+.tree {{ display: flex; flex-direction: column; align-items: center; gap: 0.08in; }}
+.tree .n {{ font-family: 'Cinzel'; font-size: 12pt; border: 1pt solid #6b4a2a; background: #fbf6ea; padding: 0.05in 0.3in; min-width: 1.8in; text-align: center; }}
+.tree .ar {{ font-size: 10pt; color: #6b4a2a; line-height: 0.7; }}
+.tree .row {{ display: flex; gap: 0.15in; }}
 .footer {{ position: absolute; font-size: 8.5pt; color: #4a3220; display: flex; gap: 0.18in; }}
 .full {{ position: absolute; inset: 0; }}
 .full img {{ width: 100%; height: 100%; object-fit: cover; }}
@@ -143,50 +156,43 @@ def letters(pn, book_code):
     out = []
     for i, t in enumerate(pn["text"]):
         tag = (f'<span class="tag">{BOOK[book_code]} {t["ref"]}</span>' if last[t["ref"]] == i else "")
-        cls = "divine" if t["type"] == "divine" else "cap"
+        cls = {"divine": "divine", "speech": "speech"}.get(t["type"], "cap")
         out.append(f'<div class="{cls}">{esc(t["text"])}{tag}</div>')
     return '<div class="letters">' + "".join(out) + "</div>"
 
 
-def main(script_path, out_dir, proof):
-    sc = json.load(open(script_path, encoding="utf-8"))
-    db = sqlite3.connect(ROOT / "data/web.sqlite")
-    verify_text(sc, db)
-    tag = f"issue{sc['issue']:02d}"
-    art = ROOT / "art" / tag
-    out = Path(out_dir).resolve()
-    out.mkdir(parents=True, exist_ok=True)
-    book_name = BOOK[sc["book"]]
-    b = Book(proof)
-
-    # 1 Title page (recto)
+def front_matter(b, db, title, subtitle, reference, copyright_title):
     recto, tx, left, top, width, height, _ = b.live_box()
     b.add(f'<div class="center" style="left:{left}in;top:{top}in;width:{width}in;height:{height}in">'
           f'<div style="font-family:Cinzel;font-size:14pt;letter-spacing:0.25em">SCRIPTURE COMICS</div>'
-          f'<h1 style="font-size:34pt;margin:0.5in 0 0.15in">{esc(sc["title"])}</h1>'
-          f'<div style="font-size:14pt">Issue {sc["issue"]}</div>'
-          f'<div style="font-size:13pt;margin-top:0.35in;font-style:italic">{esc(sc["opening_reference"])}</div>'
+          f'<h1 style="font-size:32pt;margin:0.5in 0 0.15in">{esc(title)}</h1>'
+          f'<div style="font-size:14pt">{esc(subtitle)}</div>'
+          f'<div style="font-size:13pt;margin-top:0.35in;font-style:italic">{esc(reference)}</div>'
           f'<div style="font-size:13pt;margin-top:0.9in">Aderemi Adewinmbi</div>'
           f'<div style="font-size:10pt;margin-top:1.3in;letter-spacing:0.12em">BIBLE STORIES DEPICTED</div></div>', None)
-    # 2 Copyright page (verso)
     recto, tx, left, top, width, height, _ = b.live_box()
     src = dict(db.execute("SELECT key, value FROM source"))
     lines = [
-        "Scripture Comics, Issue " + str(sc["issue"]) + ": " + sc["title"],
+        copyright_title,
         "Copyright © 2026 Aderemi Adewinmbi. All rights reserved for the artwork, layout and design.",
         "Published by Aderemi Adewinmbi under the imprint Bible Stories Depicted (independently published).",
         "Scripture quotations are taken from the World English Bible (WEB), which is in the public domain.",
         f"Source text: eBible.org, edition dated {src['edition_dated']}. Every quotation is reproduced word for word.",
         "This book presents selected verses. The full passage named on each story's opening page can be read in any Bible.",
-        "The page “What This Story Teaches” is a reflection by the publisher and is not part of the Scripture text.",
+        "The page “What This Story Teaches” is a reflection by the author and is not part of the Scripture text.",
         "Illustrations were created with the assistance of AI image generation (FLUX.2 [pro]).",
         "Fonts: EB Garamond and Cinzel, SIL Open Font License 1.1.",
     ]
-    b.add(f'<div style="position:absolute;left:{left}in;top:{top + height - 3.2}in;width:{width}in;font-size:8.8pt;line-height:1.45">'
+    b.add(f'<div style="position:absolute;left:{left}in;top:{top + height - 3.4}in;width:{width}in;font-size:8.8pt;line-height:1.45">'
           + "".join(f"<p style='margin-bottom:0.08in'>{esc(l)}</p>" for l in lines) + "</div>", None)
 
-    report = []
-    # Story pages
+
+def add_issue(b, sc, db, volume_mode=False):
+    verify_text(sc, db)
+    tag = f"issue{sc['issue']:02d}"
+    art = ROOT / "art" / tag
+    pid = (lambda x: f"{tag}:{x}") if volume_mode else (lambda x: x)
+    first = True
     for pg in sc["pages"]:
         recto, tx, left, top, width, height, _ = b.live_box()
         foot = f"{pg['verses']}"
@@ -200,34 +206,53 @@ def main(script_path, out_dir, proof):
                      f'<div style="font-size:12.5pt;font-style:italic;margin-top:0.05in">{esc(sc["opening_reference"])}</div></div>')
             cap = (f'<div style="position:absolute;left:{left}in;bottom:{BLEED + M_BOT + 0.1}in;width:{width}in">'
                    f'<div class="letters" style="position:static">{letters(pn, sc["book"])[21:-6]}</div></div>')
-            b.add(f'<div class="full"><img data-panel="p{pg["page"]}.1" src="{img.as_uri()}"></div>{title}{cap}', foot)
+            b.add(f'<div class="full"><img data-panel="{pid(f"p{pg["page"]}.1")}" src="{img.as_uri()}"></div>{title}{cap}', foot)
+            first = False
+            continue
+        header = ""
+        if first:  # story without a splash: opening reference as a header band
+            header = (f'<div class="header" style="left:{left}in;top:{top}in;width:{width}in">'
+                      f'<div style="font-family:Cinzel;font-size:9.5pt;letter-spacing:0.25em">SCRIPTURE COMICS · ISSUE {sc["issue"]}</div>'
+                      f'<div style="font-family:Cinzel;font-size:19pt;font-weight:700">{esc(sc["title"])}</div>'
+                      f'<div style="font-size:11pt;font-style:italic">{esc(sc["opening_reference"])}</div></div>')
+            top, height = top + 0.95, height - 0.95
+            first = False
+        if pg["layout"] == "family tree":
+            names = sc["family_tree"]
+            parts = []
+            for i, n in enumerate(names):
+                if i:
+                    parts.append('<div class="ar">▼</div>')
+                if isinstance(n, list):
+                    parts.append('<div class="row">' + "".join(f'<div class="n" style="min-width:1.3in">{esc(x)}</div>' for x in n) + "</div>")
+                else:
+                    parts.append(f'<div class="n">{esc(n)}</div>')
+            b.add(header + f'<div class="center" style="left:{left}in;top:{top}in;width:{width}in;height:{height}in">'
+                  f'<div class="tree">{"".join(parts)}</div>'
+                  f'<div class="note">Names as recorded in {esc(pg["verses"])} (World English Bible).</div></div>', foot)
             continue
         rows, cols, areas = grid_for(pg["layout"])
-        names = "abcd"
         cells = []
         for i, pn in enumerate(pg["panels"]):
             img = art_file(art, f"p{pg['page']:02d}_{pn['panel']}.png")
-            cells.append(f'<div class="panel{" cast" if pn["characters"] else ""}" style="grid-area:{names[i]}">'
-                         f'<img data-panel="p{pg["page"]}.{pn["panel"]}" src="{img.as_uri()}">{letters(pn, sc["book"])}</div>')
-        b.add(f'<div class="live" style="left:{left}in;top:{top}in;width:{width}in;height:{height}in;'
-              f'grid-template-rows:{rows};grid-template-columns:{cols};grid-template-areas:{" ".join("'" + a + "'" for a in areas)}">'
+            cells.append(f'<div class="panel{" cast" if pn["characters"] else ""}" style="grid-area:{"abcd"[i]}">'
+                         f'<img data-panel="{pid(f"p{pg["page"]}.{pn["panel"]}")}" src="{img.as_uri()}">{letters(pn, sc["book"])}</div>')
+        b.add(header + f'<div class="live" style="left:{left}in;top:{top}in;width:{width}in;height:{height}in;'
+              f'grid-template-rows:{rows};grid-template-columns:{cols};grid-template-areas:{" ".join(chr(39) + a + chr(39) for a in areas)}">'
               + "".join(cells) + "</div>", foot)
-
-    # Moral page
     m = sc["moral"]
     recto, tx, left, top, width, height, _ = b.live_box()
     b.add(f'<div class="center" style="left:{left}in;top:{top}in;width:{width}in;height:{height}in">'
           f'<div class="moral"><h2>{esc(m["heading"])}</h2><p>{esc(m["paragraph"])}</p>'
           f'<div class="note">A reflection on {esc(sc["opening_reference"].split(",")[0])}. Quotations are from the World English Bible.</div>'
           f'</div></div>', "")
-    # Coloring pages: each on a right-hand page, blank reverse (single-sided)
     for i, cp in enumerate(sc["coloring_pages"], 1):
-        if len(b.pages) % 2 == 1:  # next page would be verso: insert blank so coloring lands on recto
+        if len(b.pages) % 2 == 1:
             b.add("", None)
         recto, tx, left, top, width, height, _ = b.live_box()
-        img = art_file(art / "coloring", f"coloring_{i}.png")
-        if (art / "print" / f"coloring_{i}.png").exists():
-            img = art / "print" / f"coloring_{i}.png"
+        img = art / "print" / f"coloring_{i}.png"
+        if not img.exists():
+            img = art / "coloring" / f"coloring_{i}.png"
         if img.exists():
             body = (f'<div style="position:absolute;left:{left}in;top:{top}in;width:{width}in;height:{height - 0.3}in;'
                     f'background:#fff;border:1pt solid #2b1d12"><img src="{img.as_uri()}" '
@@ -235,29 +260,33 @@ def main(script_path, out_dir, proof):
         else:
             body = (f'<div class="center" style="left:{left}in;top:{top}in;width:{width}in;height:{height}in;'
                     f'border:1pt dashed #b0563a">Coloring page {i} pending: {esc(cp["subject"])}</div>')
-        b.add(f'<div class="page-white" style="position:absolute;inset:0;background:#fff"></div>{body}',
+        b.add(f'<div style="position:absolute;inset:0;background:#fff"></div>{body}',
               f"Coloring page · {cp['subject'].split('(')[0].strip()}")
-        b.add('<div style="position:absolute;inset:0;background:#fff"></div>', None)  # blank reverse
-    # Next issue page
+        b.add('<div style="position:absolute;inset:0;background:#fff"></div>', None)
+
+
+def teaser(b, label, title, ref):
     recto, tx, left, top, width, height, _ = b.live_box()
     b.add(f'<div class="center" style="left:{left}in;top:{top}in;width:{width}in;height:{height}in">'
-          f'<div style="font-family:Cinzel;letter-spacing:0.25em;font-size:11pt">NEXT IN SCRIPTURE COMICS</div>'
-          f'<h1 style="font-size:26pt;margin:0.2in 0">Issue 2: The Garden</h1>'
-          f'<div style="font-style:italic;font-size:13pt">Genesis 2:4–25, selected verses</div></div>', None)
+          f'<div style="font-family:Cinzel;letter-spacing:0.25em;font-size:11pt">{esc(label)}</div>'
+          f'<h1 style="font-size:26pt;margin:0.2in 0">{esc(title)}</h1>'
+          f'<div style="font-style:italic;font-size:13pt">{esc(ref)}</div></div>', None)
+
+
+def render(b, out, name, proof):
     if len(b.pages) % 2 == 1:
         b.add("", None)
-
     doc = f"<!DOCTYPE html><html><head><meta charset='utf-8'><style>{CSS}</style></head><body>{''.join(b.pages)}</body></html>"
-    html_path = out / f"{tag}_interior.html"
+    html_path = out / f"{name}.html"
     html_path.write_text(doc, encoding="utf-8")
-    pdf_path = out / f"{tag}_interior{'_PROOF' if proof else ''}.pdf"
+    pdf_path = out / f"{name}{'_PROOF' if proof else ''}.pdf"
     with sync_playwright() as p:
         br = p.chromium.launch()
         page = br.new_page()
         page.goto(html_path.as_uri())
         page.wait_for_load_state("networkidle")
         page.evaluate("document.fonts.ready")
-        page.wait_for_function("[...document.images].every(i => i.complete && i.naturalWidth > 0)")
+        page.wait_for_function("[...document.images].every(i => i.complete && i.naturalWidth > 0)", timeout=120000)
         dpi = page.evaluate("""() => [...document.querySelectorAll('img[data-panel]')].map(i => {
             const r = i.parentElement.getBoundingClientRect(); const wIn = r.width/96, hIn = r.height/96;
             const scale = Math.max(wIn/i.naturalWidth, hIn/i.naturalHeight);
@@ -276,5 +305,46 @@ def main(script_path, out_dir, proof):
     print(f"pages={len(b.pages)} pdf={pdf_path} panels_below_300dpi={len(low)}/{len(dpi)}")
 
 
+def main(script_path, out_dir, proof):
+    sc = json.load(open(script_path, encoding="utf-8"))
+    db = sqlite3.connect(ROOT / "data/web.sqlite")
+    out = Path(out_dir).resolve()
+    out.mkdir(parents=True, exist_ok=True)
+    b = Book(proof)
+    front_matter(b, db, sc["title"], f"Issue {sc['issue']}", sc["opening_reference"],
+                 f"Scripture Comics, Issue {sc['issue']}: {sc['title']}")
+    add_issue(b, sc, db)
+    nxt = sc.get("next")
+    if nxt:
+        teaser(b, "NEXT IN SCRIPTURE COMICS", nxt["title"], nxt["reference"])
+    render(b, out, f"issue{sc['issue']:02d}_interior", proof)
+
+
+def volume(vol_path, out_dir, proof):
+    vol = json.load(open(vol_path, encoding="utf-8"))
+    db = sqlite3.connect(ROOT / "data/web.sqlite")
+    out = Path(out_dir).resolve()
+    out.mkdir(parents=True, exist_ok=True)
+    scripts = [json.load(open(ROOT / s, encoding="utf-8")) for s in vol["scripts"]]
+    b = Book(proof)
+    front_matter(b, db, vol["title"], vol["subtitle"], vol["reference"], f"Scripture Comics, {vol['subtitle']}: {vol['title']}")
+    recto, tx, left, top, width, height, _ = b.live_box()
+    rows = "".join(f'<div style="display:flex;justify-content:space-between;border-bottom:0.5pt dotted #6b4a2a;padding:0.08in 0">'
+                   f'<span>Issue {s["issue"]}: {esc(s["title"])}</span><span style="font-style:italic">{esc(s["opening_reference"].split(",")[0])}</span></div>'
+                   for s in scripts)
+    b.add(f'<div style="position:absolute;left:{left}in;top:{top + 0.6}in;width:{width}in;font-size:12pt">'
+          f'<h2 style="font-family:Cinzel;font-size:18pt;margin-bottom:0.3in;text-align:center">Contents</h2>{rows}</div>', None)
+    for sc in scripts:
+        if len(b.pages) % 2 == 1:  # every story opens on a right-hand page
+            b.add("", None)
+        add_issue(b, sc, db, volume_mode=True)
+    if vol.get("next"):
+        teaser(b, "NEXT IN SCRIPTURE COMICS", vol["next"]["title"], vol["next"]["reference"])
+    render(b, out, vol["id"] + "_interior", proof)
+
+
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2], "--proof" in sys.argv)
+    if sys.argv[1].endswith(".volume.json"):
+        volume(sys.argv[1], sys.argv[2], "--proof" in sys.argv)
+    else:
+        main(sys.argv[1], sys.argv[2], "--proof" in sys.argv)
