@@ -1,0 +1,150 @@
+[
+  {
+    "file": "LAMECH_face_three_quarter.png",
+    "view": "face_three_quarter",
+    "face_check": true,
+    "threshold": 0.45,
+    "seed": 2010,
+    "attempts": [
+      {
+        "seed": 2010,
+        "similarity": 0.699
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/LAMECH/LAMECH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: grey-black, short. Head-and-shoulders portrait, three-quarter view turned to the left, wearing: Coarse wool tunic and mantle, worn from field work.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:25:22.246744Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "LAMECH_face_profile.png",
+    "view": "face_profile",
+    "face_check": true,
+    "threshold": 0.45,
+    "seed": 2020,
+    "attempts": [
+      {
+        "seed": 2020,
+        "similarity": 0.691
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/LAMECH/LAMECH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: grey-black, short. Head-and-shoulders portrait, exact side profile facing left, wearing: Coarse wool tunic and mantle, worn from field work.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:25:37.521843Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "LAMECH_head_back.png",
+    "view": "head_back",
+    "face_check": false,
+    "threshold": 0.45,
+    "seed": 2030,
+    "attempts": [
+      {
+        "seed": 2030,
+        "similarity": null
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/LAMECH/LAMECH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: grey-black, short. Head-and-shoulders view from directly behind, showing the back of the head and the full length of the hair, wearing: Coarse wool tunic and mantle, worn from field work.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:25:52.978281Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "LAMECH_expression_afraid.png",
+    "view": "expression_afraid",
+    "face_check": true,
+    "threshold": 0.45,
+    "seed": 2040,
+    "attempts": [
+      {
+        "seed": 2040,
+        "similarity": 0.874
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/LAMECH/LAMECH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: grey-black, short. Head-and-shoulders portrait, front view, expression of fear and shame, eyes lowered, wearing: Coarse wool tunic and mantle, worn from field work.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:26:10.304619Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "LAMECH_expression_grief.png",
+    "view": "expression_grief",
+    "face_check": true,
+    "threshold": 0.45,
+    "seed": 2050,
+    "attempts": [
+      {
+        "seed": 2050,
+        "similarity": 0.907
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/LAMECH/LAMECH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: grey-black, short. Head-and-shoulders portrait, front view, expression of deep grief, wearing: Coarse wool tunic and mantle, worn from field work.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:26:44.804905Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "LAMECH_full_garment_front.png",
+    "view": "full_garment_front",
+    "face_check": true,
+    "threshold": 0.45,
+    "seed": 2060,
+    "attempts": [
+      {
+        "seed": 2060,
+        "similarity": 0.902
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/LAMECH/LAMECH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: grey-black, short. Full-body standing figure, front view, head to bare feet visible, wearing Coarse wool tunic and mantle, worn from field work.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:27:02.711750Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "LAMECH_full_garment_back.png",
+    "view": "full_garment_back",
+    "face_check": false,
+    "threshold": 0.45,
+    "seed": 2070,
+    "attempts": [
+      {
+        "seed": 2070,
+        "similarity": null
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/LAMECH/LAMECH_face_front.png",
+      "LAMECH_full_garment_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: grey-black, short. Clothing exactly as in image 2. Full-body standing figure, back view, head to bare feet visible, wearing exactly the same garment as image 2, seen from behind. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:27:23.843709Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  }
+]

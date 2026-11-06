@@ -1,0 +1,26 @@
+{
+  "character": "CHERUB",
+  "threshold": 0.45,
+  "views": [
+    {
+      "file": "CHERUB_face_three_quarter.png",
+      "similarity": 0.708,
+      "result": "PASS"
+    },
+    {
+      "file": "CHERUB_face_profile.png",
+      "similarity": 0.558,
+      "result": "PASS"
+    },
+    {
+      "file": "CHERUB_full_front.png",
+      "similarity": 0.813,
+      "result": "PASS"
+    },
+    {
+      "file": "CHERUB_full_back.png",
+      "result": "exempt (no face visible)"
+    }
+  ],
+  "pass_rate": "3/3"
+}

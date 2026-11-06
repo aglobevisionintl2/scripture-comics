@@ -1,0 +1,40 @@
+{
+  "character": "ENOCH",
+  "threshold": 0.45,
+  "views": [
+    {
+      "file": "ENOCH_face_three_quarter.png",
+      "similarity": 0.737,
+      "result": "PASS"
+    },
+    {
+      "file": "ENOCH_face_profile.png",
+      "similarity": 0.644,
+      "result": "PASS"
+    },
+    {
+      "file": "ENOCH_head_back.png",
+      "result": "exempt (no face visible)"
+    },
+    {
+      "file": "ENOCH_expression_afraid.png",
+      "similarity": 0.811,
+      "result": "PASS"
+    },
+    {
+      "file": "ENOCH_expression_grief.png",
+      "similarity": 0.815,
+      "result": "PASS"
+    },
+    {
+      "file": "ENOCH_full_garment_front.png",
+      "similarity": 0.89,
+      "result": "PASS"
+    },
+    {
+      "file": "ENOCH_full_garment_back.png",
+      "result": "exempt (no face visible)"
+    }
+  ],
+  "pass_rate": "5/5"
+}

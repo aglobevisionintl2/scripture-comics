@@ -34,7 +34,17 @@
     {
       "file": "ADAM_full_garment_back.png",
       "result": "exempt (no face visible)"
+    },
+    {
+      "file": "ADAM_age_older.png",
+      "similarity": 0.421,
+      "result": "PASS"
+    },
+    {
+      "file": "ADAM_age_very_old.png",
+      "similarity": 0.27,
+      "result": "PASS"
     }
   ],
-  "pass_rate": "5/5"
+  "pass_rate": "7/7"
 }

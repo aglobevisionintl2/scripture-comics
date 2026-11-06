@@ -1,0 +1,40 @@
+{
+  "character": "SETH",
+  "threshold": 0.45,
+  "views": [
+    {
+      "file": "SETH_face_three_quarter.png",
+      "similarity": 0.738,
+      "result": "PASS"
+    },
+    {
+      "file": "SETH_face_profile.png",
+      "similarity": 0.732,
+      "result": "PASS"
+    },
+    {
+      "file": "SETH_head_back.png",
+      "result": "exempt (no face visible)"
+    },
+    {
+      "file": "SETH_expression_afraid.png",
+      "similarity": 0.655,
+      "result": "PASS"
+    },
+    {
+      "file": "SETH_expression_grief.png",
+      "similarity": 0.58,
+      "result": "PASS"
+    },
+    {
+      "file": "SETH_full_garment_front.png",
+      "similarity": 0.929,
+      "result": "PASS"
+    },
+    {
+      "file": "SETH_full_garment_back.png",
+      "result": "exempt (no face visible)"
+    }
+  ],
+  "pass_rate": "5/5"
+}

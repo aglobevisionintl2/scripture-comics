@@ -1,0 +1,40 @@
+{
+  "character": "ABEL",
+  "threshold": 0.45,
+  "views": [
+    {
+      "file": "ABEL_face_three_quarter.png",
+      "similarity": 0.644,
+      "result": "PASS"
+    },
+    {
+      "file": "ABEL_face_profile.png",
+      "similarity": 0.601,
+      "result": "PASS"
+    },
+    {
+      "file": "ABEL_head_back.png",
+      "result": "exempt (no face visible)"
+    },
+    {
+      "file": "ABEL_expression_afraid.png",
+      "similarity": 0.467,
+      "result": "PASS"
+    },
+    {
+      "file": "ABEL_expression_grief.png",
+      "similarity": 0.384,
+      "result": "FAIL"
+    },
+    {
+      "file": "ABEL_full_garment_front.png",
+      "similarity": 0.904,
+      "result": "PASS"
+    },
+    {
+      "file": "ABEL_full_garment_back.png",
+      "result": "exempt (no face visible)"
+    }
+  ],
+  "pass_rate": "4/5"
+}

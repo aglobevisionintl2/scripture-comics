@@ -1,0 +1,65 @@
+[
+  {
+    "file": "SERPENT_coiled_branch.png",
+    "view": "coiled_branch",
+    "face_check": false,
+    "threshold": 0.45,
+    "seed": 2000,
+    "attempts": [
+      {
+        "seed": 2000,
+        "similarity": null
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/SERPENT/SERPENT_face_front.png"
+    ],
+    "prompt": "The exact same serpent as image 1, identical scales, pattern and eyes, coiled on a low tree branch, full body visible, side view. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:30:02.761655Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "SERPENT_head_close.png",
+    "view": "head_close",
+    "face_check": false,
+    "threshold": 0.45,
+    "seed": 2010,
+    "attempts": [
+      {
+        "seed": 2010,
+        "similarity": null
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/SERPENT/SERPENT_face_front.png"
+    ],
+    "prompt": "The exact same serpent as image 1, extreme close-up of the head, three-quarter view, amber eye clearly visible. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:30:22.669267Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "SERPENT_on_ground.png",
+    "view": "on_ground",
+    "face_check": false,
+    "threshold": 0.45,
+    "seed": 2020,
+    "attempts": [
+      {
+        "seed": 2020,
+        "similarity": null
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/SERPENT/SERPENT_face_front.png"
+    ],
+    "prompt": "The exact same serpent as image 1, lying stretched on bare dusty ground, full body, seen from above at an angle. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:30:39.826342Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  }
+]

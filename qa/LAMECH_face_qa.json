@@ -1,0 +1,40 @@
+{
+  "character": "LAMECH",
+  "threshold": 0.45,
+  "views": [
+    {
+      "file": "LAMECH_face_three_quarter.png",
+      "similarity": 0.699,
+      "result": "PASS"
+    },
+    {
+      "file": "LAMECH_face_profile.png",
+      "similarity": 0.691,
+      "result": "PASS"
+    },
+    {
+      "file": "LAMECH_head_back.png",
+      "result": "exempt (no face visible)"
+    },
+    {
+      "file": "LAMECH_expression_afraid.png",
+      "similarity": 0.874,
+      "result": "PASS"
+    },
+    {
+      "file": "LAMECH_expression_grief.png",
+      "similarity": 0.907,
+      "result": "PASS"
+    },
+    {
+      "file": "LAMECH_full_garment_front.png",
+      "similarity": 0.902,
+      "result": "PASS"
+    },
+    {
+      "file": "LAMECH_full_garment_back.png",
+      "result": "exempt (no face visible)"
+    }
+  ],
+  "pass_rate": "5/5"
+}

@@ -85,5 +85,51 @@
     "post": "trimmed 5% border",
     "generated_utc": "2026-11-06T06:18:39.648354Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "ADAM_age_older.png",
+    "view": "age_older",
+    "face_check": true,
+    "threshold": 0.35,
+    "seed": 2001,
+    "attempts": [
+      {
+        "seed": 2000,
+        "error": "[{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/er"
+      },
+      {
+        "seed": 2001,
+        "similarity": 0.421
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/ADAM/ADAM_face_front.png"
+    ],
+    "prompt": "The exact same man as image 1, now older, about 60 in appearance: grey at the temples and in the beard, a few lines at the eyes; same face, eyes and features. Head-and-shoulders portrait, front view, wearing a garment of tanned animal hide. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:13:16.798915Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "ADAM_age_very_old.png",
+    "view": "age_very_old",
+    "face_check": true,
+    "threshold": 0.25,
+    "seed": 2010,
+    "attempts": [
+      {
+        "seed": 2010,
+        "similarity": 0.27
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/ADAM/ADAM_face_front.png"
+    ],
+    "prompt": "The exact same man as image 1, now very old: long white hair, long white beard, deeply lined face; same eyes and features. Head-and-shoulders portrait, front view, wearing a garment of tanned animal hide. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:13:31.519611Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   }
 ]

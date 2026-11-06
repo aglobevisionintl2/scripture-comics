@@ -1,0 +1,162 @@
+[
+  {
+    "file": "ENOCH_face_three_quarter.png",
+    "view": "face_three_quarter",
+    "face_check": true,
+    "threshold": 0.45,
+    "seed": 2012,
+    "attempts": [
+      {
+        "seed": 2010,
+        "error": "[{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/er"
+      },
+      {
+        "seed": 2011,
+        "error": "[{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/er"
+      },
+      {
+        "seed": 2012,
+        "similarity": 0.737
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/ENOCH/ENOCH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark hair streaked with grey, shoulder length. Head-and-shoulders portrait, three-quarter view turned to the left, wearing: Long plain undyed wool robe, rope belt.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:20:46.140963Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "ENOCH_face_profile.png",
+    "view": "face_profile",
+    "face_check": true,
+    "threshold": 0.45,
+    "seed": 2020,
+    "attempts": [
+      {
+        "seed": 2020,
+        "similarity": 0.644
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/ENOCH/ENOCH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark hair streaked with grey, shoulder length. Head-and-shoulders portrait, exact side profile facing left, wearing: Long plain undyed wool robe, rope belt.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:21:05.538511Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "ENOCH_head_back.png",
+    "view": "head_back",
+    "face_check": false,
+    "threshold": 0.45,
+    "seed": 2030,
+    "attempts": [
+      {
+        "seed": 2030,
+        "similarity": null
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/ENOCH/ENOCH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark hair streaked with grey, shoulder length. Head-and-shoulders view from directly behind, showing the back of the head and the full length of the hair, wearing: Long plain undyed wool robe, rope belt.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:21:21.659929Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "ENOCH_expression_afraid.png",
+    "view": "expression_afraid",
+    "face_check": true,
+    "threshold": 0.45,
+    "seed": 2041,
+    "attempts": [
+      {
+        "seed": 2040,
+        "error": "[{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/er"
+      },
+      {
+        "seed": 2041,
+        "similarity": 0.811
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/ENOCH/ENOCH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark hair streaked with grey, shoulder length. Head-and-shoulders portrait, front view, expression of fear and shame, eyes lowered, wearing: Long plain undyed wool robe, rope belt.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:21:47.732091Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "ENOCH_expression_grief.png",
+    "view": "expression_grief",
+    "face_check": true,
+    "threshold": 0.45,
+    "seed": 2050,
+    "attempts": [
+      {
+        "seed": 2050,
+        "similarity": 0.815
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/ENOCH/ENOCH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark hair streaked with grey, shoulder length. Head-and-shoulders portrait, front view, expression of deep grief, wearing: Long plain undyed wool robe, rope belt.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:22:03.414332Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "ENOCH_full_garment_front.png",
+    "view": "full_garment_front",
+    "face_check": true,
+    "threshold": 0.45,
+    "seed": 2060,
+    "attempts": [
+      {
+        "seed": 2060,
+        "similarity": 0.89
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/ENOCH/ENOCH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark hair streaked with grey, shoulder length. Full-body standing figure, front view, head to bare feet visible, wearing Long plain undyed wool robe, rope belt.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:22:15.182295Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "ENOCH_full_garment_back.png",
+    "view": "full_garment_back",
+    "face_check": false,
+    "threshold": 0.45,
+    "seed": 2070,
+    "attempts": [
+      {
+        "seed": 2070,
+        "similarity": null
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/ENOCH/ENOCH_face_front.png",
+      "ENOCH_full_garment_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark hair streaked with grey, shoulder length. Clothing exactly as in image 2. Full-body standing figure, back view, head to bare feet visible, wearing exactly the same garment as image 2, seen from behind. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:22:32.192710Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  }
+]

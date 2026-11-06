@@ -1,0 +1,40 @@
+{
+  "character": "METHUSELAH",
+  "threshold": 0.45,
+  "views": [
+    {
+      "file": "METHUSELAH_face_three_quarter.png",
+      "similarity": 0.737,
+      "result": "PASS"
+    },
+    {
+      "file": "METHUSELAH_face_profile.png",
+      "similarity": 0.714,
+      "result": "PASS"
+    },
+    {
+      "file": "METHUSELAH_head_back.png",
+      "result": "exempt (no face visible)"
+    },
+    {
+      "file": "METHUSELAH_expression_afraid.png",
+      "similarity": 0.782,
+      "result": "PASS"
+    },
+    {
+      "file": "METHUSELAH_expression_grief.png",
+      "similarity": 0.74,
+      "result": "PASS"
+    },
+    {
+      "file": "METHUSELAH_full_garment_front.png",
+      "similarity": 0.946,
+      "result": "PASS"
+    },
+    {
+      "file": "METHUSELAH_full_garment_back.png",
+      "result": "exempt (no face visible)"
+    }
+  ],
+  "pass_rate": "5/5"
+}

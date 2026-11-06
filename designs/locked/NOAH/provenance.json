@@ -1,0 +1,150 @@
+[
+  {
+    "file": "NOAH_face_three_quarter.png",
+    "view": "face_three_quarter",
+    "face_check": true,
+    "threshold": 0.45,
+    "seed": 2010,
+    "attempts": [
+      {
+        "seed": 2010,
+        "similarity": 0.706
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/NOAH/NOAH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark grey, thick, shoulder length. Head-and-shoulders portrait, three-quarter view turned to the left, wearing: Undyed wool tunic, leather belt, wool mantle.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:27:42.199258Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "NOAH_face_profile.png",
+    "view": "face_profile",
+    "face_check": true,
+    "threshold": 0.45,
+    "seed": 2020,
+    "attempts": [
+      {
+        "seed": 2020,
+        "similarity": 0.697
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/NOAH/NOAH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark grey, thick, shoulder length. Head-and-shoulders portrait, exact side profile facing left, wearing: Undyed wool tunic, leather belt, wool mantle.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:28:00.385349Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "NOAH_head_back.png",
+    "view": "head_back",
+    "face_check": false,
+    "threshold": 0.45,
+    "seed": 2030,
+    "attempts": [
+      {
+        "seed": 2030,
+        "similarity": null
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/NOAH/NOAH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark grey, thick, shoulder length. Head-and-shoulders view from directly behind, showing the back of the head and the full length of the hair, wearing: Undyed wool tunic, leather belt, wool mantle.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:28:17.929177Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "NOAH_expression_afraid.png",
+    "view": "expression_afraid",
+    "face_check": true,
+    "threshold": 0.45,
+    "seed": 2040,
+    "attempts": [
+      {
+        "seed": 2040,
+        "similarity": 0.781
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/NOAH/NOAH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark grey, thick, shoulder length. Head-and-shoulders portrait, front view, expression of fear and shame, eyes lowered, wearing: Undyed wool tunic, leather belt, wool mantle.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:28:35.180138Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "NOAH_expression_grief.png",
+    "view": "expression_grief",
+    "face_check": true,
+    "threshold": 0.45,
+    "seed": 2050,
+    "attempts": [
+      {
+        "seed": 2050,
+        "similarity": 0.729
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/NOAH/NOAH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark grey, thick, shoulder length. Head-and-shoulders portrait, front view, expression of deep grief, wearing: Undyed wool tunic, leather belt, wool mantle.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:29:04.225959Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "NOAH_full_garment_front.png",
+    "view": "full_garment_front",
+    "face_check": true,
+    "threshold": 0.45,
+    "seed": 2060,
+    "attempts": [
+      {
+        "seed": 2060,
+        "similarity": 0.899
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/NOAH/NOAH_face_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark grey, thick, shoulder length. Full-body standing figure, front view, head to bare feet visible, wearing Undyed wool tunic, leather belt, wool mantle.. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:29:19.565943Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "NOAH_full_garment_back.png",
+    "view": "full_garment_back",
+    "face_check": false,
+    "threshold": 0.45,
+    "seed": 2070,
+    "attempts": [
+      {
+        "seed": 2070,
+        "similarity": null
+      }
+    ],
+    "model": "fal-ai/flux-2-pro/edit",
+    "references": [
+      "designs/locked/NOAH/NOAH_face_front.png",
+      "NOAH_full_garment_front.png"
+    ],
+    "prompt": "The exact same person as in image 1: identical face, facial structure, skin tone, eyes, and beard. Hair exactly as image 1: dark grey, thick, shoulder length. Clothing exactly as in image 2. Full-body standing figure, back view, head to bare feet visible, wearing exactly the same garment as image 2, seen from behind. plain soft warm-grey studio background, even soft light. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials.",
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-06T16:29:41.867887Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  }
+]
