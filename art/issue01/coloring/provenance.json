@@ -1,0 +1,18 @@
+[
+  {
+    "file": "coloring_1.png",
+    "subject": "Adam and Eve, faces (from page 9, panel 1; locked designs)",
+    "model": "fal-ai/flux-2-pro/edit",
+    "source_panel": "p09_1.png",
+    "generated_utc": "2026-11-06T07:56:08.912069Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "file": "coloring_2.png",
+    "subject": "Creation: sun, moon, stars, birds, fish and land animals",
+    "model": "fal-ai/flux-2-pro",
+    "source_panel": null,
+    "generated_utc": "2026-11-06T07:56:17.658834Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  }
+]
