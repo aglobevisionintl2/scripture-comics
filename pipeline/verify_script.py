@@ -51,6 +51,13 @@ def main(db_path, script_path):
                 used.add(t["ref"])
     for missing in sorted(approved - used):
         errors.append(f"approved verse {missing} is not used in the script")
+    tree = sc.get("family_tree", [])
+    if tree:
+        chap_text = " ".join(t for (t,) in db.execute(
+            "SELECT text FROM verses WHERE book=? AND chapter IN (4, 5)", (sc["book"],)))
+        for name in [n for x in tree for n in (x if isinstance(x, list) else [x])]:
+            if name not in chap_text:
+                errors.append(f"family tree name not found in Genesis 4-5: {name}")
     m = sc["moral"]
     words = len(m["paragraph"].split())
     if not 80 <= words <= 150:

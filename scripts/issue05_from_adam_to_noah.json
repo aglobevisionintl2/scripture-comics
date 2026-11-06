@@ -1,0 +1,294 @@
+{
+  "issue": 5,
+  "title": "From Adam to Noah",
+  "book": "GEN",
+  "opening_reference": "Genesis 5:1–32, selected verses",
+  "selection_file": "selections/vol1_genesis_1-5.json",
+  "lettering_types": {
+    "caption": "Narration box",
+    "divine": "God's words: Cinzel on solid dark band, no speaker drawn",
+    "speech": "Speech bubble"
+  },
+  "world_rule": "Setting rule for Genesis 5: open lands, simple tents of hide and early stone dwellings only.",
+  "pages": [
+    {
+      "page": 1,
+      "verses": "Genesis 5:1, 5:3",
+      "layout": "two wide horizontal panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "medium, Adam (mature, grey at the temples) looking over his fields at sunrise",
+          "characters": [
+            "ADAM"
+          ],
+          "art": "Adam in later life.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "5:1",
+              "text": "This is the book of the generations of Adam. In the day that God created man, he made him in God’s likeness."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": "adam_older",
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "medium, Adam holding a small child whose face is turned toward him; the child's face is hidden",
+          "characters": [
+            "ADAM"
+          ],
+          "art": "Adam with his young son Seth.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "5:3",
+              "text": "Adam lived one hundred thirty years, and became the father of a son in his own likeness, after his image, and named him Seth."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": "adam_older",
+          "allow_crowd": false
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "verses": "Genesis 5:5, 5:22",
+      "layout": "two wide horizontal panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "medium, Adam very old with long white hair and beard, seated at dusk at the door of a hide tent",
+          "characters": [
+            "ADAM"
+          ],
+          "art": "Adam at the end of his long life.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "5:5",
+              "text": "All the days that Adam lived were nine hundred thirty years, then he died."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": "adam_old",
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "wide, Enoch walking along a hill path at sunrise, children and grandchildren around his tent below",
+          "characters": [
+            "ENOCH"
+          ],
+          "art": "Enoch walking.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "5:22",
+              "text": "After Methuselah’s birth, Enoch walked with God for three hundred years, and became the father of more sons and daughters."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": null,
+          "allow_crowd": true
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "verses": "Genesis 5:24",
+      "layout": "two wide horizontal panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "wide, Enoch walking alone toward a bright horizon on a high hill",
+          "characters": [
+            "ENOCH"
+          ],
+          "art": "Enoch walking toward the light.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "5:24",
+              "text": "Enoch walked with God,"
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null,
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "the same hill and horizon, now empty, light lingering",
+          "characters": [],
+          "art": "The empty hilltop.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "5:24",
+              "text": "and he was not found, for God took him."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null,
+          "allow_crowd": false
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "verses": "Genesis 5:27, 5:29",
+      "layout": "two wide horizontal panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "close, Methuselah, extremely old, seated, looking out",
+          "characters": [
+            "METHUSELAH"
+          ],
+          "art": "Methuselah in great old age.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "5:27",
+              "text": "All the days of Methuselah were nine hundred sixty-nine years, then he died."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": null,
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "medium, Lamech in a field holding his newborn son wrapped in wool; the baby's face hidden",
+          "characters": [
+            "LAMECH"
+          ],
+          "art": "Lamech naming Noah.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "5:29",
+              "text": "He named him Noah, saying,"
+            },
+            {
+              "type": "speech",
+              "ref": "5:29",
+              "text": "This one will comfort us in our work and in the toil of our hands, caused by the ground which Yahweh has cursed.",
+              "speaker": "LAMECH"
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": null,
+          "allow_crowd": false
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "verses": "Genesis 5:32",
+      "layout": "one large panel",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "medium, warm evening light, Noah seated with three small boys around him; the children's faces turned toward him",
+          "characters": [
+            "NOAH"
+          ],
+          "art": "Noah with his young sons Shem, Ham and Japheth.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "5:32",
+              "text": "Noah was five hundred years old, then Noah became the father of Shem, Ham, and Japheth."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": true,
+          "story_point": null,
+          "allow_crowd": true
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "verses": "Genesis 5:1–32",
+      "layout": "family tree",
+      "panels": []
+    }
+  ],
+  "family_tree": [
+    "Adam",
+    "Seth",
+    "Enosh",
+    "Kenan",
+    "Mahalalel",
+    "Jared",
+    "Enoch",
+    "Methuselah",
+    "Lamech",
+    "Noah",
+    [
+      "Shem",
+      "Ham",
+      "Japheth"
+    ]
+  ],
+  "moral": {
+    "heading": "What This Story Teaches",
+    "paragraph": "Genesis 5 reads like a list of names, but it carries a message. Again and again it says “then he died,” showing that what God told Adam came true. Yet the line goes on, and in the middle of it stands Enoch, who “walked with God” (Genesis 5:24). Hebrews explains that before he was taken “he had been well pleasing to God” (Hebrews 11:5), and it says, “Without faith it is impossible to be well pleasing to him” (Hebrews 11:6). The chapter ends with Noah, whose father hoped he would bring comfort (Genesis 5:29). Psalm 90:12 gives a fitting prayer: “teach us to count our days, that we may gain a heart of wisdom.”",
+    "quotes": [
+      {
+        "ref": "GEN 5:5",
+        "text": "then he died"
+      },
+      {
+        "ref": "GEN 5:24",
+        "text": "walked with God"
+      },
+      {
+        "ref": "HEB 11:5",
+        "text": "he had been well pleasing to God"
+      },
+      {
+        "ref": "HEB 11:6",
+        "text": "Without faith it is impossible to be well pleasing to him"
+      },
+      {
+        "ref": "PSA 90:12",
+        "text": "teach us to count our days, that we may gain a heart of wisdom"
+      }
+    ],
+    "cited_without_quote": [
+      "GEN 5:29"
+    ]
+  },
+  "coloring_pages": [
+    {
+      "subject": "Noah (locked design)",
+      "characters": [
+        "NOAH"
+      ],
+      "source_panel": "p05_1.png"
+    },
+    {
+      "subject": "Enoch walking with God on the hill (locked design)",
+      "characters": [
+        "ENOCH"
+      ],
+      "source_panel": "p03_1.png"
+    }
+  ],
+  "status": "draft"
+}

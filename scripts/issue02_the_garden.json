@@ -1,0 +1,378 @@
+{
+  "issue": 2,
+  "title": "The Garden",
+  "book": "GEN",
+  "opening_reference": "Genesis 2:4–25, selected verses",
+  "selection_file": "selections/vol1_genesis_1-5.json",
+  "world_rule": "Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences or tools.",
+  "lettering_types": {
+    "caption": "Narration box",
+    "divine": "God's words: Cinzel on solid dark band, no speaker drawn",
+    "speech": "Speech bubble"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "verses": "Genesis 2:7",
+      "layout": "full-page splash with series title, issue title and opening reference",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "close, low angle, warm first light",
+          "characters": [
+            "ADAM"
+          ],
+          "art": "A man's head and shoulders rising from red earth, eyes just opening, dust falling away; framed from the collarbone up.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "2:7",
+              "text": "Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul."
+            }
+          ],
+          "size": "portrait_16_9",
+          "face_visible": true,
+          "story_point": "eden_before_3_21",
+          "allow_crowd": false
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "verses": "Genesis 2:8–9",
+      "layout": "two wide horizontal panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "extreme wide, eastward at dawn",
+          "characters": [],
+          "art": "A vast garden of every kind of tree beside rivers, in morning light.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "2:8",
+              "text": "Yahweh God planted a garden eastward, in Eden, and there he put the man whom he had formed."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null,
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "wide, centered",
+          "characters": [],
+          "art": "Two great trees standing together in the middle of the garden, one bright and full of life, the other heavy with fruit; no figures.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "2:9",
+              "text": "Out of the ground Yahweh God made every tree to grow that is pleasant to the sight, and good for food, including the tree of life in the middle of the garden and the tree of the knowledge of good and evil."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null,
+          "allow_crowd": false
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "verses": "Genesis 2:15–17",
+      "layout": "large top panel, two bottom panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "medium, framed from the chest up behind tall leafy plants",
+          "characters": [
+            "ADAM"
+          ],
+          "art": "The man tending the garden, pruning a fruiting vine with his hands.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "2:15",
+              "text": "Yahweh God took the man, and put him into the garden of Eden to cultivate and keep it."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": "eden_before_3_21",
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "close on fruit-laden branches in warm light",
+          "characters": [],
+          "art": "Branches heavy with many kinds of fruit.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "2:16",
+              "text": "Yahweh God commanded the man, saying,"
+            },
+            {
+              "type": "divine",
+              "ref": "2:16",
+              "text": "You may freely eat of every tree of the garden;"
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": null,
+          "allow_crowd": false
+        },
+        {
+          "panel": 3,
+          "camera": "the tree of the knowledge of good and evil, seen from a distance",
+          "characters": [],
+          "art": "The single tree standing apart, its fruit glowing softly; no figures.",
+          "text": [
+            {
+              "type": "divine",
+              "ref": "2:17",
+              "text": "but you shall not eat of the tree of the knowledge of good and evil; for in the day that you eat of it, you will surely die."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": null,
+          "allow_crowd": false
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "verses": "Genesis 2:18–19",
+      "layout": "wide top panel, large bottom",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "wide, the man small and alone at evening, seen from behind, waist-down hidden by tall ferns",
+          "characters": [
+            "ADAM"
+          ],
+          "art": "The man alone in the vast garden.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "2:18",
+              "text": "Yahweh God said,"
+            },
+            {
+              "type": "divine",
+              "ref": "2:18",
+              "text": "It is not good for the man to be alone. I will make him a helper comparable to him."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": "eden_before_3_21",
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "wide meadow, the man seen from behind, small, shoulders up above tall grass",
+          "characters": [
+            "ADAM"
+          ],
+          "art": "Animals of every kind and birds gathering around the man in a meadow: lions, deer, sheep, birds in the air.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "2:19",
+              "text": "Out of the ground Yahweh God formed every animal of the field, and every bird of the sky, and brought them to the man to see what he would call them."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": "eden_before_3_21",
+          "allow_crowd": false
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "verses": "Genesis 2:21–22",
+      "layout": "two wide horizontal panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "close, the man's sleeping face and shoulders among large ferns",
+          "characters": [
+            "ADAM"
+          ],
+          "art": "The man in deep sleep, head resting on moss, ferns covering him below the shoulders.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "2:21",
+              "text": "Yahweh God caused the man to fall into a deep sleep. As the man slept, he took one of his ribs, and closed up the flesh in its place."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": "eden_before_3_21",
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "medium, the woman framed from the collarbone up, soft morning light, flowering branches in the foreground",
+          "characters": [
+            "EVE"
+          ],
+          "art": "The first woman, newly made, looking toward the man (who is out of frame).",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "2:22",
+              "text": "Yahweh God made a woman from the rib which he had taken from the man, and brought her to the man."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": "eden_before_3_21",
+          "allow_crowd": false
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "verses": "Genesis 2:23–24",
+      "layout": "large top panel, two bottom panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "two faces close, cropped below the chin, leaves in the foreground",
+          "characters": [
+            "ADAM",
+            "EVE"
+          ],
+          "art": "The man seeing the woman for the first time, wonder on his face.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "2:23",
+              "text": "The man said,"
+            },
+            {
+              "type": "speech",
+              "ref": "2:23",
+              "text": "This is now bone of my bones, and flesh of my flesh. She will be called ‘woman,’ because she was taken out of Man.",
+              "speaker": "ADAM"
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": "eden_before_3_21",
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "close on two hands joined, nothing else in frame",
+          "characters": [
+            "ADAM",
+            "EVE"
+          ],
+          "art": "The man's and the woman's hands clasped together over green leaves.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "2:24",
+              "text": "Therefore a man will leave his father and his mother, and will join with his wife,"
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": "eden_before_3_21",
+          "allow_crowd": false
+        },
+        {
+          "panel": 3,
+          "camera": "wide, warm evening, the garden at peace",
+          "characters": [],
+          "art": "The garden at evening light, rivers glinting; no figures.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "2:24",
+              "text": "and they will be one flesh."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": null,
+          "allow_crowd": false
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "verses": "Genesis 2:25",
+      "layout": "one large panel",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "wide, low angle into a bright low sun",
+          "characters": [
+            "ADAM",
+            "EVE"
+          ],
+          "art": "Two figures far away, a man and a woman, seen from behind, rendered as solid black silhouettes against the blazing low sun with no visible detail at all; only their heads and shoulders rise above tall meadow grass; the garden spreads before them.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "2:25",
+              "text": "The man and his wife were both naked, and they were not ashamed."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": "eden_before_3_21",
+          "allow_crowd": false
+        }
+      ]
+    }
+  ],
+  "moral": {
+    "heading": "What This Story Teaches",
+    "paragraph": "God made the first man with care, forming him from the ground and breathing life into him (Genesis 2:7). He gave him a good home, good work, and one clear command to obey (Genesis 2:15–17). God saw that it was “not good for the man to be alone,” so he made the woman and brought her to him (Genesis 2:18, 22). Jesus pointed back to this very chapter when he taught about marriage: “What therefore God has joined together, don’t let man tear apart” (Matthew 19:6). The story shows that people were made on purpose, for each other, and to live under God’s word. As the psalm says, “I am fearfully and wonderfully made” (Psalm 139:14).",
+    "quotes": [
+      {
+        "ref": "GEN 2:18",
+        "text": "not good for the man to be alone"
+      },
+      {
+        "ref": "MAT 19:6",
+        "text": "What therefore God has joined together, don’t let man tear apart"
+      },
+      {
+        "ref": "PSA 139:14",
+        "text": "I am fearfully and wonderfully made"
+      }
+    ],
+    "cited_without_quote": [
+      "GEN 2:7",
+      "GEN 2:15-17",
+      "GEN 2:22"
+    ]
+  },
+  "coloring_pages": [
+    {
+      "subject": "Adam and Eve, faces (from page 6, panel 1; locked designs)",
+      "characters": [
+        "ADAM",
+        "EVE"
+      ],
+      "source_panel": "p06_1.png"
+    },
+    {
+      "subject": "The garden: animals and birds gathered in a meadow",
+      "characters": [],
+      "prompt": "A lush garden meadow with a river and many fruit trees; a lion, a lamb, deer, a rabbit, a horse and birds gathered together. No people."
+    }
+  ],
+  "status": "draft"
+}

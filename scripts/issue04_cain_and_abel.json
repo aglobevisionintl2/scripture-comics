@@ -1,0 +1,513 @@
+{
+  "issue": 4,
+  "title": "Cain and Abel",
+  "book": "GEN",
+  "opening_reference": "Genesis 4:1–26, selected verses",
+  "selection_file": "selections/vol1_genesis_1-5.json",
+  "lettering_types": {
+    "caption": "Narration box",
+    "divine": "God's words: Cinzel on solid dark band, no speaker drawn",
+    "speech": "Speech bubble"
+  },
+  "world_rule": "Setting rule for Genesis 4: open land east of Eden; fields, flocks and simple stone or earth works only; no cities, no buildings.",
+  "pages": [
+    {
+      "page": 1,
+      "verses": "Genesis 4:1–2",
+      "layout": "two wide horizontal panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "medium, warm light, the woman holding a newborn wrapped in hide, the man beside her",
+          "characters": [
+            "EVE",
+            "ADAM"
+          ],
+          "art": "Eve holding her first son, Adam looking on.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "4:1",
+              "text": "The man knew Eve his wife. She conceived, and gave birth to Cain, and said,"
+            },
+            {
+              "type": "speech",
+              "ref": "4:1",
+              "text": "I have gotten a man with Yahweh’s help.",
+              "speaker": "EVE"
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": "after_3_21",
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "wide split composition: a grown farmer breaking soil on the left, a grown shepherd with his flock on the right",
+          "characters": [
+            "CAIN",
+            "ABEL"
+          ],
+          "art": "Cain tilling a field; Abel keeping sheep on a hillside.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "4:2",
+              "text": "Again she gave birth, to Cain’s brother Abel. Abel was a keeper of sheep, but Cain was a tiller of the ground."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": null,
+          "allow_crowd": false
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "verses": "Genesis 4:3–5",
+      "layout": "large top panel, two bottom panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "wide, two brothers on an open hill at evening, each presenting an offering",
+          "characters": [
+            "CAIN",
+            "ABEL"
+          ],
+          "art": "Cain bringing grain and fruit; Abel bringing a firstborn lamb.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "4:3",
+              "text": "As time passed, Cain brought an offering to Yahweh from the fruit of the ground."
+            },
+            {
+              "type": "caption",
+              "ref": "4:4",
+              "text": "Abel also brought some of the firstborn of his flock and of its fat."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": null,
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "close, warm light falling on the younger brother and his offering",
+          "characters": [
+            "ABEL"
+          ],
+          "art": "Abel in warm light.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "4:4",
+              "text": "Yahweh respected Abel and his offering,"
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": true,
+          "story_point": null,
+          "allow_crowd": false
+        },
+        {
+          "panel": 3,
+          "camera": "close, the older brother's face in shadow, angry, eyes down",
+          "characters": [
+            "CAIN"
+          ],
+          "art": "Cain's fallen, angry face.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "4:5",
+              "text": "but he didn’t respect Cain and his offering. Cain was very angry, and the expression on his face fell."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": true,
+          "story_point": null,
+          "allow_crowd": false
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "verses": "Genesis 4:6–7",
+      "layout": "two wide horizontal panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "medium, Cain alone on the hill at dusk, turned away",
+          "characters": [
+            "CAIN"
+          ],
+          "art": "Cain alone, brooding.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "4:6",
+              "text": "Yahweh said to Cain,"
+            },
+            {
+              "type": "divine",
+              "ref": "4:6",
+              "text": "Why are you angry? Why has the expression of your face fallen?"
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": null,
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "low, a dark doorway of a rough stone shelter with deep shadow at the threshold, Cain small beyond it",
+          "characters": [
+            "CAIN"
+          ],
+          "art": "Shadow crouching at a door.",
+          "text": [
+            {
+              "type": "divine",
+              "ref": "4:7",
+              "text": "If you do well, won’t it be lifted up? If you don’t do well, sin crouches at the door. Its desire is for you, but you are to rule over it."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null,
+          "allow_crowd": false
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "verses": "Genesis 4:8",
+      "layout": "two wide horizontal panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "medium, the two brothers side by side, Cain speaking",
+          "characters": [
+            "CAIN",
+            "ABEL"
+          ],
+          "art": "Cain speaking to Abel.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "4:8",
+              "text": "Cain said to Abel, his brother,"
+            },
+            {
+              "type": "speech",
+              "ref": "4:8",
+              "text": "Let’s go into the field.",
+              "speaker": "CAIN"
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": null,
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "extreme wide, two tiny distant silhouettes in a field under a darkening red sky, one rising over the other; nothing graphic, no weapon, no blood",
+          "characters": [
+            "CAIN",
+            "ABEL"
+          ],
+          "art": "The field at dusk, far away.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "4:8",
+              "text": "While they were in the field, Cain rose up against Abel, his brother, and killed him."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null,
+          "allow_crowd": false
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "verses": "Genesis 4:9–10",
+      "layout": "two wide horizontal panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "medium, Cain alone in the field at dawn, defiant",
+          "characters": [
+            "CAIN"
+          ],
+          "art": "Cain answering.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "4:9",
+              "text": "Yahweh said to Cain,"
+            },
+            {
+              "type": "divine",
+              "ref": "4:9",
+              "text": "Where is Abel, your brother?"
+            },
+            {
+              "type": "caption",
+              "ref": "4:9",
+              "text": "He said,"
+            },
+            {
+              "type": "speech",
+              "ref": "4:9",
+              "text": "I don’t know. Am I my brother’s keeper?",
+              "speaker": "CAIN"
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": null,
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "close on the bare earth of the field, a fallen shepherd's staff in the grass; no blood visible",
+          "characters": [],
+          "art": "The silent ground.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "4:10",
+              "text": "Yahweh said,"
+            },
+            {
+              "type": "divine",
+              "ref": "4:10",
+              "text": "What have you done? The voice of your brother’s blood cries to me from the ground."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null,
+          "allow_crowd": false
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "verses": "Genesis 4:11–13",
+      "layout": "large top panel, two bottom panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "wide, cracked dry ground stretching to the horizon, Cain small and kneeling",
+          "characters": [
+            "CAIN"
+          ],
+          "art": "Cursed ground.",
+          "text": [
+            {
+              "type": "divine",
+              "ref": "4:11",
+              "text": "Now you are cursed because of the ground, which has opened its mouth to receive your brother’s blood from your hand."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null,
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "close, Cain's hands in barren soil",
+          "characters": [],
+          "art": "Withered sprouts in dry soil.",
+          "text": [
+            {
+              "type": "divine",
+              "ref": "4:12",
+              "text": "From now on, when you till the ground, it won’t yield its strength to you. You will be a fugitive and a wanderer on the earth."
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": false,
+          "story_point": null,
+          "allow_crowd": false
+        },
+        {
+          "panel": 3,
+          "camera": "close, Cain's face in anguish",
+          "characters": [
+            "CAIN"
+          ],
+          "art": "Cain crying out.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "4:13",
+              "text": "Cain said to Yahweh,"
+            },
+            {
+              "type": "speech",
+              "ref": "4:13",
+              "text": "My punishment is greater than I can bear.",
+              "speaker": "CAIN"
+            }
+          ],
+          "size": "landscape_4_3",
+          "face_visible": true,
+          "story_point": null,
+          "allow_crowd": false
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "verses": "Genesis 4:15–16",
+      "layout": "two wide horizontal panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "medium, Cain standing in a beam of light; nothing drawn on his body",
+          "characters": [
+            "CAIN"
+          ],
+          "art": "Cain under a shaft of light.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "4:15",
+              "text": "Yahweh appointed a sign for Cain, so that anyone finding him would not strike him."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": null,
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "extreme wide, a lone figure walking east into a barren land, seen from behind",
+          "characters": [
+            "CAIN"
+          ],
+          "art": "Cain going away.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "4:16",
+              "text": "Cain left Yahweh’s presence, and lived in the land of Nod, east of Eden."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null,
+          "allow_crowd": false
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "verses": "Genesis 4:25–26",
+      "layout": "two wide horizontal panels",
+      "panels": [
+        {
+          "panel": 1,
+          "camera": "medium, warm light, Eve holding a newborn wrapped in hide, Adam beside her; the baby's face hidden",
+          "characters": [
+            "EVE",
+            "ADAM"
+          ],
+          "art": "Eve with her newborn son Seth.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "4:25",
+              "text": "Adam knew his wife again. She gave birth to a son, and named him Seth, saying,"
+            },
+            {
+              "type": "speech",
+              "ref": "4:25",
+              "text": "for God has given me another child instead of Abel, for Cain killed him.",
+              "speaker": "EVE"
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": true,
+          "story_point": "after_3_21",
+          "allow_crowd": false
+        },
+        {
+          "panel": 2,
+          "camera": "wide, a small gathering of people on a hillside at dawn, hands lifted, among them a grown man holding an infant",
+          "characters": [
+            "SETH"
+          ],
+          "art": "People beginning to call on Yahweh's name.",
+          "text": [
+            {
+              "type": "caption",
+              "ref": "4:26",
+              "text": "A son was also born to Seth, and he named him Enosh. At that time men began to call on Yahweh’s name."
+            }
+          ],
+          "size": "landscape_16_9",
+          "face_visible": false,
+          "story_point": null,
+          "allow_crowd": true
+        }
+      ]
+    }
+  ],
+  "moral": {
+    "heading": "What This Story Teaches",
+    "paragraph": "Two brothers brought offerings, and God respected Abel’s. The Bible later explains why: “By faith Abel offered to God a more excellent sacrifice than Cain” (Hebrews 11:4). God warned Cain before he sinned: “sin crouches at the door. Its desire is for you, but you are to rule over it” (Genesis 4:7). Cain did not listen, and anger became murder. The apostle John uses this story to teach a simple command: “we should love one another” (1 John 3:11), “unlike Cain” (1 John 3:12). Even after this sorrow, God gave Adam and Eve another son, Seth, and people “began to call on Yahweh’s name” (Genesis 4:26).",
+    "quotes": [
+      {
+        "ref": "HEB 11:4",
+        "text": "By faith Abel offered to God a more excellent sacrifice than Cain"
+      },
+      {
+        "ref": "GEN 4:7",
+        "text": "sin crouches at the door. Its desire is for you, but you are to rule over it"
+      },
+      {
+        "ref": "1JN 3:11",
+        "text": "we should love one another"
+      },
+      {
+        "ref": "1JN 3:12",
+        "text": "unlike Cain"
+      },
+      {
+        "ref": "GEN 4:26",
+        "text": "began to call on Yahweh’s name"
+      }
+    ],
+    "cited_without_quote": []
+  },
+  "coloring_pages": [
+    {
+      "subject": "Cain and Abel with their offerings (locked designs)",
+      "characters": [
+        "CAIN",
+        "ABEL"
+      ],
+      "source_panel": "p02_1.png"
+    },
+    {
+      "subject": "Abel's flock on the hillside",
+      "characters": [],
+      "prompt": "A hillside pasture with a flock of sheep and lambs, a few trees, a stream and hills behind. No people."
+    }
+  ],
+  "status": "draft"
+}

@@ -166,13 +166,15 @@ def main(script_path, out_dir, proof):
           f'<h1 style="font-size:34pt;margin:0.5in 0 0.15in">{esc(sc["title"])}</h1>'
           f'<div style="font-size:14pt">Issue {sc["issue"]}</div>'
           f'<div style="font-size:13pt;margin-top:0.35in;font-style:italic">{esc(sc["opening_reference"])}</div>'
-          f'<div style="font-size:10pt;margin-top:2.2in;letter-spacing:0.1em">[IMPRINT] · GLOBE VISION INTERNATIONAL</div></div>', None)
+          f'<div style="font-size:13pt;margin-top:0.9in">Aderemi Adewinmbi</div>'
+          f'<div style="font-size:10pt;margin-top:1.3in;letter-spacing:0.12em">BIBLE STORIES DEPICTED</div></div>', None)
     # 2 Copyright page (verso)
     recto, tx, left, top, width, height, _ = b.live_box()
     src = dict(db.execute("SELECT key, value FROM source"))
     lines = [
         "Scripture Comics, Issue " + str(sc["issue"]) + ": " + sc["title"],
-        "Copyright © 2026 [Publisher]. All rights reserved for the artwork, layout and design.",
+        "Copyright © 2026 Aderemi Adewinmbi. All rights reserved for the artwork, layout and design.",
+        "Published by Aderemi Adewinmbi under the imprint Bible Stories Depicted (independently published).",
         "Scripture quotations are taken from the World English Bible (WEB), which is in the public domain.",
         f"Source text: eBible.org, edition dated {src['edition_dated']}. Every quotation is reproduced word for word.",
         "This book presents selected verses. The full passage named on each story's opening page can be read in any Bible.",
