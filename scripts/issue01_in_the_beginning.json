@@ -472,12 +472,12 @@
         },
         {
           "panel": 2,
-          "camera": "medium-wide from behind, figures small against a vast land",
+          "camera": "wide, low angle into a bright low sun",
           "characters": [
             "ADAM",
             "EVE"
           ],
-          "art": "Two small dark silhouettes far in the distance, seen from behind, backlit by the low sun, standing in tall meadow grass that rises to their shoulders, overlooking the living earth.",
+          "art": "Two figures far away, a man and a woman, seen from behind, rendered as solid black silhouettes against the blazing low sun with no visible detail at all; only their heads and shoulders rise above tall meadow grass; the living earth spreads before them.",
           "text": [
             {
               "type": "caption",
