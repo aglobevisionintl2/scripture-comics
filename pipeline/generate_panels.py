@@ -29,8 +29,8 @@ TRIM = 0.05
 NO_TEXT = "No text, no letters, no speech bubbles, no captions, no signature, no frame or border."
 STORY_POINT = {
     "eden_before_3_21": {
-        "ADAM": "bare shoulders, no clothing visible in frame",
-        "EVE": "long hair falling over her shoulders and chest, no clothing of any kind, ignore any clothing shown in the reference image",
+        "ADAM": "framed from the collarbone up",
+        "EVE": "framed from the collarbone up, her long hair falling forward over both shoulders",
     },
 }
 
