@@ -33,8 +33,8 @@ STORY_POINT = {
         "EVE": "framed from the collarbone up, her long hair falling forward over both shoulders",
     },
     "fig_leaves": {
-        "ADAM": "wearing a simple covering sewn from large green fig leaves",
-        "EVE": "wearing a simple covering sewn from large green fig leaves, long hair over her shoulders",
+        "ADAM": "wearing a full covering sewn from many large green fig leaves, from the shoulders to the knees",
+        "EVE": "wearing a full modest covering sewn from many large green fig leaves, from the shoulders to the knees, long hair over her shoulders",
     },
 }
 # Story points that swap a character's reference image (age variants) and description.

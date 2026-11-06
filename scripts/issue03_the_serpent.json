@@ -346,12 +346,12 @@
         },
         {
           "panel": 2,
-          "camera": "close, the man pointing toward the woman beside him",
+          "camera": "medium, both framed from the chest up, the man pointing toward the woman beside him",
           "characters": [
             "ADAM",
             "EVE"
           ],
-          "art": "The man blaming the woman.",
+          "art": "The man blaming the woman; both wear full coverings of sewn fig leaves from the shoulders to the knees.",
           "text": [
             {
               "type": "caption",

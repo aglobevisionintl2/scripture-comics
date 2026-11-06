@@ -138,7 +138,7 @@ issue3 = {
             P(1, "medium, the man and the woman from the chest up in fig-leaf coverings, heads lowered, warm light falling on them", "The two standing in the light, ashamed.",
               [C("3:11", "God said,"), D("3:11", "Who told you that you were naked? Have you eaten from the tree that I commanded you not to eat from?")],
               ["ADAM", "EVE"], "landscape_16_9", sp="fig_leaves"),
-            P(2, "close, the man pointing toward the woman beside him", "The man blaming the woman.",
+            P(2, "medium, both framed from the chest up, the man pointing toward the woman beside him", "The man blaming the woman; both wear full coverings of sewn fig leaves from the shoulders to the knees.",
               [C("3:12", "The man said,"), S("3:12", "The woman whom you gave to be with me, she gave me fruit from the tree, and I ate it.", "ADAM")],
               ["ADAM", "EVE"], sp="fig_leaves"),
             P(3, "close, the woman looking down toward the serpent on the ground", "The woman blaming the serpent.",
