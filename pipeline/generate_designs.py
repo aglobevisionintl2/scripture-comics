@@ -23,20 +23,25 @@ def generate(char_id, count, base_seed=1000):
     out = ROOT / "designs/candidates" / char_id
     out.mkdir(parents=True, exist_ok=True)
     prompt = f"{spec['portrait_prompt'].strip()} {STYLE['style_prompt'].strip()}"
+    refs = []
+    for parent in spec.get("derive_from", []):
+        pspec = yaml.safe_load((ROOT / f"characters/{parent.lower()}.yaml").read_text())
+        refs.append(fal_client.upload_file(str(ROOT / pspec["selected_face"])))
     log = []
     for i in range(count):
         seed = base_seed + i
-        result = fal_client.subscribe(STYLE["model"]["generate"], arguments={
-            "prompt": prompt,
-            "image_size": "portrait_4_3",
-            "seed": seed,
-            "safety_tolerance": STYLE["model"]["safety_tolerance"],
-            "output_format": STYLE["model"]["output_format"],
-        })
+        args = {"prompt": prompt, "image_size": "portrait_4_3", "seed": seed,
+                "safety_tolerance": STYLE["model"]["safety_tolerance"],
+                "output_format": STYLE["model"]["output_format"]}
+        model = STYLE["model"]["generate"]
+        if refs:
+            args["image_urls"] = refs
+            model = STYLE["model"]["reference_edit"]
+        result = fal_client.subscribe(model, arguments=args)
         url = result["images"][0]["url"]
         fname = f"{char_id}_portrait_seed{seed}.png"
         urllib.request.urlretrieve(url, out / fname)
-        log.append({"file": fname, "seed": result.get("seed", seed), "model": STYLE["model"]["generate"],
+        log.append({"file": fname, "seed": result.get("seed", seed), "model": model, "derived_from": spec.get("derive_from", []),
                     "prompt": prompt, "generated_utc": dt.datetime.utcnow().isoformat() + "Z",
                     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"})
         print("saved", fname)

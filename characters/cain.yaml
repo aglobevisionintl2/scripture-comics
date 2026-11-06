@@ -1,0 +1,32 @@
+id: CAIN
+name: Cain
+status: candidate
+first_appears: Genesis 4:1
+scripture_basis:
+- ref: Genesis 4:1
+  note: Firstborn son of Adam and Eve.
+- ref: Genesis 4:2
+  note: A tiller of the ground (farmer).
+silent_on: face, build, hair
+design_choice: 'Son of the locked Adam and Eve: family resemblance, generated from both locked faces.'
+derive_from:
+- ADAM
+- EVE
+locked_traits:
+  age_look: about 25
+  skin: warm olive-brown
+  hair: dark brown-black, short and thick, curly
+  beard: short dark beard
+  eyes: dark brown
+  build: broad, heavy-shouldered farmer
+  distinguishing_marks: none (the sign of 4:15 is not described; never drawn on his body)
+palette:
+  skin: '#A3704A'
+  hair: '#22170F'
+  garment: '#8C7355'
+costumes:
+  default: Wearing a simple undyed garment of tanned hide and coarse wool, leather tie. Earth-stained.
+portrait_prompt: Head-and-shoulders portrait of an adult man about 25, the son of the man in image 1 and the woman
+  in image 2, clear family resemblance to both, warm olive-brown skin, short thick curly dark hair, short dark beard,
+  broad heavy shoulders, serious brooding expression, Wearing a simple undyed garment of tanned hide and coarse
+  wool, leather tie. Plain soft warm-grey background, front view, looking at viewer.

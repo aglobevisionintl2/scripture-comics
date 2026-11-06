@@ -1,0 +1,26 @@
+id: LAMECH
+name: Lamech (father of Noah)
+status: candidate
+first_appears: Genesis 5:25
+scripture_basis:
+- ref: Genesis 5:28-29
+  note: Father of Noah; names him with words of hope about the cursed ground. Not the Lamech of Genesis 4.
+silent_on: face, build
+design_choice: Older farmer; fixed design.
+locked_traits:
+  age_look: older man, about 60 in appearance
+  skin: sun-darkened olive-brown
+  hair: grey-black, short
+  beard: grey-black beard
+  eyes: dark brown
+  build: worn, strong hands
+  distinguishing_marks: none
+palette:
+  skin: '#93623F'
+  hair: '#4A4038'
+  garment: '#7E6A50'
+costumes:
+  default: Coarse wool tunic and mantle, worn from field work.
+portrait_prompt: Head-and-shoulders portrait of an older man, sun-darkened olive-brown skin, short grey-black hair,
+  grey-black beard, tired but hopeful eyes, coarse wool tunic and mantle. Plain soft warm-grey background, front
+  view, looking at viewer.

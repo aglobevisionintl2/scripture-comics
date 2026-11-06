@@ -1,0 +1,30 @@
+id: ABEL
+name: Abel
+status: candidate
+first_appears: Genesis 4:2
+scripture_basis:
+- ref: Genesis 4:2
+  note: Younger brother of Cain; a keeper of sheep.
+silent_on: face, build, hair
+design_choice: 'Son of the locked Adam and Eve: family resemblance, slighter than Cain.'
+derive_from:
+- ADAM
+- EVE
+locked_traits:
+  age_look: about 21
+  skin: warm olive-brown
+  hair: dark brown-black, wavy, chin length
+  beard: light young beard
+  eyes: dark brown
+  build: lean shepherd
+  distinguishing_marks: none
+palette:
+  skin: '#AA774F'
+  hair: '#251912'
+  garment: '#9A8466'
+costumes:
+  default: Wearing a simple undyed garment of tanned hide and coarse wool, leather tie.
+portrait_prompt: Head-and-shoulders portrait of a young man about 21, the son of the man in image 1 and the woman
+  in image 2, clear family resemblance to both, warm olive-brown skin, wavy chin-length dark hair, light young beard,
+  lean face, gentle open expression, Wearing a simple undyed garment of tanned hide and coarse wool, leather tie.
+  Plain soft warm-grey background, front view, looking at viewer.

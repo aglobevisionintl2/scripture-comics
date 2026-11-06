@@ -1,0 +1,28 @@
+id: SERPENT
+name: The serpent
+status: candidate
+first_appears: Genesis 3:1
+scripture_basis:
+- ref: Genesis 3:1
+  note: '''More subtle than any animal of the field.'' It speaks.'
+- ref: Genesis 3:14
+  note: 'Cursed: ''You shall go on your belly.'' The text does not say how it moved before.'
+silent_on: appearance, size, color
+design_choice: A real serpent, coiled in branches before 3:14 (no legs, never invented features); on the ground
+  after 3:14.
+ambiguity: 'Genesis 3:14 could imply it did not go on its belly before. Default: shown coiled in a tree, so no claim
+  is made either way.'
+locked_traits:
+  species_look: large patterned serpent, olive and bronze scales with dark diamond pattern
+  eyes: amber, vertical pupils
+  size: long, thick-bodied
+  distinguishing_marks: no legs, no wings, no human features
+palette:
+  scales: '#6E6A3A'
+  pattern: '#2F2A18'
+  belly: '#C9B88A'
+  eyes: '#C98A1E'
+costumes:
+  default: none
+portrait_prompt: Close-up portrait of a large serpent coiled on a tree branch, olive and bronze scales with a dark
+  diamond pattern, amber eyes with vertical pupils, realistic animal, head raised, plain soft warm-grey background.

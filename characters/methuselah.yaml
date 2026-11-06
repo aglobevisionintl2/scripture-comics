@@ -1,0 +1,26 @@
+id: METHUSELAH
+name: Methuselah
+status: candidate
+first_appears: Genesis 5:21
+scripture_basis:
+- ref: Genesis 5:27
+  note: Lived 969 years; shown very old.
+silent_on: face, build
+design_choice: Very old man; fixed design.
+locked_traits:
+  age_look: very old
+  skin: weathered olive-brown, deeply lined
+  hair: long white hair
+  beard: very long white beard
+  eyes: dark brown, clear
+  build: thin, slightly stooped
+  distinguishing_marks: none
+palette:
+  skin: '#9C6B48'
+  hair: '#E8E4DA'
+  garment: '#8E7A5E'
+costumes:
+  default: Heavy brown wool robe and mantle.
+portrait_prompt: Head-and-shoulders portrait of a very old man, weathered deeply lined olive-brown skin, long white
+  hair, very long white beard, clear dark brown eyes, thin face, heavy brown wool mantle. Plain soft warm-grey background,
+  front view, looking at viewer.

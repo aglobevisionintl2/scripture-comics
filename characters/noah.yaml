@@ -1,0 +1,28 @@
+id: NOAH
+name: Noah
+status: candidate
+first_appears: Genesis 5:29
+scripture_basis:
+- ref: Genesis 5:32
+  note: Five hundred years old when his sons are born.
+- ref: Genesis 6:9
+  note: Righteous, blameless, walked with God. No physical description.
+silent_on: face, build
+design_choice: Fixed design used across the Noah series; mature but strong (he builds the ark).
+locked_traits:
+  age_look: mature, strong, about 55 in appearance
+  skin: warm olive-brown
+  hair: dark grey, thick, shoulder length
+  beard: full grey-dark beard
+  eyes: dark brown
+  build: broad, strong
+  distinguishing_marks: none
+palette:
+  skin: '#A06D47'
+  hair: '#5A534C'
+  garment: '#8F7B5C'
+costumes:
+  default: Undyed wool tunic, leather belt, wool mantle.
+portrait_prompt: Head-and-shoulders portrait of a strong mature man, warm olive-brown skin, thick shoulder-length
+  dark-grey hair, full grey-dark beard, broad shoulders, steady kind eyes, undyed wool tunic and mantle. Plain soft
+  warm-grey background, front view, looking at viewer.

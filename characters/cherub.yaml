@@ -1,0 +1,28 @@
+id: CHERUB
+name: Cherubim (fixed design)
+status: candidate
+first_appears: Genesis 3:24
+scripture_basis:
+- ref: Genesis 3:24
+  note: Placed at the east of Eden with a flaming sword which turned every way. No description in Genesis.
+- ref: Exodus 25:20
+  note: Cherubim have wings and faces ('spread out their wings... with their faces toward one another').
+silent_on: everything except wings and faces
+design_choice: 'Publisher choice 2026-11-06: one fixed design for all cherubim in the series. Wings per Exodus 25:20.
+  The flaming sword is separate and is never held unless the text says so.'
+locked_traits:
+  look: tall majestic winged being, solemn adult face, no halo
+  wings: two great wings, bronze-gold and white feathers
+  face: adult, ageless, stern, olive-bronze skin
+  garment: long robe of white linen with bronze-gold light at the edges
+  distinguishing_marks: no weapons held, no armor
+palette:
+  wings: '#C9A55A'
+  robe: '#EDE6D6'
+  skin: '#A47B55'
+  light: '#F2C46B'
+costumes:
+  default: White linen robe.
+portrait_prompt: Head-and-shoulders portrait of a majestic heavenly being with two great bronze-gold and white feathered
+  wings rising behind the shoulders, solemn ageless adult face, olive-bronze skin, dark hair, white linen robe edged
+  with soft golden light, no halo, no weapon, plain soft warm-grey background, front view.

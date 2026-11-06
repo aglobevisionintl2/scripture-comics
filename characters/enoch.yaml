@@ -1,0 +1,28 @@
+id: ENOCH
+name: Enoch (son of Jared)
+status: candidate
+first_appears: Genesis 5:18
+scripture_basis:
+- ref: Genesis 5:22
+  note: Walked with God.
+- ref: Genesis 5:24
+  note: '''He was not found, for God took him.'' Never shown dying.'
+silent_on: face, build
+design_choice: Plausible ancient Near Eastern man of the line of Seth.
+locked_traits:
+  age_look: mature, about 50 in appearance
+  skin: warm olive-brown
+  hair: dark hair streaked with grey, shoulder length
+  beard: long dark beard with grey
+  eyes: dark brown
+  build: slender
+  distinguishing_marks: none
+palette:
+  skin: '#A6724C'
+  hair: '#3A2D24'
+  garment: '#B9A98A'
+costumes:
+  default: Long plain undyed wool robe, rope belt.
+portrait_prompt: Head-and-shoulders portrait of a mature man, warm olive-brown skin, shoulder-length dark hair streaked
+  with grey, long dark beard with grey, slender face, peaceful steady gaze, long plain undyed wool robe. Plain soft
+  warm-grey background, front view, looking at viewer.

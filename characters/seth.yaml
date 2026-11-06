@@ -1,0 +1,31 @@
+id: SETH
+name: Seth
+status: candidate
+first_appears: Genesis 4:25
+scripture_basis:
+- ref: Genesis 4:25
+  note: Son of Adam and Eve, born after Abel's death.
+- ref: Genesis 5:3
+  note: 'Born ''in his own likeness, after his image'' (Adam''s): strong resemblance to Adam.'
+silent_on: face beyond the likeness to Adam
+design_choice: Generated from Adam's locked face as a near likeness (Genesis 5:3).
+derive_from:
+- ADAM
+locked_traits:
+  age_look: about 30
+  skin: warm olive-brown
+  hair: dark brown-black, wavy, shoulder length
+  beard: full dark beard
+  eyes: dark brown
+  build: lean, strong
+  distinguishing_marks: none
+palette:
+  skin: '#A8754F'
+  hair: '#2A1D15'
+  garment: '#8A6A4A'
+costumes:
+  default: Wearing a simple undyed garment of tanned hide and coarse wool, leather tie.
+portrait_prompt: 'Head-and-shoulders portrait of an adult man about 30 who is the son of the man in image 1 and
+  looks very much like him: same face shape, eyes, nose and coloring, slightly younger, wavy shoulder-length dark
+  hair, full dark beard, calm expression, Wearing a simple undyed garment of tanned hide and coarse wool, leather
+  tie. Plain soft warm-grey background, front view, looking at viewer.'
