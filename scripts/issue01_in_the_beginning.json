@@ -453,12 +453,12 @@
       "panels": [
         {
           "panel": 1,
-          "camera": "head-and-shoulders, two figures side by side in warm light",
+          "camera": "extreme close-up of two faces side by side, cropped just below the chin",
           "characters": [
             "ADAM",
             "EVE"
           ],
-          "art": "The first man and woman side by side, framed from the collarbone up, green leaves softly blurred in the foreground, Eve's long hair falling forward over her shoulders (framing rule Gen 2:25).",
+          "art": "The first man and woman, faces only, cropped below the chin, large soft green leaves in the foreground at the lower edge, Eve's long hair framing her face (framing rule Gen 2:25).",
           "text": [
             {
               "type": "caption",
@@ -477,7 +477,7 @@
             "ADAM",
             "EVE"
           ],
-          "art": "The two seen from behind, small in the distance, standing in tall meadow grass that rises to their shoulders, looking out over the living earth.",
+          "art": "Two small dark silhouettes far in the distance, seen from behind, backlit by the low sun, standing in tall meadow grass that rises to their shoulders, overlooking the living earth.",
           "text": [
             {
               "type": "caption",
@@ -498,7 +498,7 @@
           "panel": 3,
           "camera": "extreme wide, the whole created world at sunset",
           "characters": [],
-          "art": "Land, sea, sky and creatures together.",
+          "art": "Land, sea, sky and wild creatures together at sunset; no people visible.",
           "text": [
             {
               "type": "caption",
@@ -614,5 +614,6 @@
       "characters": []
     }
   ],
-  "status": "approved 2026-11-05"
+  "status": "approved 2026-11-05",
+  "world_rule": "Setting rule for Genesis 1-2: an untouched natural world with nothing made by people: no buildings, houses, ruins, walls, tents, roads, paths, fields, terraces, boats or tools."
 }

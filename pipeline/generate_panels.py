@@ -75,14 +75,44 @@ def describe(cid, story_point):
     return f"{char_info(cid)['spec']['name']} ({look}; {costume})"
 
 
-def check(path, chars):
+_yolo = None
+
+
+def person_count(path):
+    global _yolo
+    if _yolo is None:
+        from ultralytics import YOLO
+        _yolo = YOLO("yolov8s.pt")
+    r = _yolo(str(path), classes=[0], conf=0.35, verbose=False)[0]
+    return len(r.boxes)
+
+
+def letterboxed(path):
+    import numpy as np
+    a = np.asarray(Image.open(path).convert("L"), dtype=float)
+    band = max(4, a.shape[0] // 30)
+    flat = lambda e: e.mean() < 14 and e.std() < 6
+    # bars come in pairs; a single dark edge (night sky, deep water) is allowed
+    return (flat(a[:band]) and flat(a[-band:])) or (flat(a[:, :band]) and flat(a[:, -band:]))
+
+
+def check(path, chars, face_visible, max_people):
+    """Return (ok, details). Fails on: wrong/missing faces, extra people, letterbox bars."""
     found = faces(path)
-    result = {}
-    for c in chars:
-        sims = [float((char_info(c)["emb"] * f).sum()) for f in found]
-        result[c] = round(max(sims), 3) if sims else None
-    ok = all(v is not None and v >= THRESHOLD for v in result.values())
-    return ok, result
+    people = person_count(path)
+    details = {"faces_detected": len(found), "people_detected": people, "letterbox": letterboxed(path)}
+    ok = True
+    if face_visible:
+        for c in chars:
+            sims = [float((char_info(c)["emb"] * f).sum()) for f in found]
+            details[c] = round(max(sims), 3) if sims else None
+            ok &= details[c] is not None and details[c] >= THRESHOLD
+    if max_people is not None and (people > max_people or len(found) > max_people):
+        details["extra_people"] = True
+        ok = False
+    if details["letterbox"]:
+        ok = False
+    return ok, details
 
 
 def main(script_path, only, offset):
@@ -105,10 +135,14 @@ def main(script_path, only, offset):
                 refs = [char_info(c)["url"] for c in chars]
                 lead = " ".join(f"Image {i + 1} shows the exact face and hair of {describe(c, pn.get('story_point'))}; "
                                 f"draw this same person with an identical face." for i, c in enumerate(chars))
-            prompt = " ".join(x for x in [lead, f"Comic panel, {pn['camera']}.", pn["art"],
-                                          STYLE["style_prompt"].strip(), NO_TEXT] if x)
+            cast_rule = (f"The only people in the image are the {len(chars)} described; no other people anywhere."
+                         if chars else "No people, no human figures, no faces anywhere, including in water, clouds or rocks.")
+            prompt = " ".join(x for x in [lead, f"Comic panel, {pn['camera']}.", pn["art"], cast_rule,
+                                          sc.get("world_rule", ""), STYLE["style_prompt"].strip(), NO_TEXT,
+                                          "Full-bleed image, no black bars."] if x)
+            max_people = None if pn.get("allow_crowd") else len(chars)
             model = STYLE["model"]["reference_edit"] if refs else STYLE["model"]["generate"]
-            tries, attempts, best = (MAX_TRIES if pn.get("face_visible") else 1), [], None
+            tries, attempts, best = MAX_TRIES, [], None
             for t in range(tries):
                 seed = 5000 + pg["page"] * 100 + pn["panel"] * 10 + t + offset
                 args = {"prompt": prompt, "image_size": pn["size"], "seed": seed,
@@ -124,9 +158,10 @@ def main(script_path, only, offset):
                     continue
                 tmp = out / f".try_{pid}_{t}.png"
                 fetch_trimmed(res["images"][0]["url"], tmp)
-                ok, sims = check(tmp, chars) if pn.get("face_visible") else (True, {})
-                attempts.append({"seed": seed, "similarity": sims, "pass": ok})
-                score = min([v for v in sims.values() if v is not None], default=-1) if sims else 0
+                ok, sims = check(tmp, chars, pn.get("face_visible"), max_people)
+                attempts.append({"seed": seed, "checks": sims, "pass": ok})
+                face_scores = [sims[c] for c in chars if isinstance(sims.get(c), float)]
+                score = (min(face_scores) if face_scores else 0.5) + (1 if ok else 0)
                 if best is None or score > best[1]:
                     best = (tmp, score, seed, ok)
                 print(pid, "try", t + 1, "seed", seed, sims, "PASS" if ok else "FAIL")
@@ -138,8 +173,6 @@ def main(script_path, only, offset):
             for f in out.glob(f".try_{pid}_*.png"):
                 f.unlink()
             status = "PASS" if best and best[3] else ("FAIL" if best else "NO IMAGE")
-            if not pn.get("face_visible") and best:
-                status = "PASS (no faces to check)"
             qa[pid] = {"file": fname, "characters": chars, "status": status, "attempts": attempts}
             prov = [p for p in prov if p["panel"] != pid]
             prov.append({"panel": pid, "file": fname, "model": model, "prompt": prompt,

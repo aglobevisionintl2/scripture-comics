@@ -28,7 +28,7 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - run: pip install fal-client pyyaml insightface onnxruntime opencv-python-headless numpy pillow
+      - run: pip install fal-client pyyaml insightface onnxruntime opencv-python-headless numpy pillow ultralytics --extra-index-url https://download.pytorch.org/whl/cpu
       - name: Generate panels
         env:
           FAL_KEY: ${{ secrets.FAL_KEY }}
