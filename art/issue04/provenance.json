@@ -1,19 +1,5 @@
 [
   {
-    "panel": "p1.2",
-    "file": "p01_2.png",
-    "model": "fal-ai/flux-2-pro/edit",
-    "prompt": "Image 1 shows the exact face and hair of Cain (age look: about 25, skin: warm olive-brown, hair: dark brown-black, short and thick, curly, beard: short dark beard, eyes: dark brown, build: broad, heavy-shouldered farmer; Wearing a simple undyed garment of tanned hide and coarse wool, leather tie. Earth-stained.); draw this same person with an identical face. Image 2 shows the exact face and hair of Abel (age look: about 21, skin: warm olive-brown, hair: dark brown-black, wavy, chin length, beard: light young beard, eyes: dark brown, build: lean shepherd; Wearing a simple undyed garment of tanned hide and coarse wool, leather tie.); draw this same person with an identical face. Comic panel, wide split composition: a grown farmer breaking soil on the left, a grown shepherd with his flock on the right. Cain tilling a field; Abel keeping sheep on a hillside. The only people in the image are the 2 described; no other people anywhere. Setting rule for Genesis 4: open land east of Eden; fields, flocks and simple stone or earth works only; no cities, no buildings. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
-    "references": [
-      "designs/locked/CAIN/CAIN_face_front.png",
-      "designs/locked/ABEL/ABEL_face_front.png"
-    ],
-    "seed": 5122,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T17:15:21.647326Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
     "panel": "p2.1",
     "file": "p02_1.png",
     "model": "fal-ai/flux-2-pro/edit",
@@ -233,6 +219,20 @@
     "seed": 6010,
     "post": "trimmed 5% border",
     "generated_utc": "2026-11-06T17:36:31.234033Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p1.2",
+    "file": "p01_2.png",
+    "model": "fal-ai/flux-2-pro/edit",
+    "prompt": "Image 1 shows the exact face and hair of Cain (age look: about 25, skin: warm olive-brown, hair: dark brown-black, short and thick, curly, beard: short dark beard, eyes: dark brown, build: broad, heavy-shouldered farmer; Wearing a simple undyed garment of tanned hide and coarse wool, leather tie. Earth-stained.); draw this same person with an identical face. Image 2 shows the exact face and hair of Abel (age look: about 21, skin: warm olive-brown, hair: dark brown-black, wavy, chin length, beard: light young beard, eyes: dark brown, build: lean shepherd; Wearing a simple undyed garment of tanned hide and coarse wool, leather tie.); draw this same person with an identical face. Image 3 shows Cain's exact garment; dress him or her in exactly this garment (ignore the pose and background of that image). Image 4 shows Abel's exact garment; dress him or her in exactly this garment (ignore the pose and background of that image). Comic panel, wide split composition: a grown farmer breaking soil on the left, a grown shepherd with his flock on the right. Cain breaking the soil with a simple wooden digging stick; Abel keeping sheep on a hillside. No plow, no metal. The only people in the image are the 2 described; no other people anywhere. Setting rule for Genesis 4: open land east of Eden; fields, flocks and simple stone or earth works only; no cities, no buildings. Implements only of plain wood or stone; no metal tools, no plows, no harrows, no wheels. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, not inked line art, no black ink outlines, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [
+      "designs/locked/CAIN/CAIN_face_front.png",
+      "designs/locked/ABEL/ABEL_face_front.png"
+    ],
+    "seed": 5723,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-07T17:38:24.014460Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   }
 ]
