@@ -22,19 +22,6 @@
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   },
   {
-    "panel": "p3.1",
-    "file": "p03_1.png",
-    "model": "fal-ai/flux-2-pro/edit",
-    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; framed from the collarbone up); draw this same person with an identical face. Comic panel, medium, framed from the chest up behind tall leafy plants. The man tending the garden, pruning a fruiting vine with his hands. The only people in the image are the 1 described; no other people anywhere. Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences or tools. Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
-    "references": [
-      "designs/locked/ADAM/ADAM_face_front.png"
-    ],
-    "seed": 5311,
-    "post": "trimmed 5% border",
-    "generated_utc": "2026-11-06T17:14:43.766715Z",
-    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
-  },
-  {
     "panel": "p3.2",
     "file": "p03_2.png",
     "model": "fal-ai/flux-2-pro",
@@ -173,6 +160,19 @@
     "seed": 5811,
     "post": "trimmed 5% border",
     "generated_utc": "2026-11-06T17:31:10.540761Z",
+    "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
+  },
+  {
+    "panel": "p3.1",
+    "file": "p03_1.png",
+    "model": "fal-ai/flux-2-pro/edit",
+    "prompt": "Image 1 shows the exact face and hair of Adam (age look: about 30, skin: warm olive-brown, hair: dark brown-black, wavy, shoulder length, beard: full, dark, neatly natural, eyes: dark brown, build: lean, strong, a laborer's hands; framed from the collarbone up); draw this same person with an identical face. Comic panel, medium, framed from the chest up behind tall leafy plants. The man tending the garden, gently lifting a fruiting vine with his bare hands; nothing in his hands but the vine, no tool of any kind. The only people in the image are the 1 described; no other people anywhere. Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: no buildings, walls, tents, roads, paths, fences, and no tools or made objects of any kind (no blades, shears, baskets or vessels). Cinematic painted realism: realistic anatomy and faces rendered as a fine digital oil painting, visible soft brushwork, film-still composition and lighting, warm earthy ancient Near Eastern palette, historically grounded detail, dignified and restrained. Not a photograph, not cartoon, not anime, not inked line art, no black ink outlines, no text, no watermark, no signature, no initials. No text, no letters, no speech bubbles, no captions, no signature, no frame or border. Full-bleed image, no black bars.",
+    "references": [
+      "designs/locked/ADAM/ADAM_face_front.png"
+    ],
+    "seed": 5910,
+    "post": "trimmed 5% border",
+    "generated_utc": "2026-11-07T17:36:54.773138Z",
     "rights": "fal.ai API output, FLUX.2 [pro]; commercial use permitted per fal.ai terms (verify at release)"
   }
 ]
