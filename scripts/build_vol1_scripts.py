@@ -31,7 +31,7 @@ def page(n, verses, layout, panels):
 
 E = "eden_before_3_21"
 EDEN_RULE = ("Setting rule for Genesis 2-3 (Eden): a lush untouched garden with nothing made by people: "
-             "no buildings, walls, tents, roads, paths, fences or tools.")
+             "no buildings, walls, tents, roads, paths, fences, and no tools or made objects of any kind (no blades, shears, baskets or vessels).")
 
 issue2 = {
     "issue": 2, "title": "The Garden", "book": "GEN", "opening_reference": "Genesis 2:4–25, selected verses",
@@ -47,7 +47,7 @@ issue2 = {
             P(2, "wide, centered", "Two great trees standing together in the middle of the garden, one bright and full of life, the other heavy with fruit; no figures.",
               [C("2:9", "Out of the ground Yahweh God made every tree to grow that is pleasant to the sight, and good for food, including the tree of life in the middle of the garden and the tree of the knowledge of good and evil.")], size="landscape_16_9")]),
         page(3, "Genesis 2:15–17", "large top panel, two bottom panels", [
-            P(1, "medium, framed from the chest up behind tall leafy plants", "The man tending the garden, pruning a fruiting vine with his hands.",
+            P(1, "medium, framed from the chest up behind tall leafy plants", "The man tending the garden, gently lifting a fruiting vine with his bare hands; nothing in his hands but the vine, no tool of any kind.",
               [C("2:15", "Yahweh God took the man, and put him into the garden of Eden to cultivate and keep it.")], ["ADAM"], "landscape_16_9", sp=E),
             P(2, "close on fruit-laden branches in warm light", "Branches heavy with many kinds of fruit.",
               [C("2:16", "Yahweh God commanded the man, saying,"), D("2:16", "You may freely eat of every tree of the garden;")]),
@@ -189,13 +189,13 @@ A = "after_3_21"
 issue4 = {
     "issue": 4, "title": "Cain and Abel", "book": "GEN", "opening_reference": "Genesis 4:1–26, selected verses",
     "selection_file": "selections/vol1_genesis_1-5.json", "lettering_types": LETTERING,
-    "world_rule": "Setting rule for Genesis 4: open land east of Eden; fields, flocks and simple stone or earth works only; no cities, no buildings.",
+    "world_rule": "Setting rule for Genesis 4: open land east of Eden; fields, flocks and simple stone or earth works only; no cities, no buildings. Implements only of plain wood or stone; no metal tools, no plows, no harrows, no wheels.",
     "pages": [
         page(1, "Genesis 4:1–2", "two wide horizontal panels", [
             P(1, "medium, warm light, the woman holding a newborn wrapped in hide, the man beside her", "Eve holding her first son, Adam looking on.",
               [C("4:1", "The man knew Eve his wife. She conceived, and gave birth to Cain, and said,"), S("4:1", "I have gotten a man with Yahweh’s help.", "EVE")],
               ["EVE", "ADAM"], "landscape_16_9", sp=A, crowd=True),
-            P(2, "wide split composition: a grown farmer breaking soil on the left, a grown shepherd with his flock on the right", "Cain tilling a field; Abel keeping sheep on a hillside.",
+            P(2, "wide split composition: a grown farmer breaking soil on the left, a grown shepherd with his flock on the right", "Cain breaking the soil with a simple wooden digging stick; Abel keeping sheep on a hillside. No plow, no metal.",
               [C("4:2", "Again she gave birth, to Cain’s brother Abel. Abel was a keeper of sheep, but Cain was a tiller of the ground.")],
               ["CAIN", "ABEL"], "landscape_16_9")]),
         page(2, "Genesis 4:3–5", "large top panel, two bottom panels", [
@@ -262,7 +262,7 @@ issue4 = {
 issue5 = {
     "issue": 5, "title": "From Adam to Noah", "book": "GEN", "opening_reference": "Genesis 5:1–32, selected verses",
     "selection_file": "selections/vol1_genesis_1-5.json", "lettering_types": LETTERING,
-    "world_rule": "Setting rule for Genesis 5: open lands, simple tents of hide and early stone dwellings only.",
+    "world_rule": "Setting rule for Genesis 5: open lands, simple tents of hide and early stone dwellings only. Implements only of plain wood or stone; no metal tools, no plows, no wheels.",
     "pages": [
         page(1, "Genesis 5:1, 5:3", "two wide horizontal panels", [
             P(1, "medium, Adam (mature, grey at the temples) looking over his fields at sunrise", "Adam in later life.",

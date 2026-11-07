@@ -9,7 +9,7 @@
     "divine": "God's words: Cinzel on solid dark band, no speaker drawn",
     "speech": "Speech bubble"
   },
-  "world_rule": "Setting rule for Genesis 4: open land east of Eden; fields, flocks and simple stone or earth works only; no cities, no buildings.",
+  "world_rule": "Setting rule for Genesis 4: open land east of Eden; fields, flocks and simple stone or earth works only; no cities, no buildings. Implements only of plain wood or stone; no metal tools, no plows, no harrows, no wheels.",
   "pages": [
     {
       "page": 1,
@@ -49,7 +49,7 @@
             "CAIN",
             "ABEL"
           ],
-          "art": "Cain tilling a field; Abel keeping sheep on a hillside.",
+          "art": "Cain breaking the soil with a simple wooden digging stick; Abel keeping sheep on a hillside. No plow, no metal.",
           "text": [
             {
               "type": "caption",
