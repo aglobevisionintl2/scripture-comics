@@ -29,35 +29,46 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 6020,
+        "seed": 6120,
         "checks": {
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "CAIN": 0.446,
-          "ABEL": 0.865
+          "CAIN": 0.449,
+          "ABEL": 0.334
         },
         "pass": false
       },
       {
-        "seed": 6021,
+        "seed": 6121,
         "checks": {
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "CAIN": 0.418,
-          "ABEL": 0.408
+          "CAIN": 0.19,
+          "ABEL": 0.206
         },
         "pass": false
       },
       {
-        "seed": 6022,
+        "seed": 6122,
         "checks": {
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "CAIN": 0.703,
-          "ABEL": 0.625
+          "CAIN": 0.559,
+          "ABEL": 0.397
+        },
+        "pass": false
+      },
+      {
+        "seed": 6123,
+        "checks": {
+          "faces_detected": 2,
+          "people_detected": 2,
+          "letterbox": false,
+          "CAIN": 0.547,
+          "ABEL": 0.739
         },
         "pass": true
       }
