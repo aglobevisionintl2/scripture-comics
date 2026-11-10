@@ -58,12 +58,12 @@
     "status": "PASS",
     "attempts": [
       {
-        "seed": 5910,
+        "seed": 6010,
         "checks": {
           "faces_detected": 1,
           "people_detected": 1,
           "letterbox": false,
-          "ADAM": 0.825
+          "ADAM": 0.903
         },
         "pass": true
       }
