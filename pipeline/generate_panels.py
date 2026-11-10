@@ -211,11 +211,16 @@ def main(script_path, only, offset):
                 if ok:
                     break
             fname = f"p{pg['page']:02d}_{pn['panel']}.png"
+            prev_ok = qa.get(pid, {}).get("status", "").startswith("PASS") and (out / fname).exists()
+            if best and not best[3] and prev_ok:
+                print(pid, "all tries failed; keeping the previous passing panel")
+                best = None
+                attempts.append({"note": "all tries failed; previous passing panel kept"})
             if best:
                 best[0].replace(out / fname)
             for f in out.glob(f".try_{pid}_*.png"):
                 f.unlink()
-            status = "PASS" if best and best[3] else ("FAIL" if best else "NO IMAGE")
+            status = ("PASS" if best[3] else "FAIL") if best else (qa[pid]["status"] if prev_ok else "NO IMAGE")
             qa[pid] = {"file": fname, "characters": chars, "status": status, "attempts": attempts}
             prov = [p for p in prov if p["panel"] != pid]
             prov.append({"panel": pid, "file": fname, "model": model, "prompt": prompt,

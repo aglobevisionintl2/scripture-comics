@@ -195,7 +195,7 @@ issue4 = {
             P(1, "medium, warm light, the woman holding a newborn wrapped in hide, the man beside her", "Eve holding her first son, Adam looking on.",
               [C("4:1", "The man knew Eve his wife. She conceived, and gave birth to Cain, and said,"), S("4:1", "I have gotten a man with Yahweh’s help.", "EVE")],
               ["EVE", "ADAM"], "landscape_16_9", sp=A, crowd=True),
-            P(2, "split composition, each brother framed from the waist up and close enough that his face is clear: the farmer on the left, the shepherd on the right", "Cain breaking the soil by pushing down a single straight pointed wooden stick (one plain piece of wood, no blade, no head, no metal); Abel keeping sheep on a hillside. No plow, no metal anywhere, no bracelets or jewelry.",
+            P(2, "split composition, each brother framed from the waist up and close enough that his face is clear: the farmer on the left, the shepherd on the right; empty natural horizon with no buildings, houses or villages anywhere", "Cain breaking the soil by pushing down a single straight pointed wooden stick (one plain piece of wood, no blade, no head, no metal); Abel keeping sheep on a hillside. No plow, no metal anywhere, no bracelets or jewelry.",
               [C("4:2", "Again she gave birth, to Cain’s brother Abel. Abel was a keeper of sheep, but Cain was a tiller of the ground.")],
               ["CAIN", "ABEL"], "landscape_16_9")]),
         page(2, "Genesis 4:3–5", "large top panel, two bottom panels", [
