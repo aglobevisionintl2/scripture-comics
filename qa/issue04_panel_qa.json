@@ -34,8 +34,8 @@
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "CAIN": 0.338,
-          "ABEL": 0.276
+          "CAIN": 0.33,
+          "ABEL": 0.185
         },
         "pass": false
       },
@@ -45,8 +45,8 @@
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "CAIN": 0.357,
-          "ABEL": 0.738
+          "CAIN": 0.33,
+          "ABEL": 0.732
         },
         "pass": false
       },
@@ -56,8 +56,8 @@
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "CAIN": 0.403,
-          "ABEL": 0.149
+          "CAIN": 0.384,
+          "ABEL": 0.322
         },
         "pass": false
       },
@@ -67,8 +67,8 @@
           "faces_detected": 2,
           "people_detected": 2,
           "letterbox": false,
-          "CAIN": 0.444,
-          "ABEL": 0.603
+          "CAIN": 0.366,
+          "ABEL": 0.551
         },
         "pass": false
       }
