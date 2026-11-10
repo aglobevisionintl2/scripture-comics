@@ -47,7 +47,7 @@ issue2 = {
             P(2, "wide, centered", "Two great trees standing together in the middle of the garden, one bright and full of life, the other heavy with fruit; no figures.",
               [C("2:9", "Out of the ground Yahweh God made every tree to grow that is pleasant to the sight, and good for food, including the tree of life in the middle of the garden and the tree of the knowledge of good and evil.")], size="landscape_16_9")]),
         page(3, "Genesis 2:15–17", "large top panel, two bottom panels", [
-            P(1, "medium, framed from the chest up behind tall leafy plants", "The man tending the garden, gently lifting a fruiting vine with his bare hands; nothing in his hands but the vine, no tool of any kind.",
+            P(1, "medium, framed from the chest up behind tall leafy plants", "The man tending the garden, gently lifting a fruiting vine with his bare hands; nothing in his hands but the vine, no tools; exactly two hands visible, both his own. Background: only trees, plants and sky; no building, wall, house, ruin or any structure anywhere",
               [C("2:15", "Yahweh God took the man, and put him into the garden of Eden to cultivate and keep it.")], ["ADAM"], "landscape_16_9", sp=E),
             P(2, "close on fruit-laden branches in warm light", "Branches heavy with many kinds of fruit.",
               [C("2:16", "Yahweh God commanded the man, saying,"), D("2:16", "You may freely eat of every tree of the garden;")]),
