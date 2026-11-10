@@ -32,6 +32,12 @@ jobs:
         run: |
           unzip -q source/eng-web_html.zip -d /tmp/web_html
           python -I pipeline/build_verse_db.py source/eng-web_html.zip /tmp/web_html data/web.sqlite
+      - name: Restore upscaled print images (cache)
+        uses: actions/cache@v4
+        with:
+          path: art/*/print
+          key: print-${{ github.run_id }}
+          restore-keys: print-
       - name: Verify, measure and upscale every issue
         env:
           FAL_KEY: ${{ secrets.FAL_KEY }}

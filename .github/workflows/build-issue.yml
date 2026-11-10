@@ -34,6 +34,12 @@ jobs:
           python -I pipeline/build_verse_db.py source/eng-web_html.zip /tmp/web_html data/web.sqlite
       - name: Verify script against WEB
         run: python -I pipeline/verify_script.py data/web.sqlite "${{ inputs.script }}"
+      - name: Restore upscaled print images (cache)
+        uses: actions/cache@v4
+        with:
+          path: art/*/print
+          key: print-${{ github.run_id }}
+          restore-keys: print-
       - name: Measure layout (draft art)
         run: |
           python pipeline/layout_issue.py "${{ inputs.script }}" build/measure
