@@ -189,7 +189,7 @@ A = "after_3_21"
 issue4 = {
     "issue": 4, "title": "Cain and Abel", "book": "GEN", "opening_reference": "Genesis 4:1–26, selected verses",
     "selection_file": "selections/vol1_genesis_1-5.json", "lettering_types": LETTERING,
-    "world_rule": "Setting rule for Genesis 4: open land east of Eden; fields, flocks and simple stone or earth works only; no cities, no buildings. Implements only of plain wood or stone; no metal tools, no plows, no harrows, no wheels.",
+    "world_rule": "Setting rule for Genesis 4: open land east of Eden; fields, flocks and simple stone or earth works only; no cities, no buildings. Implements only of plain wood or stone; no metal tools, no plows, no harrows, no wheels; no rings, jewelry or metal ornaments on anyone; no distant people.",
     "pages": [
         page(1, "Genesis 4:1–2", "two wide horizontal panels", [
             P(1, "medium, warm light, the woman holding a newborn wrapped in hide, the man beside her", "Eve holding her first son, Adam looking on.",
